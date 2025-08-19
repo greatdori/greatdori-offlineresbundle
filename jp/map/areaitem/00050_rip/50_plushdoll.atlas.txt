@@ -1,0 +1,48 @@
+
+50_plushdoll.png
+size: 406,123
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+areaItemRes00050
+  rotate: false
+  xy: 2, 9
+  size: 122, 112
+  orig: 122, 112
+  offset: 0, 0
+  index: -1
+areaItemRes00050_bear
+  rotate: false
+  xy: 353, 52
+  size: 51, 69
+  orig: 51, 69
+  offset: 0, 0
+  index: -1
+areaItemRes00050_bear_hold
+  rotate: false
+  xy: 250, 9
+  size: 101, 112
+  orig: 101, 112
+  offset: 0, 0
+  index: -1
+areaItemRes00050_debeko
+  rotate: true
+  xy: 353, 6
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+areaItemRes00050_debeko_hold
+  rotate: false
+  xy: 126, 9
+  size: 122, 112
+  orig: 122, 112
+  offset: 0, 0
+  index: -1
+skeletonsizeimage
+  rotate: false
+  xy: 2, 2
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
