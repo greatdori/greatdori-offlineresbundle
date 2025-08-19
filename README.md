@@ -1,0 +1,3 @@
+# Greatdori! Offline Resource Bundle
+
+
