@@ -1,0 +1,1 @@
+{"Base":{"m_GameObject":{"m_FileID":0,"m_PathID":"0000000000000000"},"m_Enabled":1,"m_Script":{"m_FileID":0,"m_PathID":"3c04000000000000"},"m_Name":"MotionBlur","active":0,"mode":{"m_OverrideState":0,"m_Value":0},"quality":{"m_OverrideState":1,"m_Value":1},"intensity":{"m_OverrideState":1,"m_Value":0.10499999672174454},"clamp":{"m_OverrideState":1,"m_Value":0.05000000074505806}}}
