@@ -1,0 +1,27 @@
+
+43_snackbox.png
+size: 67,45
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+areaItemRes00043_candy
+  rotate: false
+  xy: 2, 9
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+areaItemRes00043_choco
+  rotate: false
+  xy: 37, 15
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+skeletonsizeimage
+  rotate: false
+  xy: 2, 2
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
