@@ -1,0 +1,529 @@
+{
+    "Colliders": {
+        "Skirt": {
+            "Type": 0,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": 0.0,
+                "y": -0.15000000596046449,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.3499999940395355,
+            "StartRadius": 0.0,
+            "EndRadius": 0.0,
+            "Length": 0.0,
+            "Axis": -1
+        },
+        "Body": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.06400000303983689,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.20000000298023225,
+            "EndRadius": 0.2750000059604645,
+            "Length": 0.19058746099472047,
+            "Axis": 0
+        },
+        "Breast": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": 0.021299999207258226,
+                "y": -0.01080000028014183,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.125,
+            "EndRadius": 0.125,
+            "Length": 0.07500000298023224,
+            "Axis": 2
+        },
+        "HeadBottom": {
+            "Type": 0,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.07000000029802323,
+            "StartRadius": 0.0,
+            "EndRadius": 0.0,
+            "Length": 0.0,
+            "Axis": -1
+        },
+        "HeadTop": {
+            "Type": 0,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.08250000327825546,
+                "y": -0.006800000090152025,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.08500000089406967,
+            "StartRadius": 0.0,
+            "EndRadius": 0.0,
+            "Length": 0.0,
+            "Axis": -1
+        },
+        "RightArm": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.05581270903348923,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.04500000178813934,
+            "EndRadius": 0.05000000074505806,
+            "Length": 0.07441694289445877,
+            "Axis": 0
+        },
+        "RightForearm": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.1244969293475151,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.03999999910593033,
+            "EndRadius": 0.04500000178813934,
+            "Length": 0.13832992315292359,
+            "Axis": 0
+        },
+        "LeftArm": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.05581282079219818,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.04500000178813934,
+            "EndRadius": 0.05000000074505806,
+            "Length": 0.07441709190607071,
+            "Axis": 0
+        },
+        "LeftForearm": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.1244955062866211,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.03999999910593033,
+            "EndRadius": 0.04500000178813934,
+            "Length": 0.13832834362983704,
+            "Axis": 0
+        },
+        "RightLeg": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.125613734126091,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.07999999821186066,
+            "EndRadius": 0.07999999821186066,
+            "Length": 0.125613734126091,
+            "Axis": 0
+        },
+        "RightCalf": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.17488089203834535,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.15000000596046449,
+            "EndRadius": 0.07999999821186066,
+            "Length": 0.17488089203834535,
+            "Axis": 0
+        },
+        "LeftLeg": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.12561380863189698,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.07999999821186066,
+            "EndRadius": 0.07999999821186066,
+            "Length": 0.12561380863189698,
+            "Axis": 0
+        },
+        "LeftCalf": {
+            "Type": 1,
+            "Name": "",
+            "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": -0.17488089203834535,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "Parent": "",
+            "Radius": 0.0,
+            "StartRadius": 0.15000000596046449,
+            "EndRadius": 0.07999999821186066,
+            "Length": 0.17488089203834535,
+            "Axis": 0
+        }
+    },
+    "ExtraColliders": [
+        {
+            "Type": 1,
+            "Name": "collider_hip_l",
+            "Position": {
+                "x": 0.11659364402294159,
+                "y": -0.10258153825998306,
+                "z": 0.16607080399990083
+            },
+            "Rotation": {
+                "x": 359.65032958984377,
+                "y": 357.795166015625,
+                "z": 167.5223388671875
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": 0.021299999207258226,
+                "y": -0.01080000028014183,
+                "z": 0.0
+            },
+            "Parent": "LUpLeg",
+            "Radius": 1.0,
+            "StartRadius": 0.125,
+            "EndRadius": 0.125,
+            "Length": 0.07500000298023224,
+            "Axis": 2
+        },
+        {
+            "Type": 1,
+            "Name": "collider_hip_r",
+            "Position": {
+                "x": 0.11659469455480576,
+                "y": -0.10258044302463532,
+                "z": -0.16607064008712769
+            },
+            "Rotation": {
+                "x": 0.3496769666671753,
+                "y": 2.2048661708831789,
+                "z": 167.5228729248047
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "Center": {
+                "x": 0.021299999207258226,
+                "y": -0.01080000028014183,
+                "z": 0.0
+            },
+            "Parent": "RUpLeg",
+            "Radius": 1.0,
+            "StartRadius": 0.125,
+            "EndRadius": 0.125,
+            "Length": 0.07500000298023224,
+            "Axis": 2
+        }
+    ],
+    "MagicaSettings": [
+        {
+            "name": "magica_spinescloth",
+            "LOD": 0,
+            "rootList": [
+                "Sl_HipRibbonL_Spine_SCloth_0_0",
+                "Sl_HipRibbonR_Spine_SCloth_0_0"
+            ],
+            "colliders": [
+                "collider_leftforearm",
+                "collider_leftarm",
+                "collider_rightforearm",
+                "collider_rightarm",
+                "collider_body"
+            ],
+            "connectionMode": 0
+        },
+        {
+            "name": "magica_pdskirt",
+            "LOD": 0,
+            "rootList": [
+                "Sm_PDSkirt_Skirt_Smesh_0_0",
+                "Sm_PDSkirt_Skirt_Smesh_1_0",
+                "Sm_PDSkirt_Skirt_Smesh_2_0",
+                "Sm_PDSkirt_Skirt_Smesh_3_0",
+                "Sm_PDSkirt_Skirt_Smesh_4_0",
+                "Sm_PDSkirt_Skirt_Smesh_5_0",
+                "Sm_PDSkirt_Skirt_Smesh_6_0",
+                "Sm_PDSkirt_Skirt_Smesh_7_0"
+            ],
+            "colliders": [
+                "collider_rightleg",
+                "collider_rightcalf",
+                "collider_leftleg",
+                "collider_leftcalf",
+                "collider_hip_r",
+                "collider_hip_l"
+            ],
+            "connectionMode": 1
+        },
+        {
+            "name": "magica_balsmesh",
+            "LOD": 0,
+            "rootList": [
+                "Sl_StringL_BAL_SMesh_0_0",
+                "Sl_StringL_BAL_SMesh_1_0",
+                "Sl_StringL_BAL_SMesh_2_0",
+                "Sl_StringL_BAL_SMesh_3_0"
+            ],
+            "colliders": [
+                "collider_body",
+                "collider_leftarm"
+            ],
+            "connectionMode": 0
+        },
+        {
+            "name": "magica_barsmesh",
+            "LOD": 0,
+            "rootList": [
+                "Sl_StringR_BAR_SMesh_0_0",
+                "Sl_StringR_BAR_SMesh_1_0",
+                "Sl_StringR_BAR_SMesh_2_0",
+                "Sl_StringR_BAR_SMesh_3_0"
+            ],
+            "colliders": [
+                "collider_body",
+                "collider_rightarm"
+            ],
+            "connectionMode": 0
+        }
+    ],
+    "PreImportActions": [],
+    "PostImportActions": []
+}
