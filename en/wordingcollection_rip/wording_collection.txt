@@ -1,0 +1,1131 @@
+tutorialarea_shop_title	Shop Items
+area_shop_levelMaxSoldOut	Level maximum\nreached.
+area_shopCouplingTalkUnlock_message	{0}Unlock at Level [-]{1}{2}[-]{3}[-]
+band_deckEdit_setupMainBandButton	Set\nMain
+band_deckEditSituationSelect_memberListLabel	Member List
+band_deckEditSituationSelect_caption	Choose your band members!
+band_exchange_cellExchangeButton	Exchange
+band_exchange_cellExchangeUpperLabel	Exchange limit reached.\nNo more available.
+band_exchange_cellExchangeUpperLabel_isHaving	Cannot exchange as this\nitem is already owned.
+band_exchange_cellExpirationLabel	Ends {0}
+band_exchange_cellResetBalloonMonthly	Resets 1st\nof the month
+band_exchange_cellResetBalloonWeekly	Resets\nMondays
+band_exchange_headerGetSealButton	Get Stickers
+band_exchange_duplicatedDialogMessage	Cannot exchange as this item is in your Gift Box.
+band_exchange_expiresDialogMessage	This exchange is no longer available.
+band_exchange_expiresDialogTitle	Expired
+band_exchange_expiresLabel	Period
+band_exchange_eventTitle	{0} Exchange Items
+band_memberList_waitingRoomButton	Waiting Room
+band_practice_emptyTicket	No Studio Tickets owned.
+band_situationDetail_changeIllustButton	Switch Art
+band_situationDetail_episodeButton	Episode
+band_situationDetail_expandButton	Zoom
+band_situationDetail_forLevelUp	Next Lv:
+band_situationDetail_memorialEpisodeButton	Special Episode
+band_situationDetail_practiceButton	Practice
+band_situationDetail_trainingButton	Training
+band_situationDetail_emptyEpisode	There are no Episodes for this member.
+band_situationDetail_buttonSkillPractice	Skill\nPractice
+band_skillPractice_emptyTicket	No Skill Tickets owned.
+band_skillPractice_tabSkillTicket	Ticket
+band_skillPractice_tabWaitingRoom	Waiting Room
+band_sortingKind_level	Level
+band_sortingKind_paramAll	Power
+band_sortingKind_paramPerformance	Performance
+band_sortingKind_paramTechnique	Technique
+band_sortingKind_paramVisual	Visuals
+band_sortingKind_rarity	Rarity
+band_sortingKind_timestamp	Date
+band_sortingKind_skillLevel	Skill Lv.
+band_sortingOrder_asc	Asc
+band_sortingOrder_desc	Desc
+band_top_deckEditButton	Edit Band
+band_top_exchangeShopButton	Exchange
+band_top_memberListButton	Member List
+band_top_profileButton	Profile
+band_training_emptyMessage	No members ready for training.
+band_waitingRoom_allExchangeSelectButton	　Select All
+band_waitingRoom_emptyMemberMessage	No members available.
+band_waitingRoom_exchangeButton	Exchange
+band_waitingRoom_getMichelleSealLabel	Michelle Stickers
+band_waitingRoom_selectedCardLabel	{0} Selected
+bandEdit_editError_title	Edit Error
+bandEdit_memberShortageError_contents	Please select 5 members for your Main Band.
+challengeEvent_common_scoreRankingCheckButton	Score Ranking
+challengeEvent_common_scoreRankingRewardCheckButton	Score Ranking Prizes
+challengeEvent_common_deckBonus	Band Bonus
+challengeEvent_top_challengeLiveEvent	Live Challenge Event
+challengeEvent_top_description	Collect Challenge Pts to play!
+challengeEvent_result_scoreaAttackCP_Description	※Challenge Pts cannot be earned from playing the Challenge Song.
+challengeEvent_result_scoreaAttackMember_Description	※Band Bonus does not apply to Event Pts\n　earned from playing Challenge Songs.
+challengeEvent_ranking_description	High Score takes your highest score across all difficulties. Oldest score will be prioritized.
+characterSelect_description	Please select a character.
+commonEvent_complete_storyBR	All stories have\nbeen unlocked.
+commonEvent_complete_reward	All prizes have\nbeen earned.
+commonEvent_currentGrade	Current Rank
+commonEvent_eventNotEntry	This Event has ended.\nPlease wait for the next one.
+commonEvent_eventPoint	Event Pts
+commonEvent_eventPRanking	Event Pts Ranking
+commonEvent_getEventPoint	Event Pts
+commonEvent_nextStory	Next Story
+commonEvent_silde_title	How to Play
+commonEvent_requireNextReward	Next Prize
+commonEvent_rewardDistributionDescription	Prizes will be sent out around {0}.
+commonEvent_point	{0} Pts
+commonEvent_ranking_personal	{0}
+commonEvent_releasedStory	Story {0}/{1}   Unlocked
+commonEvent_status_open	Event Period
+commonEvent_status_open_day	Starts
+commonEvent_status_collection	Rank Period
+commonEvent_status_result	Results Period
+commonEvent_story_descriptionLive	Get Event Pts & Badges!
+commonEvent_totalPoint	Total Event Pts
+commonEvent_eventBoxGacha_title	Get gifts from Marina!
+costume_defaultDescription	Band Costume
+costume_defaultDescriptionDetail	※Members not in your Main Band will use their "Stage" costumes.
+degreeSelect_currentDegree_caption	Current Title
+degreeSelect_message_notExist	No Titles unlocked.
+degreeSelect_selectDegree_eventTab	Event
+degreeSelect_selectDegree_normalTab	Regular
+degreeSelect_selectDegree_caption	New Title
+difficulty_easy	EASY
+difficulty_normal	NORMAL
+difficulty_hard	HARD
+difficulty_expert	EXPERT
+dialog_achievement_a	A
+dialog_achievement_b	B
+dialog_achievement_c	C
+dialog_achievement_combo_english	Combo
+dialog_achievement_combo	Combo
+dialog_achievement_fullCombo	Full Combo
+dialog_achievement_reward	Rewards
+dialog_achievement_s	S
+dialog_achievement_ss	SS
+dialog_achievement_score	Score
+dialog_achievement_scoreRank	Score Rank
+dialog_achievement_viewReward	Item Rewards
+dialog_ageAuth_attention	※Your answer cannot be changed.※
+dialog_ageAuth_errorMessage	Invalid birthdate.
+dialog_ageAuth_message	Please enter your birthday.
+dialog_ageAuth_title	Age Verification
+dialog_ageAuth_wordChristianEra	
+dialog_ageAuth_wordMonth	
+dialog_ageAuth_wordYear	
+dialog_ageAuthDone_message	[505050]Age has been verified.[-]
+dialog_ageAuthDone_title	Confirm
+dialog_ageAuthPurchaseError_title	Purchase Error
+dialog_areaItemDetail_title	Area Item Details
+dialog_areaShop_buyConfirm	Purchase this Area Item?
+dialog_areaShop_buyMusicConfirm	Purchase this song?
+dialog_areaShop_levelupConfirm	Level up this Area Item?
+dialog_areaShop_buyMusic	Song purchase complete!
+dialog_areaShop_levelup	Area Item leveled up!
+dialog_areaShop_replace	Replace currently set Area Item?
+dialog_areaShop_send	Your purchased Area Item was sent to storage.
+dialog_areaShop_requireFormat	{0}/{1}
+dialog_areaShop_bandRank	Band Rank
+dialog_areaShop_requireItem	Items Needed
+dialog_areaShop_requireItemAndBandRank	Items Needed / Band Rank
+dialog_areaShopReplace_replaceButton	Replace
+dialog_areaShopReplace_putting	Set Item
+dialog_areaItemDetail_captionFlavor	About
+dialog_areaItemDetail_captionLevel	Level
+dialog_areaItemDetail_captionParamUp	Item Effect
+dialog_areaItemDetail_captionPlace	Area
+dialog_areaItemDetail_effect	Effect
+dialog_areaItemDetail_tabDetail	Item Details
+dialog_areaItemDetail_tabTalk	Conversations
+dialog_areaItemDetail_requireItem	Coins / Items Needed
+dialog_badPenalty_leftTime	Feature Block Ends In
+dialog_badPenalty_message	We have discovered actions constituting harassment of other players originating from your account. As such, your access to this feature has been temporarily blocked.
+dialog_badPenalty_title	Warning
+dialog_bandNameChange_message	Band name has been changed.
+dialog_bandNameChange_title	Band Name
+dialog_bandNameChangeError_message	Band name change failed.
+dialog_bandRankReward_title	Band Rank Prizes
+dialog_bandRankReward_untilRankup	Rank Up In
+dialog_bandRankReward_totalExp	Total EXP
+dialog_bandRankReward_bandStoryDescription	Band Story {0}
+dialog_bandRankReward_areaItemDescription	Unlock {0} Level {1}
+dialog_bandRankReward_rewardDegree	Title "{0}"
+dialog_bandRankReward_rewardList_title	Prizes
+dialog_bandRankReward_rewardList_description	Band Rank prizes received!
+dialog_playerSearchError_message	Player could not be found.
+dialog_playerSearchError_title	Error
+dialog_playerSearch_description	Please enter a player ID.
+dialog_playerSearch_searchButtonLabel	Search
+dialog_billingNotSurpported_message	This device cannot be used to make purchases.
+dialog_expendCP_title	Select Challenge Pts
+dialog_expendCP_warning	※Use more Challenge Pts, get more Event Pts.\n※Your Score will not be affected.\n※Live Boosts cannot be used on Challenge Songs.
+dialog_expendCP_shortage	Not enough Challenge Pts.
+dialog_cheatError_message	Unexpected connection result.\nReturning to title.
+dialog_costume_getMessage	New costume received.
+dialog_costume_getTitle	New Costume
+dialog_deckEditBandName_title	Band Name
+dialog_deckEditDeleteDeck_message	This band will be reset.\nAre you sure?
+dialog_deckEditDeleteDeck_title	Reset
+dialog_deckEditDeleteDeckDone_message	Band has been reset.
+dialog_deckEditDeleteDeckDone_title	Reset
+dialog_deckEditDeleteDeckError_message	Band reset failed.
+dialog_deckEditMainBandSelected_message	{0} set to Main Band.
+dialog_deckEditMainBandSelected_title	Main Band
+dialog_deckEditNotEnoughMemberError_message	This band does not have 5 members.\nIt cannot be set as your Main Band.
+dialog_deckEditSameCharacterTitle	Member Warning
+dialog_deckNameEdit_attentionMessage	※Up to 16 characters.
+dialog_deckNameEdit_message	Please enter a band name.
+dialog_deckNameEdit_placeholder	Band Name
+dialog_deckNameEdit_title	Band Name
+dialog_deckRecommend_title	Auto Band
+dialog_deckRecommend_captionPriority	Band Focus
+dialog_deckRecommend_caption	Preferred Band
+dialog_deckRecommend_captionType	Preferred Type
+dialog_deckRecommend_noConditions	None
+dialog_deckRecommend_priorityType	Type
+dialog_deckRecommend_priorityBand	Band
+dialog_deckRecommend_finishDeckChange	Band has been formed automatically.
+dialog_degreeDetail_title	Title Details
+dialog_degreeDetail_acquiredCondition	About
+dialog_editUserName_title	Player Name
+dialog_editUserName_body	Please enter your name.
+dialog_editUserName_limitWord	※Up to 20 characters.
+dialog_editUserName_canChangeMessage	※Your username can be changed later.※
+dialog_encoreConfirm_title	Encore
+dialog_encoreConfirm_message	Stay in this same room\nand play one more show?
+dialog_episodeConfirm_message	Watch this Episode?\n{0}
+dialog_episodeConfirm_title	Episode
+dialog_episodeParamUp_title	Episode Bonus
+dialog_episodeParamUp_description	\nStats increased!
+dialog_episodePlay_title	Episode
+dialog_episodeRead_title	Episode Bonus
+dialog_episodeUnlock_message	Use the following items\nto unlock Episode "{0}"?
+dialog_episodeUnlock_needLevelLabel	Level {0}+ Needed
+dialog_episodeUnlock_title	Unlock Episode
+dialog_episodeUnlockedError_message	Invalid data.
+dialog_episodeUnlocked_message	Episode "{0}" unlocked.\nWould you like to watch it now?
+dialog_episodeUnlocked_title	Unlocked
+dialog_exchange_exchangeCount	Exchange
+dialog_exchange_exchangeButton	Exchange
+dialog_exchange_exchangeOkButton	OK
+dialog_exchangeDone_title	Exchange complete!
+dialog_exchangeQuantity_title	How many would you like?
+dialog_exchangeConfirm_title	Confirmation
+dialog_exchange_periodOver	Exchange period has ended.
+dialog_event_close	Event has ended.
+dialog_eventResultBadUserAlert_title	Warning
+dialog_eventResultBadUserAlert_message	Your live performance did not reach a specified requirement. As such, you have not earned any Event Pts.
+dialog_eventReward_title	Prizes
+dialog_eventReward_description	{0} Pts prize received!
+dialog_eventRewardBoxGacha_deadlineDateFormat	Ends {0}
+dialog_eventRewardBoxGacha_currentSet_title	Box #{0}
+dialog_eventRewardBoxGacha_lastSet_title	From Box #{0}
+dialog_eventRewardBoxGacha_attentionReward_title	Featured Gift
+dialog_eventRewardBoxGacha_changeBox	Next Gift
+dialog_eventRewardBoxGacha_rewardList_title	Box Contents
+dialog_eventRewardBoxGacha_special	Special
+dialog_eventRewardBoxGacha_possession	Owned
+dialog_eventRewardBoxGacha_medalCount	
+dialog_eventRewardBoxGacha_resetFinish_title	Reset complete.
+dialog_eventRewardBoxGacha_confirm	Confirm
+dialog_eventRewardBoxGacha_medalUnit	
+dialog_eventRewardBoxGacha_rewardUnit	
+dialog_eventRewardBoxGacha_resetFinish_message	Proceeding to next gift box.
+dialog_eventRewardBoxGacha_resetFinish_allReceivedMessage	All gift box contents received.\nProceeding to next gift box.
+dialog_eventRewardBoxGacha_startContinueConfirm_message	Giving {0} x{1}\nto receive {2} gifts.\nAre you sure?
+dialog_eventRewardBoxGacha_resetConfirm_message	Gift box contents will be reset\nand you will proceed to the next gift box.\nAre you sure?
+dialog_eventRewardBoxGacha_resetConfirm_warning	※You cannot go back to a\n　previous gift box after resetting.
+dialog_eventRewardBoxGacha_rewardList_warning	Getting the Special Prize will let you move on\nto the next gift box without needing all contents.
+dialog_eventRewardBoxGacha_rewardList_emptyBoxInfo	All gift box contents received.\nProceeding to next gift box.
+dialog_eventRewardBoxGacha_shortageMedal	Not enough {0}.
+dialog_eventRewardBoxGacha_remainFormat	{0}/{1}
+dialog_eventRewardBoxGacha_notEnoughEventBoxGachaItem	Not enough {0}.
+dialog_eventRewardBoxGacha_eventBoxGachaInvalidTerm	Campaign has ended.
+dialog_eventRewardBoxGacha_helpViewTitle	Marina's Gift Box?
+dialog_confirmFriendApplicationCancel_message	Friend request will be canceled.\nAre you sure?
+dialog_confirmFriendApplicationCancel_title	Confirmation
+dialog_confirmFriendRelease_message	This Friend will be removed.\nAre you sure?
+dialog_confirmFriendRelease_title	Confirmation
+dialog_friendApplicationCancel_message	Friend request has been canceled.
+dialog_friendApplicationCancel_title	This Friend has been removed.
+dialog_friendInvite_inviteButton	Invite
+dialog_friendInvite_message	This Friend will be invited.\nAre you sure?
+dialog_friendInvite_title	Confirmation
+dialog_friendRelease_message	This Friend has been removed.
+dialog_friendRelease_title	Friend Removed
+dialog_friendRequestSent_title	Friend Request Sent
+dialog_friendRecommend_messageCommon	\n\nSend requests to other players and\nif they accept you will become Friends.
+dialog_friendRecommend_messageOnCreateRoom	No Friends to invite.\nYou must make Friends with other\nplayers in order to invite them.
+dialog_friendRecommend_messageOnSearchRoom	In order to play together with Friends,\nyou must first make Friends with other players.
+dialog_friendRequestSent_message	Friend request has been sent.
+dialog_friendRequestError_messageAlreadyApplied	You have already sent a request.
+dialog_friendRequestError_messageAlreadyMadeFriend	This player is already your Friend.
+dialog_friendRequestError_messageMyFriendsNumOrApplicationNumIsFull	Your Friend limit\nor request limit has been reached.
+dialog_friendRequestError_messageOpponentFriendsNumOrApprovalPendingNumIsFull	This player's Friend limit\nor request limit has been reached.
+dialog_friendRoomSelect_comment	Comment
+dialog_friendRoomSelect_description	A Friend has invited you to play with them. Please choose a room to enter.
+dialog_friendRoomSelect_enteringRoom	Join
+dialog_friendRoomSelect_roomCountLimit	※The oldest 30 rooms will be shown.
+dialog_friendRoomSelect_roomCreator	Room Host
+dialog_friendRoomSelect_title	Select Invite Room
+dialog_friendRoomSelect_notInvite	You do not currently have any invites from Friends.\n\nYou can tap the Private button to create a room\nand invite your Friends to join.
+dialog_gachaConfirm_title	Confirm
+dialog_gachaConfirm_body	Spending {0}\nto play the {1}.\nAre you sure?
+dialog_gachaShortage_title	Not enough {0}.
+dialog_gachaShortageTicket_body	Not enough {0}.
+dialog_gachaShortageStar_body	Not enough {0}.\nHead to the Star Shop?
+dialog_gachaDetail_tabFrameOfGacha	Drop Rates
+dialog_gachaDetail_tabFrameOfCommitment	Fixed Drop Rates
+dialog_gachaDetail_title	Gacha Details
+dialog_gachaDetailInformation_tabTitle	About
+dialog_gachaDetailInformation_titleDescription	Summary
+dialog_gachaDetailInformation_titleTerm	Gacha Period
+dialog_gachaDetailInformation_titleNewMemberInfo	New Members
+dialog_gachaDetailInformation_titleStepInfo	Step Details
+dialog_gachaDetailInformation_titleSetInfo	Set Details
+dialog_gachaDetailInformation_titleWarning	Precautions
+dialog_gachaDetailMember_title	Gacha Member List
+dialog_gachaDetailRarity_title	Drop Rates (Rarity)
+dialog_gachaDetail_member	{0} Members
+dialog_gachaPickup_title	Member Details
+dialog_gachaNotEnoughStarError_message	Not enough Stars.
+dialog_gachaNotEnoughTicketError_message	Not enough Tickets.
+dialog_gachaNotEnoughItemError_message	Not enough items.
+dialog_gachaNotFoundError_message	Gacha has ended.
+dialog_garupaCupSecondQualificationMusic_description1	Girls Band Party! Cup Live Arena Qualifiers will begin soon.\nPlayers who cleared the Game Qualifiers will be\ninvited to play at Tokyo Big Sight, with those who\nreach the top ranks moving on to the Semi Finals.\n※Only Live Arena Qualifier results will count towards\nSemi Finals participation.
+dialog_garupaCupSecondQualificationMusic_description2	Players who did not manage to pass the Game Qualifiers\nare still invited to experience the Live Arena Qualifiers themselves.
+dialog_garupaCupSecondQualificationMusic_title	Girls Band Party! Cup Live Arena Qualifiers
+dialog_garupaCupSecondQualificationResultLiveFinish_title	Live Arena Qualifiers Ended
+dialog_garupaCupSecondQualificationResultLiveFinish_message	{0}Returning to the Arena Qualifiers screen.\nAre you sure?[-]\n\n{1}※Players participating in the Tokyo Big Sight\nLive Arena Qualifiers should not leave this screen\nuntil the staff have calculated all results.[-]
+dialog_garupaCupEntry_title	Girls Band Party! Cup Entry
+dialog_garupaCupEntry_descriptionTop	[505050]Entry is not required to take part in the Game Qualifiers.\nPlayers who wish to take part in the Live Arena Qualifiers\n[-][FE2349]must play the Game Qualifiers at least once to be entered.[-][505050]\nAfter the Game Qualifying period has ended, players will be chosen\nbased on their score rankings to move on to the next stage.[-]
+dialog_garupaCupEntry_descriptionResult	[505050]Entry is not required to take part in the Game Qualifiers.\nHowever, players who wish to take part in the\nLive Arena Qualifiers will need to enter officially.\nAfter the Game Qualifying period has ended, players will be chosen\nbased on their score rankings to move on to the next stage.
+dialog_garupaCupEntry_entryAt	Entry Period: Until {0}
+dialog_garupaCupEntry_confirm	Enter the Girls Band Party! Cup?
+dialog_highScoreRating_noDataMessage	No play data for this song.\nPlay it now to set a score!
+dialog_hiSpeedSetting_checkMessage	Speed Settings
+dialog_hiSpeedSetting_neverDisplayMessage1	Don't show again.
+dialog_hiSpeedSetting_neverDisplayMessage2	(Setting can be changed from the Options menu.)
+dialog_hiSpeedSetting_title	Live Settings
+dialog_hiSpeedSetting_subTitle	Note Speed
+dialog_itemDetail_title	Item Details
+dialog_inputError_characterEmpty	Please enter at least one character.
+dialog_inputError_characterLength	Please keep within {0} characters.
+dialog_inputError_characterType	Please remove incompatible characters.
+dialog_inputError_ngWord	Please remove inappropriate\nlanguage and try again.
+dialog_inputError_title	Input Error
+dialog_liveBoostEmpty_title	Confirmation
+dialog_liveBoostEmpty_description	No Live Boosts remaining.\nYou will not receive any Event Pts\nupon completion. Are you sure?
+dialog_liveBoostEmpty_starShopButton	Star\nShop
+dialog_liveBoostEmpty_liveButton	Live
+dialog_liveBoostExpend_title	Live Boost Settings
+dialog_liveBoostExpend_caption1	Event Pts
+dialog_liveBoostExpend_caption2	Prizes / EXP
+dialog_liveBoostExpend_rate	x {0}
+dialog_liveBoostExpend_settingButtonOn	Active
+dialog_liveBoostExpend_settingButtonOff	Set
+dialog_liveBoostExpend_description1	※If your remaining Live Boosts are lower than the amount set\n   all remaining Live Boosts will be used.
+dialog_liveBoostLack_title	Live Boost Settings
+dialog_liveBoostLack_caption1	Set
+dialog_liveBoostLack_message1	You can use Boost Drinks or Stars\nto recover Live Boosts.
+dialog_liveBoostLack_emptyLiveBoostDrink	None Owned
+dialog_liveBoostLack_settingButton	Settings
+dialog_liveBoostLack_goButton	{0} Start
+dialog_liveBoostLack_healLBDrinkButton	Items
+dialog_liveBoostLack_healLBStarButton	Stars
+dialog_liveBoostLackStar_message	You do not have enough Stars.\nHead to the Star Shop?
+dialog_liveBoostRecover_overLimitErrorMessageBefore	You cannot purchase these\nas you will go over the Live Boost limit.
+dialog_liveBoostRecover_overLimitErrorMessageAfter	You cannot recover now\nas you will go over the Live Boost limit.
+dialog_liveBoostRecoverLimit_title	Live Boost MAX
+dialog_liveBoostRecoverLimit_message	You cannot recover now\nas you are at Live Boost MAX.
+dialog_liveBoostRecoverNotEnoughStar_title	Not Enough Stars
+dialog_liveBoostRecoverNotEnoughStar_message	You do not have enough Stars.
+dialog_liveBoostRecoverConfirm_title	Confirmation
+dialog_liveBoostRecoverConfirm_message	Spending {0} Stars\nto recover {1} Live Boosts.\nAre you sure?
+dialog_liveBoostRecoverConfirm_possessionStarCaption	Stars
+dialog_liveBoostRecoverConfirm_recoverButton	Recover
+dialog_liveBoostRecoverItem_title	Recovery Amount
+dialog_liveBoostRecoverItem_message1	※You can recover up to {0} Live Boosts.
+dialog_liveBoostRecoverItem_healButton	Recover
+dialog_liveBoostRecoverItemCell_itemNum	x {0}
+dialog_liveBoostRecoverItemConfirm_title	Live Boost Recovery
+dialog_liveBoostRecoverItemConfirm_message	Boost Drinks will be spent\nto recover Live Boosts. Are you sure?
+dialog_liveBoostRecoverItemFinish_message	{0} Live Boosts recovered!
+dialog_liveSettings_mirror	Mirror
+dialog_liveSettings_coreLightMode	Light Mode
+dialog_liveSettings_coreAdjustJudgement	Sound Adjustment
+dialog_liveSettings_standardRhythmIconSpeed	Note Speed
+dialog_liveSettings_standardRhythmIconSize	Note Size
+dialog_liveSettings_standardSkin	Theme
+dialog_liveSettings_standardRhythmIconColored	Off-Beat Coloring
+dialog_liveSettings_standardJudgementSound	Tap Sound
+dialog_liveSettings_standardSimultaneousLine	Dual Tap Line
+dialog_liveSettings_standardSkillWindow	Skill Window
+dialog_liveSettings_standardTapAdjustTimingButton	Tap to adjust sound.
+dialog_liveSettings_standardDisplaySkillEffect	Skill Effect Text
+dialog_liveSettings_liveBGM	Songs
+dialog_liveSettings_liveSE	Live SFX
+dialog_liveSettings_liveVoice	Live Voice
+dialog_liveSettings_systemBGM	BGM
+dialog_liveSettings_systemSE	SFX
+dialog_liveSettings_systemVoice	Voice
+dialog_liveSettings_systemScreenOrientation	Fix Screen
+dialog_liveSettings_systemLiveBoostShortageConfirm	Shortage Check
+dialog_liveSettings_tabStandardSetting	Live Settings
+dialog_liveSettings_tabLiveVolumeSetting	Effect & Sound Settings
+dialog_liveSettings_title	Options
+dialog_loadMapError_body	Data download error. Returning to title.
+dialog_loadMapError_title	Error
+dialog_matching_description	Searching for rooms.
+dialog_matching_title	Matching
+dialog_matching_warning	※It may take a short while during busy periods.
+dialog_memberDecideConfirm_existNotArraivalMember	※Members are currently waiting.
+dialog_memberDecideConfirm_message	Starting the show with {0} members.\nAre you sure?
+dialog_menuList_title	Menu
+dialog_memorialStoryMember_title	Main Members
+dialog_memorialStoryReleaseCondition_title	Unlock
+dialog_memorialStoryReleaseCondition_conditionUserRank	Unlocked at\nPlayer Rank {0}.
+dialog_memorialStoryReleaseCondition_conditionBandRank	Unlocked at {0}\nBand Rank {1}.
+dialog_memorialStoryReleaseCondition_conditionAllBandRank	Unlocked at\nall bands reaching\nBand Rank {0}.
+dialog_multiEntranceWebviewTitle	Room Type
+dialog_musicDetail_title	Song Details
+dialog_musicDetail_bandNameCaption	Band:
+dialog_musicDetail_composerCaption	Composer:
+dialog_musicDetail_lyricistCaption	Lyrics:
+dialog_musicDetail_musicDetailCaption	Details
+dialog_missionDetail_detail	Details
+dialog_missionDetail_progress	Progress
+dialog_missionDetail_timeLeft	Time Left
+dialog_missionDetail_reward	Prizes
+dialog_missionDetail_indefinitePeriod	Expires: Never
+dialog_news_title	Notices
+dialog_nickNameChange_message	Please keep your name within 20 characters.
+dialog_nickNameChange_title	Error
+dialog_nickNameChanged_message	Player name changed!
+dialog_nickNameChanged_title	Name Change
+dialog_opponentRequestApprove_message	Friend request has been accepted.
+dialog_opponentRequestApprove_title	Friend Request Accepted
+dialog_opponentRequestReject_message	Friend request has been rejected.
+dialog_opponentRequestReject_title	Friend Request Rejected
+dialog_pendingBillingExist_title	Interrupted Purchase
+dialog_pendingBillingExist_message	Your previous purchase was not completed correctly.\nPlease wait a moment.
+dialog_pendingBillingFinish_title	Purchase Complete
+dialog_pendingBillingFinish_message	Your previous purchase has been completed successfully.
+dialog_possessionStar_labelFree	Free
+dialog_possessionStar_labelPaid	Paid
+dialog_possessionStar_labelTotal	Total
+dialog_possessionStar_message	[FE2349]Free Stars will always be used first.[-]
+dialog_possessionStar_title	Owned
+dialog_premiumPassDetail_buyableConditions	\n・The Premium Happy Box will become available again 30 days\nafter purchase.
+dialog_premiumPassDetail_receiveCount	・The daily reward can be received up to 25 times.
+dialog_premiumPassDetail_receiveTiming	・The daily reward (Free Stars) can be received upon starting\nthe app each day.
+dialog_premiumPassDetail_reset	・The daily reward timer is reset at <#8:00#> each day.
+dialog_premiumPassDetail_revocation	・30 days after purchasing the Premium Happy Box, the daily\nreward will become unavailable regardless of how many times\nit was received.
+dialog_premiumPassDetail_title	About Premium Happy Box
+dialog_presentReceiveBulk_title	All presents accepted.
+dialog_presentReceiveBulk_description	You received the above prizes.
+dialog_presentReceiveSingle_title	Present accepted.
+dialog_presentReceiveSingle_description	You received the above prize.
+dialog_presentReceiveSituationAlreadyHave	Duplicate members have been sent to the Waiting Room.
+dialog_presentReceiveSituationAlreadyHaveSingular	Duplicate members have been sent to the Waiting Room.
+dialog_privateRoomNotFoundError_message	Room could not be found.
+dialog_privateRoomVersionError_message	This room has an app version mismatch.
+dialog_privateRoomOverError_message	This room is full.
+dialog_privateRoomPlayingError_message	This room is already playing.
+dialog_privateRoom_copyRoomNumber	Copy No.
+dialog_privateRoom_createRoom	Create
+dialog_privateRoom_typeCaption	Room Type
+dialog_privateRoom_nameCaption	Room Name
+dialog_privateRoom_nameLimit	Up to 20 characters
+dialog_privateRoom_numberCaption	Room No.
+dialog_privateRoom_roomSelect	Room Limit
+dialog_privateRoom_title	Create Private Room
+dialog_privateRoomDenied_description	Your Main Band's Power is too low\nto be able to join this room.
+dialog_privateRoomDenied_needPower	Power Needed
+dialog_privateRoomDenied_room	Room
+dialog_privateRoomDenied_title	Power Too Low
+dialog_privateRoomEntrance_createButton	Create
+dialog_privateRoomEntrance_createDescription	Make a new room!
+dialog_privateRoomEntrance_joinDescription	Join a friend's room!
+dialog_privateRoomJoin_description	Enter your 5-digit room number to play Multi Live with friends!
+dialog_privateRoomJoin_descriptionVersus	Enter your 5-digit room number to play VS Live with friends!
+dialog_privateRoomJoin_joinButton	Join
+dialog_privateRoomJoin_title	Join Private Room
+dialog_privateRoomLeave_title	Leave Private Room
+dialog_privateRoomLeave_confirm	Are you sure you want to\nleave this private room?
+dialog_publishConfig_title	Profile Settings
+dialog_publishConfig_publish	Public
+dialog_publishConfig_closed	Hidden
+dialog_purchaseCancel_title	Cancel
+dialog_purchaseCancel_message	Purchase was canceled.
+dialog_purchaseComplete_title	Purchase Complete
+dialog_purchaseFailed_message	Purchase failed.
+dialog_purchaseFailed_messageOutOfTerm	This item has expired or you have\nreached the maximum number of purchases.
+dialog_rankReward_itemDescription	{0} x{1}
+dialog_rankUp_liveBoostLimitCaution	※You can only recover up to {0} Live Boosts.
+dialog_rankUp_recoveryLiveBoost	{0} Live Boosts recovered!
+dialog_rankUp_recoveryLiveBoostChange	[4C4C4C]You reached Rank {0}!\nYour Live Boosts\nwill now recover by [-][FF3B72]{1}[-][4C4C4C]\neach time you rank up![-]
+dialog_rankUp_recoveryLiveBoostFriendLimitChange	Friend slots increased by {0}.
+dialog_rankUp_bandStoryOpenBandName	{0} Band Story
+dialog_rankUp_bandStoryOpenChapter	{0} has been unlocked!
+dialog_rankUp_mainStoryOpenChapter	Main Story "{0}" has been unlocked!
+dialog_rankUp_title	Rank Up!
+dialog_rankUp_getReward_title	Prizes
+dialog_rankUp_getReward_message	You received the following prize!
+dialog_rankUp_levelUpperLimitOpen_title	Max Level Increased
+dialog_rankUp_levelUpperLimitOpen_message	Your maximum Level has been increased!
+dialog_rankUp_levelUpperLimitOpen_areaItem_message	{0}'s maximum Level has been increased!
+dialog_rankUp_levelUpperLimitOpen_levelMax	Max Level
+dialog_recoverLiveBoost_title	Live Boost Recovery
+dialog_recoverLiveBoost_message	{0} Live Boosts recovered!
+dialog_reviewRequest_message	Thank you for playing Girls Band Party!\n\nLeave a review\nand let us know what you think!
+dialog_reviewRequest_rejectionButton	Cancel
+dialog_reviewRequest_reviewButton	Review
+dialog_reviewRequest_title	Review
+dialog_rewardAreaItem_message	Item sent to storage.
+dialog_rewardAreaItem_talk	Conversations
+dialog_rewardAreaItem_areaItemEffect	Item Effect
+dialog_rewardItem_message	You got a prize!
+dialog_rewardMusic_message	{0}\nNew song unlocked!
+dialog_rhythmAdjust_title	Sound Adjustment
+dialog_rhythmAdjust_resultEnd	END
+dialog_rhythmAdjust_resultStart	START
+dialog_rhythmAdjust_message	Please tap the circle to the rhythm as you hear it.
+dialog_rhythmAdjustReady_adjustButton	Start
+dialog_rhythmAdjustReady_message	Adjusting the sound/note balance.\nPlease tap the circle to the rhythm as you hear it.
+dialog_rhythmAdjustReady_title	Sound Adjustment
+dialog_rhythmAdjustDone_title	Adjustment Complete
+dialog_rhythmAdjustDone_retakeButton	Try Again
+dialog_rhythmAdjustDone_decideButton	Confirm
+dialog_rhythmgameGameOverContinue_title	Continue
+dialog_rhythmgameGameOverContinue_message	Spend {0} Stars\nto recover energy and continue?
+dialog_rhythmgameGameOverGarupaCup_message	You have run out of Energy.\nYou cannot continue the Girls Band Party! Cup.\nReturning to Girls Band Party! Cup top screen.
+dialog_rhythmgameGameOver_title	Live Show Failed
+dialog_rhythmgameGameOver_message	You have run out of energy.\nYou can spend {0} Stars\nto recover energy and continue.
+dialog_rhythmgameGameOver_continueButton	Continue
+dialog_rhythmgameGameOver_retireButton	Give Up
+dialog_rhythmgameGameOverLackOfStar_message	You do not have enough Stars\nto be able to continue.
+dialog_rhythmgameGameOverLackOfStar_title	Not Enough Stars
+dialog_rhythmgameGameOverRetire_message	If you give up, you will not receive\nany prizes for this performance.\nYou will also lose any Live Boosts used.\nAre you sure?
+dialog_rhythmgameGameOverRetire_challengeLiveMessage	If you give up, you will not receive\nany prizes for this performance.\nYou will also lose any Challenge Pts used.\nAre you sure?
+dialog_rhythmgameGameOverRetire_title	Give Up
+dialog_rhythmgamePause_body	Cancel the show and return\nto the home screen?\n※You will lose any Live Boosts used※
+dialog_rhythmgamePause_challengeLiveBody	Cancel the show and return\nto the home screen?\n※You will lose any Challenge Pts used※
+dialog_rhythmgamePause_resume	Resume
+dialog_rhythmgamePause_retire	Cancel
+dialog_rhythmgamePause_title	Paused
+dialog_rhythmgamePause_garupaCupBody	{0}Cancel the show and return\nto the Girls Band Party! Cup screen?[-]\n{1}※You will fail this challenge attempt.[-]
+dialog_scenario_skip	Are you sure you want to skip this story?
+dialog_scenario_skipTitle	Skip
+dialog_skillPracticePrePractice_message1	The selected Waiting Room members\nwill be lost.\nAre you sure you want to Practice?
+dialog_skillPracticePrePractice_message2	★3 or higher members are selected.
+dialog_situationTrainingPreTraining_message	The selected tickets will be lost.\nAre you sure you want to Practice?
+dialog_situationTrainingPreTraining_message2	※One or more mismatched\ncharacter tickets are selected.
+dialog_situationTrainingPreTraining_title	Confirmation
+dialog_storyConfirm_message	Download voice data\nand watch this story?
+dialog_storyConfirm_title	Watch
+dialog_storyReward_title	Bonus Prize Story
+dialog_soloLiveLackOfMember_message	You need 5 band members to start a show.\nPlease edit your current band.
+dialog_soloLiveLackOfMember_title	Not Enough Members
+dialog_sort_captionAttribute	Sort Type
+dialog_sort_captionBand	Sort Band
+dialog_sort_sortingOrder	Order
+dialog_specialTraining_title	Confirmation
+dialog_specialTrainingParamUp_title	Training Results
+dialog_specialTraining_message	These items will be used\nto train {0} {1}.\nAre you sure?
+dialog_starShop_actOnSettlement	資金決済に基づく表記
+dialog_starShop_notPermitPurchase	Could not complete purchase. Please check your device settings.
+dialog_starShop_buyableCount	{0} left
+dialog_starShop_buyableCountOneTime	Only Once
+dialog_starShop_buyablePeriod	Ends {0}
+dialog_starShop_buyPremiumPass	Buy
+dialog_starShop_buyStarFormat	\{0}
+dialog_starShop_currencyGuidelines	Game Currency\nGuidelines
+dialog_starShop_detailButton	Details
+dialog_starShop_salesPeriod	Period
+dialog_starShop_limitedButton	Limited
+dialog_starShop_liveBoost	Live\nBoosts
+dialog_starShop_liveBoostDescription3	Recovers 3 Live Boosts
+dialog_starShop_liveBoostDescription10	Recovers 10 Live Boosts
+dialog_starShop_premiumPassButton	Premium\nHappy Box
+dialog_starShop_premiumPassGiveTiming	Daily Present
+dialog_starShop_premiumPassPeriod	Premium Pass lasts for {0} days.
+dialog_starShop_premiumPassRestCount	[FF395A]{0} left[-]
+dialog_starShop_purchased	[FF395A]Purchased[-]\n[606060]Expires: {0}[-]
+dialog_starShop_purchasedLabel	Purchased
+dialog_starShop_recoverLiveBoost	Recover
+dialog_starShop_specifiedCommercialTransactionsLaw	特定商取引法に\n基づく表記
+dialog_starShop_starCampaignBalloon	Campaign Open!
+dialog_starShop_title	Star Shop
+dialog_takeOver_clipboard	Transfer ID\n{0}\nPassword\n{1}
+dialog_takeOver_descriptionReset	Data transfer settings are already complete.\n\nSetting again will overwrite previous settings.\nAre you sure?
+dialog_takeOver_descriptionSettingFinish	[FE2349]In the interests of privacy,\nyour Transfer ID and Password will not\ndisplay again after closing this window.[-]\n[505050FF]Please take a screenshot or note them down.[-]
+dialog_takeOver_descriptionSetting	You will need a Transfer ID\nand Password in order to transfer data.\nPlease set a password.
+dialog_takeOver_descriptionTakeoverId	(A random password will be provided automatically.)
+dialog_takeOver_descriptionSettingWarning	[505050FF]※A password can only be used once.\n[FE2349]※Transfering data to another OS\nwill lose all of your Paid Stars.[-]
+dialog_takeOver_descriptionSettingCopy	Copy ID / Pass
+dialog_takeOver_errorInvalidPassword	Password is incorrect.\nPlease enter alphanumeric characters only.
+dialog_takeOver_errorPasswordLimit	Please enter a password between 8 and 16 characters.
+dialog_takeOver_passwordLimit	※8 ～ 16 alphanumeric characters※
+dialog_takeOver_reset	Reset
+dialog_takeOver_titleSetting	Data Transfer
+dialog_takeOver_titleSettingFinish	Data Transfer
+dialog_totalParam_title	Power Details
+dialog_totalParam_bandParameter	Band Stats
+dialog_totalParam_bonusAreaItem	Area Item Bonus
+dialog_trainingError_message	Practice failed.
+dialog_unlockArea_contentsText	{0} has been unlocked on the map!
+dialog_unlockArea_title	Area Unlocked
+dialog_unlockAreaItem_contentsText	{2} has been added\nto {0}'s {1}!
+dialog_unlockAreaItem_title	Area Item Unlocked
+dialog_unlockBandStory_contentsText	{0}'s Band Story\n"{1}" has been unlocked!
+dialog_unlockBandStory_title	Band Story Unlocked
+dialog_unlockEventStory_contentsText	Event Story\n"{0}" has been unlocked!
+dialog_unlockEventStory_title	Event Story Unlocked
+dialog_unlockMainStory_contentsText	Main Story\n"{0}" has been unlocked!
+dialog_unlockMainStory_title	Main Story Unlocked
+dialog_unlockPrivateRoom_title	Open Private Room
+dialog_unlockPrivateRoom_description	[505050]Open this private room\nand invite more members?[-]
+dialog_unlockPrivateRoom_descriptionWarning	[505050]Open this private room\nand invite more members?[-]\n\n[FE2349]※Members are currently waiting.[-]
+dialog_unlockPrivateRoom_cantUse	You can open a private room\nwith two or more members inside.
+dialog_userRankReward_title	Rank Details
+dialog_userRankReward_descriptionTitle	Rank Prizes
+dialog_userRankReward_friendLimitDescription	Friend Slots　{0} → {1}
+dialog_userRankReward_mainStoryDescription	Main Story {0}\n{1}
+dialog_waitingRoomExchangeConfirm_body	Exchanging {0} Waiting Room {1}\nfor {2} Michelle {3}.\nAre you sure?
+dialog_waitingRoomExchangeDone_title	Exchange Complete
+dialog_waitingRoomExchangeDone_body	Members have been\nexchanged for Stickers.
+dialog_webViewPickUpMember_title	Spotlight Member
+dialog_weekdayRoomInvalidError_message	Date has changed.\nReturning to Live screen.
+dialog_versusLBWarning_title	Using Live Boosts
+dialog_versusLBWarning_description	[505050]For VS Live shows[-][FE2B4B]Live Boosts are used\nonce matching is complete.[-][505050]\nPlease be careful.[-]
+dialog_versusLBWarning_addDescription	[505050]\n\n※You will be matched with\nplayers with similar Band Power.[-]
+dialog_versusLBWarning_notDisplay	Do not show again
+dialog_versusPrivateRoom_eventRoom	Event Song Room
+dialog_versusPrivateRoom_selectRoom	Free Song Room
+event_menu_auto	Auto
+event_menu_log	Log
+event_menu_menu	Menu
+event_menu_skip	Fast
+event_menu_skipAll	Skip
+exchangeList_description_body	Choose an exchange room.
+exchangeList_cell_expire	[505050]Exchange Ends:[-] [FF3B71]{0}[-] [505050][-]
+friendList_cell_approvalButtonLabel	Accept
+friendList_cell_lastLoginAtLessOneHour	< 1 hr
+friendList_cell_lastLoginAtLessSixHour	< 6 hrs
+friendList_cell_lastLoginAtLessThreeHour	< 3 hrs
+friendList_cell_lastLoginAtLessTwelveHour	< 12 hrs
+friendList_cell_lastLoginAtLessTwentyFourHour	< 24 hrs
+friendList_cell_lastLoginAtMoreThanOneMonthAgo	> 1 mo.
+friendList_cell_lastLoginAtOneDayOrMoreSuffix	< {0} days
+friendList_cell_rejectionButtonLabel	Reject
+friendList_contents_emptyMessageApplication	No Friend requests sent.
+friendList_contents_emptyMessageApproval	No Friend requests received.
+friendList_contents_emptyMessageFriend	No Friends available.
+friendList_contents_numberOfPeopleSeparator	/
+friendList_sortingType_rank	Rank
+friendList_sortingOrder_asc	Asc
+friendList_sortingOrder_desc	Desc
+friendList_tab_friendList	Friends
+friendList_tab_applyList	Sent\nRequests
+friendList_tab_approvalList	Received\nRequests
+gacha_result_spinButton	Play Again
+gacha_result_omakeTitle	Set Received
+gacha_result_omakeContent	Set items have been sent to your Gift Box.
+gacha_top_step	Step\n{0}/{1}!
+gacha_top_timesOnly	{0} Only!
+gacha_top_omakeSet	Get the set!
+gacha_top_oneTimeOnlyDaily	Only Once Per Day!
+gacha_top_restCount	{0} left
+gacha_top_spinPaid	Paid Stars!
+gacha_top_spinButton	{0} {1}!
+gacha_top_spinButtonPaid	{0} {1}\nwith Paid Stars!
+gacha_top_spinButtonLock_once_a_day	Already\nplayed today.\nResets at\n<#8:00#>.
+gacha_unexpectedError_message	Unexpected error.\nReturning to title.
+garupaCup_deckSelect_areaItemBonusCaution	※Area Item Bonuses disabled.
+garupaCup_deckSelect_bandDescription	Specified Bands Only
+garupaCup_deckSelect_caution	Member stats have been adjusted for the Girls Band Party! Cup.\nSkills will not be used in Girls Band Party! Cup live plays.\nNeither EXP nor item prizes will be received on clearing live shows.
+garupaCup_result_secondQualificationDescription	Players participating in the Tokyo Big Sight\nLive Arena Qualifiers should not leave this screen\nuntil the staff have calculated all results.
+garupaCup_situationDetail_description	Member stats have been adjusted for the Girls Band Party! Cup.\nSkills will not be used in Girls Band Party! Cup live plays.
+garupaCup_secondQualification_openDate	Live Arena Qualifying Period
+garupaCup_tutorialSlide_title	ガルパ杯　１次予選に参加しよう！
+header_mainTitle_band	Band
+header_mainTitle_bandStory	Band Story
+header_mainTitle_challengeLive	Live Challenge
+header_mainTitle_event	Event
+header_mainTitle_exchange	Exchange
+header_mainTitle_freeLive	Free Live
+header_mainTitle_friendList	Friends
+header_mainTitle_gacha	Gacha
+header_mainTitle_garupaCup	Girls Band Party! Cup
+header_mainTitle_live	Live
+header_mainTitle_mainStory	Main Story
+header_mainTitle_multiLive	Multi Live
+header_mainTitle_notice	Notices
+header_mainTitle_other	Other
+header_mainTitle_present	Presents
+header_mainTitle_shop	Shop
+header_mainTitle_story	Story
+header_mainTitle_versusLive	VS Live
+header_mainTitle_warehouse	Area Items
+header_mainTitle_mission	Missions
+header_mainTitle_eventRewardBoxGacha	Marina's Gift Box
+header_starShopBalloon_beginnerCampaign	Beginner Campaign♪
+header_starShopBalloon_premiumHappyBox	Premium\nHappy Box♪
+header_starShopBalloon_starIncrease	Special Campaign♪
+header_subTitle_areaShop	Shop
+header_subTitle_areaWarehouse	Storage
+header_subTitle_bandMenu	Top
+header_subTitle_bandSelect	Band Story Selection
+header_subTitle_bandStorySelect	Select Band Story
+header_subTitle_challengeEventDeckSelect	Confirmation
+header_subTitle_costumeSelect	Select Costume
+header_subTitle_deckEdit	Edit Band
+header_subTitle_degreeSelect	Select Title
+header_subTitle_eventBadgeExchange	Badge Exchange
+header_subTitle_exchangeList	Select Exchange
+header_subTitle_freeLiveDeckSelect	Your Bands
+header_subTitle_freeLiveMusicSelect	Select a Song
+header_subTitle_friendList	Friend List
+header_subTitle_gachaResult	Gacha Results
+header_subTitle_gachaTop	Top
+header_subTitle_inventory	Items
+header_subTitle_liveCostume	Costumes
+header_subTitle_liveSelect	Select Live
+header_subTitle_mainStorySelect	Select Main Story
+header_subTitle_memberList	Member List
+header_subTitle_multiLiveDeckSelect	Confirmation
+header_subTitle_multiLiveLevelSelect	Select Room
+header_subTitle_multiLiveMusicSelect	Song Requests
+header_subTitle_multiLiveMutching	Matching
+header_subTitle_multiLiveShuffle	Shuffle Songs
+header_subTitle_musicShop	Music Shop
+header_subTitle_noticeDetail	Notice Details
+header_subTitle_noticeList	Notices
+header_subTitle_presentList	List
+header_subTitle_profile	Profile
+header_subTitle_profile_others	Profile
+header_subTitle_ranking	Event Pts Ranking
+header_subTitle_reward	Event Pts Prizes
+header_subTitle_scoreRanking	Score Ranking
+header_subTitle_scoreRankingReward	Score Ranking Prizes
+header_subTitle_situationDetail	Member Details
+header_subTitle_skillPractice	Skill Practice
+header_subTitle_skillPracticeList	Select Skill Practice Members
+header_subTitle_specialTraining	Training
+header_subTitle_storySelect	Select Story
+header_subTitle_training	Practice
+header_subTitle_waitingRoom	Waiting Room
+header_subTitle_mission	Missions
+label_nickName_placeholder	Nickname (20 characters)
+live_musicSelect_achievementButton	Rewards
+live_musicSelect_lockMusic	This song is locked.
+live_musicSelect_selectDifficulty	Select Difficulty
+live_musicSelect_musicHighScoreRating	High Score Rating
+live_soloLiveLoading_dataDownLoading	Loading...
+live_reward_liveBoost	All EXP
+live_reward_liveBoostEffectText	Prizes / EXP
+liveTop_buttonName_eventTop	Event Top
+loginBonus_message_costumeNameFormat	Costume "{0}"
+loginBonus_message_getItem	{0} received!
+loginBonus_period_dateFormat	Ends: {0}
+map_presentList_deliveryDate	Date
+map_presentList_expiredAt	Expires
+map_presentList_receivedDate	Accepted
+map_presentList_giveButton	Accept
+map_presentList_bulkReceiptButton	Accept All
+map_presentList_tabNotReceived	New Gifts
+map_presentList_tabReceived	Accepted
+menuList_notice_button	Notices
+menuList_home_button	Home
+menuList_myProfile_button	Profile
+menuList_album_button	Album
+menuList_friendList_button	Friends
+menuList_exchange_button	Exchange
+menuList_inventory_button	Items
+menuList_option_button	Options
+menuList_achievement_button	Achievements
+menuList_starShop_button	Star\nShop
+menuList_playerStar_button	Your\nStars
+menuList_takeOverData_button	Data\nTransfer
+menuList_help_button	FAQ
+menuList_support_button	Support
+menuList_termsOfService_button	Terms of Use
+menuList_title_button	Back to\nTitle
+memorialStory_storyCell_eventPublishAt	{0}/{1}/{2}~
+memorialStory_storySelect_message	Select the story you want to watch.
+mission_complete_notice	Mission Clear!
+mission_tab_normal	Regular
+mission_tab_event	Limited
+mission_bulk_receive	Accept All
+mission_detail_button	Details
+mission_receive_button	Accept
+mission_noMissionNormal_message	No Regular Missions available.
+mission_noMissionEvent_message	No Limited Missions available.
+mission_transitionButton_live	Live
+mission_transitionButton_practice	Practice
+mission_transitionButton_story	Story
+mission_transitionButton_training	Training
+mission_transitionButton_member	Members
+mission_transitionButton_skillPractive	Skill Practice
+mission_transitionButton_map	Map
+mission_transitionButton_costume	Costumes
+mission_transitionButton_profile	Profile
+mission_transitionButton_friend	Friends
+multiPlay_abDownloadRetryableError_message	Connection error.\nPlease try again.
+multiPlay_deckSelect_message	Select a difficulty and tap "Ready!"
+multiPlay_entrance_lockRoomMessage	Raise your\nMain Band's Power!
+multiPlay_entrance_outOfTerm	Daily Rooms are currently closed.\nPlease see the notices for details.
+multiPlay_ingameError_message	Connection was interrupted.\nReturning to home screen.
+multiPlay_limitedTimeOverDialog_title	Expired
+multiPlay_limitedTimeOverDialog_contents	This room will be disbanded.
+multiPlay_liveReward_waitingMessage	Waiting for other members...
+multiPlay_matching_decideButton	Start Now
+multiPlay_matching_liveDifficultyCaption	Room
+multiPlay_matching_memberDecision	Your band is ready! Select a song!
+multiPlay_matching_nextDifficulty	Your band is ready! Select a difficulty!
+multiPlay_matching_rewardTypeCaption	Type
+multiPlay_matching_waitingMessage	Matching... Please wait while we find more band members!
+multiPlay_messageSelectDifficulty_label	Select a difficulty and tap "Ready!"
+multiPlay_messageWaitingMember_label	Waiting for other members to choose their difficulties!
+multiPlay_musicSelect_randomSelect	Song selection set to random!
+multiPlay_musicShuffle_musicDecision	Song has been chosen! Choose a difficulty!
+multiPlay_musicShuffle_waitingForMember	Waiting for other members to choose their songs!
+multiPlay_result_canNotApplyButtonLabel	Request unavailable.
+multiPlay_result_membersScore	Member Scores
+multiPlay_result_membersScore2lines	Member\nScores
+multiPlay_result_waitingMember	Waiting for other members to finish...
+multiPlay_roomDisconnected_message	Connection was interrupted.\nReturning to room select.
+multiPlay_roomEntryFailed_message	Connection not found.\nPlease try again from a stable network.
+multiPlay_roomEntryPhotonError_message	Connection error.\nPlease try again from a stable network.
+multiPlay_roomNetworkError_message	Connection error.\nReturning to room select.\nPlease try again from a stable network.
+multiPlay_roomNetworkError_messageToHome	Connection was interrupted.\nReturning to home screen.
+multiPlay_userCell_notSelectState	Selecting...
+multiPlay_userCell_selectedState	Ready!
+multiPlay_userCell_selectingMusic	Selecting...
+multiPlay_userCell_selectedMusic	OK!
+multiPlay_userCell_waitingEmptyState	Finding members...
+multiPlay_userCell_waitingState	Waiting...
+multiPlay_userDownloadProgress_done	Ready♪
+multiPlay_userDisconnected_message	  lost connection.\nReturning to room select.
+multiPlay_userDisconnected_messageWithName	{0} lost connection.\nReturning to room select.
+multiPlay_versusMatchingType_event	Event Songs
+multiPlay_versusMatchingType_select	Free Songs
+multiPlay_waitingUser_message	Waiting for other members...
+musicSelect_musicInfoTabCaption_difficulty	Select Difficulty
+musicSelect_musicInfoTabCaption_howToGet	Unlock
+myProfile_contentCaption_clearMusicNum	Cleared Songs
+myProfile_contentCaption_fullComboMusicNum	Full Combos
+myProfile_contentCaption_comment	Comment
+myProfile_contentCaption_playerName	Player Name
+myProfile_contentCaption_rank	Rank
+myProfile_closedCaption_message	Hidden
+myProfile_closedCaption_word	Hidden
+myProfile_buttonCaption_changeDegree	Change Title
+notice_insideGame_title	Game Notices
+notice_outsideGame_title	BanG Dream! Notices
+notice_maintenance_title	Maintenance Info
+presentList_logEmpty_message	No presents accepted in the past week.
+presentList_noData_message	No presents received.
+rhythmgame_skillTelop_playEncoreSkill	Skill Encore!
+rhythmgame_skillTelop_playMultiSkill	[FDE333]{0}[-]\nSkill Active!
+rhythmgame_skillTelop_playMultiEncoreSkill	[FDE333]{0}[-]\nSkill Encore!
+rhythmgame_skillTelop_playSkill	Skill Active!
+rhythmgame_titleBoard_arranger	Arrangement:
+rhythmgame_titleBoard_lyricist	Lyrics:
+rhythmgame_titleBoard_composer	Composer:
+stamp_rareStamp_notHaveStamp	No Rare Stamp owned.
+stamp_rareStamp_obtainingRoute	Rare Stamp can be obtained through Events.
+stamp_tabName_history	History
+stamp_tabName_rare	Rare Stamp
+stamp_tabName_standard	Stamp
+story_select_captionSynopsis	Synopsis
+story_select_howToGet	Unlock
+story_select_lock	This story is locked.
+story_select_noStory	No stories available.
+story_select_readButton	Watch
+story_select_releaseConditionBand	・Unlocked at {0}\nBand Rank {0}.
+story_select_releaseConditionAllBand	・Unlocked at\nall bands reaching\nBand Rank {0}.
+story_select_transitionMemorialStoryMessage	Continue to watch this band's\nantics through their Story Memories.
+story_select_transitionMemorialStory	To Story Memories
+story_select_lockMessageLater	・After some time has passed.
+story_select_lockMessageAllBandRank	・When all bands reach Band Rank {0}.
+story_select_lockMessageBandRank	・When {0} reaches Band Rank {1}.
+story_select_lockMessageUserRank	・When you reach Player Rank {0}.
+storyEvent_complete_story	All stories have been unlocked.
+storyEvent_ranking_description	In the case of an Event Pts tie, the first to record the score will be placed higher.
+storyEvent_ranking_tabMyRank	Your Rank
+storyEvent_ranking_tabTopXXX	Top 10
+storyEvent_ranking_noDataWithMyRank	You have not taken part in this Event.
+storyEvent_ranking_noDataWithTopXXX	Rankings are currently being calcualted.
+storyEvent_requireNextStory	Next Story
+storyEvent_result_baseEventPoint	Total Event Pts
+storyEvent_result_gotEventPoint	Event Pts Earned
+storyEvent_result_gotEventBadges	Badges Earned
+storyEvent_result_gotEventMedals	Medals Earned
+storyEvent_result_memberBonus	Member Bonus
+storyEvent_result_nextEventPoints	Next Event Pts Prize
+storyEvent_result_requireNextEventFormat	{0}
+storyEvent_result_scoreBonus	Score Bonus
+storyEvent_result_usedLiveBoost	Live Boosts Used
+storyEvent_reward_pickUpMemberButton	Spotlight Member
+storyEvent_reward_rankingRewardDescription	Ranking Prizes can be received by logging in to the game within two weeks of the Event ending.
+storyEvent_reward_tabRankingReward	Ranking Prizes
+storyEvent_reward_tabTotalEventPointReward	Event Pts Prizes
+storyEvent_reward_totalEventP	Total Event Pts
+storyEvent_eventLoginReward_dialogPopup	Event Login Bonus
+storyEvent_eventLoginReward_received	Present received!\n※The next present will become available after <#8:00#>.
+storyEvent_story_description	Watch Event Stories!
+storyEvent_exchange_description	Get new items!
+storyEvent_exchange_limitBalloon	 available
+bandstory_rewardList	Band Rank Prizes
+tutorial_slideTitle_a	Let's begin!
+tutorial_slideTitle_b	Learn how to play a live show!
+tutorial_slideTitle_c	It's over! Very well done♪
+tutorial_slideTitle_d	Watch a random conversation!
+tutorial_slideTitle_e	Tutorial cleared!
+tutorial_slideTitle_areaItemEnter	Buy an Area Item!
+tutorial_slideTitle_areaItemPurchase	Area Item has been set!
+tutorial_slideTitle_Costume	Change a character's costume!
+tutorial_slideTitle_Exchange	Get some useful items at the Exchange!
+tutorial_slideTitle_friend	Make some Friends!
+tutorial_slideTitle_multiPlay	Perform with other players in Multi Live!
+tutorial_slideTitle_musicShop	Get hold of new songs!
+tutorial_slideTitle_training	Train your band members!
+tutorial_slideTitle_bandStory	Watch a Band Story!
+tutorial_slideTitle_practice	Practice with your band members!
+tutorial_slideTitle_situationDetail	Watch an Episode!
+tutorial_slideTitle_skillPractice	Try out Skill Practice!
+tutorial_slideWindow_liveButton	You got new songs!\nTry them out at a live show♪
+tutorial_slideWindow_storyButton	Follow the Main Story\nfrom the Story screen♪
+versusEvent_result_noBonusMember_Description	In VS Live Events, your Perform Pts,\nbased on your performance rank within the band,\nwill be added to your score bonus,\ncalculated from your song score,\nto form the total number of Event Pts received.
+versusEvent_top_attention	You cannot earn Event Pts from any mode other than VS Live.
+warehouse_checkEffect	Check Effects
+warehouse_checkEffectTitle	Area Item Effects
+warehouse_checkEffectTitleAfter	Area Items Switched
+warehouse_notHave	You do not own any\nArea Items to set in this area.
+warehouse_recommend	Auto Set
+word_achievementFee	Rewards
+word_actOnSettlement	資金決済に基づく表記
+word_areaItemBonus	Area Item Bonus
+word_attribute_cool	Cool
+word_attribute_happy	Happy
+word_attribute_powerful	Powerful
+word_attribute_pure	Pure
+word_all	All
+word_band	Band
+word_bandEdit	Edit Band
+word_bandParameter	Band Stats
+word_bandrank	Band Rank
+word_bandrankEXP	Band Rank EXP
+word_betweenFrom	~
+word_birthDay	Birthday
+word_buy	Buy
+word_canNotApplyFriendRequest	Request unavailable.
+word_change	Change
+word_challengeOK	Challenge Available
+word_challengeNG	Challenge Complete
+word_challengeLive	Live Challenge
+word_challengeLiveBonus	Live Challenge Bonus
+word_coin	Coins
+word_coinCount	Coins x {0}
+word_confirm	Confirmation
+word_countNum	 x {0}
+word_countUnit	times
+word_constellation	Star Sign
+word_contribution_points	Perform Pts
+word_copy	Copy
+word_copyId	Copy ID
+word_costume	Costume
+word_currencyGuidelines	Game Currency Guidelines
+word_cv	VA
+word_day	 days
+word_dayNumber	Day {0}
+word_dateFormat_MMDDHHmm	MM/dd HH:mm
+word_dateFormat_MD	M/d
+word_dateFormat_yyyyMMDD	yyyy/MM/dd
+word_dateFormat_yyyyMMDDHHmm	yyyy/MM/dd HH:mm
+word_default	Default
+word_defaultButton	Reset to\ndefault
+word_degree	Title
+ward_detail	Details
+word_downloadingData	NOW LOADING
+word_encoreButtonLabel	Encore
+word_entry	Entry
+word_entryUserId	Entry Player ID
+word_equip_costume	Wearing
+word_expire	Ends {0}
+word_exOk	OK!
+word_exp	EXP
+word_eventHighScore	Event High Score
+word_eventScore	Event Score
+word_event_item_badge_count	
+word_favoriteFood	Favorite Food
+word_free	Free
+word_friend	Friend
+word_alreadyInviteFriend	Request Sent
+word_friendInvitation	Friend Invite
+word_friendInvitationRoom	Invite Room
+word_friendRelease	Remove Friend
+word_friendRequest	Friend Request
+word_fullVoice	Fully Voiced
+word_getCP	Challenge Pts Earned
+word_getExp	EXP Earned
+word_hatefulFood	Least Favorite Food
+word_have	Owned
+word_haveCP	Challenge Pts
+word_haveStar	Owned
+word_highScore	High Score
+word_highScoreRating	High Score Rating
+word_hour	 hrs
+word_hobby	Hobby
+word_howToGet	Unlock
+word_idSearch	ID Search
+word_item	Item
+word_itemCount	{0} x {1}
+word_lastLoginAt	Last Login
+word_lastLoginAtTime	Last Login
+word_leader	Leader
+word_level	Level
+word_levelAndNum	Level {0}
+word_levelUp	Level Up
+word_life	Energy
+word_liveBoost	Live Boost
+word_liveBoost_limitFormat	/{0}
+word_liveBoost_recoveryTimeNone	-- : --
+word_liveReward	Live Prizes
+word_liveSetting	Live Settings
+word_liveStart	Start!
+word_lv	Lv.
+word_mainBandTotalParam	Main Band Power
+word_max	MAX
+word_medalUnit	
+word_memberExp	Member EXP
+word_memberUnit	{0}
+word_michelleSeal	Michelle Stickers
+word_michelleUnit	{0}
+word_minute	 mins
+word_modeNormal	Regular
+word_modeEvent	Event
+word_modeSpecial	Special
+word_moreThan	+
+word_music	Song
+word_musicTag_cover	Cover
+word_musicTag_original	Original
+word_musicLevel	Song Level
+word_nothing	None
+word_notPublish	Hidden
+word_off	OFF
+word_on	ON
+word_open	Open
+word_other	Other
+word_p	Pts
+word_paid	Paid
+word_paidstar	Paid Stars
+word_part	Part
+word_percentage	%
+word_place	Area
+word_playDate	Play Time
+word_player	Player
+word_playerId	Player ID
+word_possessionChallengeP	Challenge Pts
+word_possessionMedalFormat	{0}
+word_private	Private
+word_privateUnlockFinish	Room Opened
+word_putItem	Set
+word_qualificationtTotalHighScore	Total Qualifying Score
+word_qualificationtHighScore	Qualifying Score
+word_qualificationtSecondScore	Arena Qualifying Score
+word_randomSelect	Random
+word_rankExp	Rank EXP
+word_rankGrade	
+word_rankGradeFromAtoB	{0}?{1}
+word_ranking	Ranking
+word_readyOk	Ready!
+word_recommend	Auto
+word_recommendDeck	Auto Band
+word_remain	Left
+word_require	Needed
+word_requireItem	Items Needed
+word_requestCancel	Cancel Request
+word_reset	Reset
+word_rest	in
+word_reward	Prizes
+word_rewardList	Prizes
+word_rewardItemName	Items Received
+word_rule	Rules
+word_unlock_room	Open Room
+word_unlock_room_finish	Room Opened
+word_school	School
+word_school_middle	
+word_school_high	HS
+word_schoolYear	Student
+word_schoolYearSuffix	Year
+word_secret	???
+word_selfIntroduction	About Me
+word_score	Score
+word_scoreRank	Score Rank
+word_second	 secs
+word_select	Select
+word_selected	Selected
+word_skill	Skill
+word_setting	Settings
+word_shop	Shop
+word_skillLevel	Skill Lv.
+word_sort_createdAt	Date
+word_sort_level	Level
+word_sort_paramSumDetail	Power Details
+word_sort_paramSum	Power
+word_sort_paramPerformance	Performance
+word_sort_paramTechnique	Technique
+word_sort_paramVisual	Visuals
+word_sort_rarity	Rarity
+word_sort_skillLevel	Skill Lv.
+word_specifiedCommercialTransactionLaw	特定商取引法に基づく表記
+word_spend	Use
+word_spendNo	None
+word_star	Stars
+word_starCount	Stars x {0}
+word_starShop	Star Shop
+word_start	Start
+word_stamp	Stamp
+word_stampRare	Rare Stamp
+word_targetMusic	Target Song
+word_targetScore	Target Score
+word_times	x
+word_times_simple	x
+word_toNext	Next
+word_top	Top
+word_total	Total
+word_totalScore	Total Score
+word_training	Training
+word_until	
+word_untilExchange	 Ends
+word_updateHighscore	New High Score!
+word_usedCard	Active
+word_waitEnterRoom	Waiting
+ambition_word_play	Play
+ambition_word_members	members
+ambition_word_stickers	Stickers
+ambition_inventory_emptyItemMessage	This Item can be obtained by successfully completing Live Shows.
+ambition_inventory_emptyLiveBoostMessage	This Item can be obtained by completing Missions.
+menuList_socialMedia_button	Social Media
+dialog_liveBoostEmptyVideo_title	Ad Check
+dialog_liveBoostEmptyVideo_description	You can recover 1 Live Boost by watching an ad.\nWould you like to watch an ad?
+dialog_liveBoostEmptyVideo_noRecoveryButton	No Recover
+dialog_liveBoostEmptyVideo_recoveryButton	Recover
+dialog_liveBoostLack_emptyLiveBoostVideo	Not Available
+dialog_liveBoostLack_healLBVideoButton	Ad
+dialog_liveBoostRecoverVideo_title	Confirmation
+dialog_liveBoostRecoverVideo_message	Watching an ad\nto recover 1 Live Boosts.\nAre you sure?
+dialog_liveBoostRecoverVideo_buttonOK	Recover
+dialog_liveBoostRecoverVideo_buttonCancel	Cancel
+dialog_liveBoostRecoverVideoResult_title	Live Boost Recovery
+dialog_liveBoostRecoverVideoResult_message	1 Live Boosts recovered!
+dialog_liveBoostRecoverVideoResult_buttonOK	Start
+dialog_liveSettings_systemRewardedVideo	Ad Check
+dialog_liveBoostRecoverVideoEnd_title	Live Boost Recovery
+dialog_liveBoostRecoverVideoEnd_message	1 Live Boosts recovered!
+dialog_liveBoostRecoverVideoEnd_buttonOK	OK
+dialog_liveBoostRecoverVideoFailed_title	Live Boost Recovery
+dialog_liveBoostRecoverVideoFailed_message	Live Boost was not awarded successfully.\nLive Boost may be awarded upon logging back in if you watched the video until the end.
+dialog_liveBoostRecoverVideoFailed_buttonOK	OK

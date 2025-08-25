@@ -1,0 +1,27 @@
+
+62_hammock.png
+size: 450,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_oku
+  rotate: false
+  xy: 2, 83
+  size: 221, 275
+  orig: 221, 275
+  offset: 0, 0
+  index: -1
+frame_temae
+  rotate: true
+  xy: 225, 2
+  size: 165, 186
+  orig: 165, 186
+  offset: 0, 0
+  index: -1
+hanmock
+  rotate: true
+  xy: 225, 169
+  size: 189, 223
+  orig: 189, 223
+  offset: 0, 0
+  index: -1
