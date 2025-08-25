@@ -1,0 +1,174 @@
+
+bandstory3_aflo_ran.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: true
+  xy: 1487, 1572
+  size: 155, 193
+  orig: 155, 193
+  offset: 0, 0
+  index: -1
+armR
+  rotate: false
+  xy: 1, 119
+  size: 288, 579
+  orig: 288, 579
+  offset: 0, 0
+  index: -1
+ase
+  rotate: false
+  xy: 846, 1130
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+ase2
+  rotate: false
+  xy: 1, 1
+  size: 13, 20
+  orig: 13, 20
+  offset: 0, 0
+  index: -1
+ase3
+  rotate: false
+  xy: 246, 97
+  size: 8, 21
+  orig: 8, 21
+  offset: 0, 0
+  index: -1
+ase_01
+  rotate: false
+  xy: 1681, 1657
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+ase_02
+  rotate: false
+  xy: 1784, 1763
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 1, 1278
+  size: 1058, 753
+  orig: 1058, 753
+  offset: 0, 0
+  index: -1
+earrings_L
+  rotate: false
+  xy: 314, 705
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+earrings_R
+  rotate: true
+  xy: 290, 666
+  size: 32, 23
+  orig: 32, 23
+  offset: 0, 0
+  index: -1
+eye_bright
+  rotate: false
+  xy: 1894, 1986
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+guitar
+  rotate: false
+  xy: 1, 699
+  size: 312, 578
+  orig: 312, 578
+  offset: 0, 0
+  index: -1
+hair_back
+  rotate: false
+  xy: 587, 900
+  size: 76, 74
+  orig: 76, 74
+  offset: 0, 0
+  index: -1
+hair_backL
+  rotate: false
+  xy: 1784, 1810
+  size: 109, 221
+  orig: 109, 221
+  offset: 0, 0
+  index: -1
+hair_center
+  rotate: false
+  xy: 1359, 1488
+  size: 102, 78
+  orig: 102, 78
+  offset: 0, 0
+  index: -1
+hair_centersideR
+  rotate: true
+  xy: 685, 977
+  size: 48, 60
+  orig: 48, 60
+  offset: 0, 0
+  index: -1
+hair_mesh
+  rotate: true
+  xy: 1, 22
+  size: 96, 244
+  orig: 96, 244
+  offset: 0, 0
+  index: -1
+hair_sideR
+  rotate: false
+  xy: 685, 1026
+  size: 160, 251
+  orig: 160, 251
+  offset: 0, 0
+  index: -1
+handL
+  rotate: false
+  xy: 314, 739
+  size: 272, 235
+  orig: 272, 235
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1060, 1286
+  size: 280, 298
+  orig: 280, 298
+  offset: 0, 0
+  index: -1
+hipclothL
+  rotate: false
+  xy: 314, 975
+  size: 370, 302
+  orig: 370, 302
+  offset: 0, 0
+  index: -1
+hipclothR
+  rotate: false
+  xy: 1487, 1728
+  size: 296, 303
+  orig: 296, 303
+  offset: 0, 0
+  index: -1
+legL
+  rotate: false
+  xy: 1060, 1567
+  size: 426, 464
+  orig: 426, 464
+  offset: 0, 0
+  index: -1
+shoulderL
+  rotate: false
+  xy: 846, 1143
+  size: 187, 134
+  orig: 187, 134
+  offset: 0, 0
+  index: -1
