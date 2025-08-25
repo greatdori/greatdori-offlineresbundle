@@ -1,0 +1,13 @@
+
+NewArrival_2003_nanami.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tex_newBand01_pose_nanami
+  rotate: false
+  xy: 0, 222
+  size: 823, 601
+  orig: 823, 601
+  offset: 0, 0
+  index: -1
