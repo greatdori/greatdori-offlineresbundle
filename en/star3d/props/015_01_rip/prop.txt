@@ -1,0 +1,1 @@
+{"Character":"Character_000005","Shadows":[{"Type":0,"Position":{"x":0.0,"y":0.0,"z":0.0},"Rotation":0.0,"Scale":{"x":2.2527999877929689,"y":1.2037400007247925}}]}
