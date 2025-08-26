@@ -1,0 +1,130 @@
+﻿
+*---------------------- HEADER FIELD
+
+#PLAYER 1
+#GENRE 
+#TITLE 
+#ARTIST 
+#BPM 85
+#PLAYLEVEL 1
+#RANK 3
+
+
+#LNTYPE 1
+
+#WAV01 adayume.wav
+#WAV03 bd.wav
+#WAV05 slide_a.wav
+#WAV06 slide_end_a.wav
+#WAV07 slide_b.wav
+#WAV08 slide_end_b.wav
+#WAV0A flick.wav
+#WAV0C cmd_fever_ready.wav
+#WAV0D cmd_fever_start.wav
+#WAV0E cmd_fever_end.wav
+#WAV0G fever_note.wav
+#WAV0H fever_note_flick.wav
+#WAV0I fever_note_slide_a.wav
+#WAV0J fever_note_slide_end_a.wav
+#WAV0K slide_end_flick_a.wav
+#WAV0L slide_end_flick_b.wav
+#WAV0N skill.wav
+
+
+*---------------------- MAIN DATA FIELD
+
+
+#00001:01
+
+#00151:03
+
+#00251:03
+
+#00355:03
+
+#00455:03
+
+#00512:0N
+
+#00614:03
+
+#00751:03
+
+#00851:03
+
+#00914:0N
+
+#01012:03
+
+#01155:03
+
+#01255:03
+
+#01312:0N
+
+#01411:03
+
+#01514:03
+
+#01601:0C
+#01615:03
+
+#01711:000G
+#01712:0G
+
+#01814:0G
+#01815:000G
+
+#01911:0G
+#01915:000G
+
+#02052:0303
+
+#02101:0D
+#02114:03
+
+#02212:0N
+
+#02351:03
+#02355:03
+
+#02451:03
+#02455:03
+
+#02512:03
+
+#02611:0003
+#02615:03
+
+#02701:000000000000000E
+#02752:03000003
+#02754:03000003
+
+#02815:03
+
+#02911:0N
+
+#03015:03
+
+#03151:03
+#03154:03
+
+#03251:03
+#03254:03
+
+#03312:0003
+#03315:0N
+
+#03411:0003
+#03414:03
+
+#03552:03000003
+#03555:03000003
+
+#03611:03
+#03615:03
+
+#03712:0000000000000003
+#03714:0000000000000003
+
+
