@@ -1,0 +1,13 @@
+
+NewArrival_2003_rui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/tex_newBand01_pose_rui
+  rotate: false
+  xy: 0, 6
+  size: 868, 862
+  orig: 868, 862
+  offset: 0, 0
+  index: -1

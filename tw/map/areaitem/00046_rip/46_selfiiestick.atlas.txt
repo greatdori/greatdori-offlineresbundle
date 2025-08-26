@@ -1,0 +1,27 @@
+
+46_selfiiestick.png
+size: 286,167
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F_itemL5
+  rotate: true
+  xy: 178, 16
+  size: 149, 106
+  orig: 149, 106
+  offset: 0, 0
+  index: -1
+areaItemRes00046
+  rotate: false
+  xy: 2, 9
+  size: 174, 156
+  orig: 174, 156
+  offset: 0, 0
+  index: -1
+skeletonsizeimage
+  rotate: false
+  xy: 2, 2
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
