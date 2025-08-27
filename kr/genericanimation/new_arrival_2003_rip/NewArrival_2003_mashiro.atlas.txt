@@ -1,0 +1,13 @@
+
+NewArrival_2003_mashiro.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tex_newBand01_pose_mashiro
+  rotate: false
+  xy: 0, 0
+  size: 820, 861
+  orig: 820, 861
+  offset: 0, 0
+  index: -1

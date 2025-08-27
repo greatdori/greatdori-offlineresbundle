@@ -1,0 +1,1195 @@
+tutorialarea_shop_title,판매 목록
+area_shop_levelMaxSoldOut,더 이상\n레벨 업을 할 수 없습니다.
+area_shopCouplingTalkUnlock_message,{0} 레벨[-]{1} {2}[-]{3}에서 오픈[-]
+band_deckEdit_setupMainBandButton,메인\n설정
+band_deckEditSituationSelect_memberListLabel,멤버 목록
+band_deckEditSituationSelect_caption,교체할 멤버를 선택하자!
+band_exchange_cellExchangeButton,교환
+band_exchange_cellExchangeUpperLabel,교환 한도에 도달하여\n더 이상 교환할 수 없습니다.
+band_exchange_cellExchangeUpperLabel_isHaving,획득하셨으므로\n교환 할 수 없습니다.
+band_exchange_cellExpirationLabel,{0}까지
+band_exchange_cellResetBalloonMonthly,매월 1일에\n초기화
+band_exchange_cellResetBalloonWeekly,매주 월요일에\n초기화
+band_exchange_headerGetSealButton,미셸 스티커를 획득
+band_exchange_duplicatedDialogMessage,이미 선물에 있어 교환할 수 없습니다.
+band_exchange_expiresDialogMessage,교환 기간이 종료되어 교환할 수 없습니다.
+band_exchange_expiresDialogTitle,종료
+band_exchange_expiresLabel,교환 기간
+band_exchange_eventTitle,교환 아이템 목록 「{0}」
+band_memberList_waitingRoomButton,대기실
+band_practice_emptyTicket,연습티켓이 없습니다.
+band_situationDetail_changeIllustButton,일러스트 변경
+band_situationDetail_episodeButton,에피소드
+band_situationDetail_expandButton,확대
+band_situationDetail_forLevelUp,앞으로
+band_situationDetail_memorialEpisodeButton,메모리얼 에피소드
+band_situationDetail_practiceButton,연습
+band_situationDetail_trainingButton,특훈
+band_situationDetail_emptyEpisode,이 멤버는 에피소드가 없습니다.
+band_situationDetail_buttonSkillPractice,스킬\n연습
+band_skillPractice_emptyTicket,스킬 연습티켓을 소지하고 있지 않습니다.
+band_skillPractice_tabSkillTicket,티켓
+band_skillPractice_tabWaitingRoom,대기실
+band_sortingKind_level,레벨
+band_sortingKind_paramAll,종합력
+band_sortingKind_paramPerformance,퍼포먼스
+band_sortingKind_paramTechnique,테크닉
+band_sortingKind_paramVisual,비주얼
+band_sortingKind_rarity,레어도
+band_sortingKind_timestamp,입수순
+band_sortingKind_skillLevel,스킬Lv.
+band_sortingOrder_asc,오름순
+band_sortingOrder_desc,내림순
+band_top_deckEditButton,밴드 편성
+band_top_exchangeShopButton,교환소
+band_top_memberListButton,멤버 목록
+band_top_profileButton,프로필
+band_training_emptyMessage,특훈이 가능한 멤버가 없습니다.
+band_waitingRoom_allExchangeSelectButton,전원 선택
+band_waitingRoom_emptyMemberMessage,멤버가 없습니다.
+band_waitingRoom_exchangeButton,교환
+band_waitingRoom_getMichelleSealLabel,미셸 스티커 획득
+band_waitingRoom_selectedCardLabel,{0}명 선택 중
+bandEdit_editError_title,편성 오류
+bandEdit_memberShortageError_contents,메인 밴드는 멤버를 5명 설정해주세요.
+challengeEvent_common_scoreRankingCheckButton,스코어 랭킹
+challengeEvent_common_scoreRankingRewardCheckButton,스코어 랭킹 보상
+challengeEvent_common_deckBonus,편성 보너스
+challengeEvent_top_challengeLiveEvent,챌린지 LIVE 이벤트
+challengeEvent_top_description,챌린지P를 모아서 챌린지 음악을 플레이!
+challengeEvent_result_scoreaAttackCP_Description,※챌린지 음악에선 챌린지P를 획득할 수 없습니다.
+challengeEvent_result_scoreaAttackMember_Description,※챌린지 음악에서 획득하는 이벤트P는\n 멤버 보너스가 적용되지 않습니다.
+challengeEvent_ranking_description,하이 스코어는 전체 난이도 중 가장 높은 스코어를 적용합니다. 점수가 같은 경우에도 순위는 개별적으로 나뉘어 다르게 적용됩니다.
+characterSelect_description,캐릭터를 선택해주세요.
+commonEvent_complete_storyBR,모든 스토리를\n오픈하였습니다.
+commonEvent_complete_reward,모든 보상을 획득했습니다.
+commonEvent_currentGrade,현재 순위
+commonEvent_eventNotEntry,이벤트가 종료되었습니다.\n다음 이벤트를 기대해주세요.
+commonEvent_eventPoint,이벤트P
+commonEvent_eventPRanking,이벤트P 랭킹
+commonEvent_getEventPoint,적립 이벤트P
+commonEvent_nextStory,다음 스토리
+commonEvent_silde_title,이용방법
+commonEvent_requireNextReward,다음 보상
+commonEvent_rewardDistributionDescription,보상은 {0}경에 지급될 예정입니다.
+commonEvent_point,{0}P
+commonEvent_ranking_personal,{0}위
+commonEvent_releasedStory,{0}/{1}화 오픈 완료
+commonEvent_status_open,진행기간
+commonEvent_status_open_day,진행일
+commonEvent_status_collection,집계기간
+commonEvent_status_result,발표기간
+commonEvent_story_descriptionLive,이벤트P를 획득!
+commonEvent_totalPoint,누계 이벤트P
+commonEvent_eventBoxGacha_title,마리나 씨한테 보상을 받자!
+costume_defaultDescription,편성 멤버 의상
+costume_defaultDescriptionDetail,※메인 밴드로 편성되지 않은 멤버는\n「스테이지」의상으로 설정됩니다.
+degreeSelect_currentDegree_caption,현재 칭호
+degreeSelect_message_notExist,획득한 칭호가 없습니다.
+degreeSelect_selectDegree_eventTab,이벤트
+degreeSelect_selectDegree_normalTab,일반
+degreeSelect_selectDegree_caption,변경할 칭호
+difficulty_easy,EASY
+difficulty_normal,NORMAL
+difficulty_hard,HARD
+difficulty_expert,EXPERT
+dialog_achievement_a,A
+dialog_achievement_b,B
+dialog_achievement_c,C
+dialog_achievement_combo_english,COMBO
+dialog_achievement_combo,콤보
+dialog_achievement_fullCombo,풀 콤보
+dialog_achievement_reward,달성 보상
+dialog_achievement_s,S
+dialog_achievement_ss,SS
+dialog_achievement_score,스코어
+dialog_achievement_scoreRank,스코어 랭크
+dialog_achievement_viewReward,달성 보상 목록
+dialog_ageAuth_attention,※도중에 변경할 수 없습니다.※
+dialog_ageAuth_errorMessage,생년월일이 올바르지 않습니다.
+dialog_ageAuth_message,생년월일을 입력해주세요.
+dialog_ageAuth_title,연령 확인
+dialog_ageAuth_wordChristianEra,서기
+dialog_ageAuth_wordMonth,월생
+dialog_ageAuth_wordYear,년
+dialog_ageAuthDone_message,[505050]나이를 확인했습니다.[-]
+dialog_ageAuthDone_title,입력완료
+dialog_ageAuthPurchaseError_title,구매 오류
+dialog_areaItemDetail_title,에어리어 아이템 상세
+dialog_areaShop_buyConfirm,이 에어리어 아이템을 구매하시겠습니까?
+dialog_areaShop_buyMusicConfirm,이 음악을 구매하시겠습니까?
+dialog_areaShop_levelupConfirm,이 에어리어 아이템을 레벨 업 하시겠습니까?
+dialog_areaShop_buyMusic,음악을 구매했습니다!
+dialog_areaShop_levelup,에어리어 아이템을 레벨 업 했습니다!
+dialog_areaShop_replace,설치된 에어리어 아이템을 변경하시겠습니까?
+dialog_areaShop_send,구매한 에어리어 아이템을 창고로 보냈습니다.
+dialog_areaShop_requireFormat,{0}/{1}
+dialog_areaShop_bandRank,밴드 랭크
+dialog_areaShop_requireItem,필요 아이템
+dialog_areaShop_requireItemAndBandRank,필요 아이템・밴드 랭크
+dialog_areaShopReplace_replaceButton,바꾸기
+dialog_areaShopReplace_putting,설치 중
+dialog_areaItemDetail_captionFlavor,설명
+dialog_areaItemDetail_captionLevel,레벨
+dialog_areaItemDetail_captionParamUp,에어리어 아이템 효과
+dialog_areaItemDetail_captionPlace,설치 장소
+dialog_areaItemDetail_effect,효과
+dialog_areaItemDetail_tabDetail,상세 정보
+dialog_areaItemDetail_tabTalk,발생 대화
+dialog_areaItemDetail_requireItem,필요 코인・아이템
+dialog_badPenalty_leftTime,기능 제한 중 : 앞으로
+dialog_badPenalty_message,고객님이 라이브에서 다른 고객님께 불편을 주신 행위가 확인되어 현재 일시적으로 기능이 제한된 상태입니다.\n양해 부탁 드립니다.
+dialog_badPenalty_title,주의
+dialog_bandNameChange_message,밴드 이름 변경이 완료되었습니다.
+dialog_bandNameChange_title,밴드 이름 변경
+dialog_bandNameChangeError_message,밴드 이름 변경에 실패했습니다. 
+dialog_bandRankReward_title,밴드 랭크 보상 목록
+dialog_bandRankReward_untilRankup,랭크 업까지
+dialog_bandRankReward_totalExp,누계 EXP
+dialog_bandRankReward_bandStoryDescription,밴드 스토리 1장 「{0}」
+dialog_bandRankReward_areaItemDescription,{0} 레벨 최대치 {1}이(가) 해방
+dialog_bandRankReward_rewardDegree,칭호 「{0}」
+dialog_bandRankReward_rewardList_title,보상 획득
+dialog_bandRankReward_rewardList_description,밴드 랭크 달성 보상을 획득했습니다!
+dialog_playerSearchError_message,지정된 플레이어를 찾을 수 없습니다.
+dialog_playerSearchError_title,에러
+dialog_playerSearch_description,플레이어의 ID를 입력해주세요.
+dialog_playerSearch_searchButtonLabel,검색
+dialog_billingNotSurpported_message,고객님의 디바이스로는 구매가 불가능합니다.
+dialog_expendCP_title,소비 챌린지P 선택
+dialog_expendCP_warning,※소비하는 챌린지P가 많을수록 이벤트P를 많이 얻을 수 있습니다.\n※소비하는 챌린지P의 양이 스코어에 영향을 주진 않습니다.\n※챌린지 음악에서는 라이브 부스트가 소비되지 않습니다.
+dialog_expendCP_shortage,소지한 챌린지P가 부족합니다.
+dialog_cheatError_message,통신 에러가 발생했습니다.\n타이틀로 이동합니다.
+dialog_costume_getMessage,새로운 의상을 획득했습니다.
+dialog_costume_getTitle,의상 획득
+dialog_deckEditBandName_title,밴드 이름 변경
+dialog_deckEditDeleteDeck_message,이 밴드를 초기화합니다.\n진행하시겠습니까?
+dialog_deckEditDeleteDeck_title,초기화
+dialog_deckEditDeleteDeckDone_message,밴드를 초기화했습니다.
+dialog_deckEditDeleteDeckDone_title,초기화
+dialog_deckEditDeleteDeckError_message,밴드 초기화에 실패했습니다.
+dialog_deckEditMainBandSelected_message,{0}을(를) 메인 밴드로 설정하였습니다.
+dialog_deckEditMainBandSelected_title,메인 밴드 변경
+dialog_deckEditNotEnoughMemberError_message,멤버 5명이 설정되지 않았습니다.\n메인 밴드로 설정할 수 없습니다.
+dialog_deckEditSameCharacterTitle,교체 확인
+dialog_deckNameEdit_attentionMessage,8자 이내
+dialog_deckNameEdit_message,밴드 이름을 입력해주세요.
+dialog_deckNameEdit_placeholder,밴드 이름
+dialog_deckNameEdit_title,밴드 이름
+dialog_deckRecommend_title,추천 편성
+dialog_deckRecommend_captionPriority,우선 순위
+dialog_deckRecommend_caption,우선하는 밴드
+dialog_deckRecommend_captionType,우선하는 타입
+dialog_deckRecommend_noConditions,선택 안 함
+dialog_deckRecommend_priorityType,타입
+dialog_deckRecommend_priorityBand,밴드
+dialog_deckRecommend_finishDeckChange,추천 편성으로 밴드를 편성했습니다.
+dialog_degreeDetail_title,칭호 상세
+dialog_degreeDetail_acquiredCondition,설명
+dialog_editUserName_title,플레이어 이름 입력
+dialog_editUserName_body,당신의 이름을 입력해주세요.
+dialog_editUserName_limitWord,10자 내외
+dialog_editUserName_canChangeMessage,※유저 이름은 나중에 변경할 수 있습니다.※
+dialog_encoreConfirm_title,다시 한번 라이브
+dialog_encoreConfirm_message,이전과 같은 룸으로 입장하여\n다시 한번 라이브를 진행하시겠습니까?
+dialog_episodeConfirm_message,「{0}」 에피소드를\n보시겠습니까?
+dialog_episodeConfirm_title,에피소드
+dialog_episodeParamUp_title,에피소드 달성 보너스
+dialog_episodeParamUp_description,의\n파라미터가 UP했습니다!
+dialog_episodePlay_title,에피소드
+dialog_episodeRead_title,에피소드 달성 보너스
+dialog_episodeUnlock_message,이하의 아이템을 소비하여\n「{0}」 에피소드를 오픈하시겠습니까?
+dialog_episodeUnlock_needLevelLabel,오픈 가능 레벨 {0}이상
+dialog_episodeUnlock_title,에피소드 오픈
+dialog_episodeUnlockedError_message,데이터가 잘못되었습니다.
+dialog_episodeUnlocked_message,「{0}」\n에피소드를 오픈했습니다.\n바로 보시겠습니까?
+dialog_episodeUnlocked_title,오픈 완료
+dialog_exchange_exchangeCount,교환 개수
+dialog_exchange_exchangeButton,교환
+dialog_exchange_exchangeOkButton,OK
+dialog_exchangeDone_title,교환했습니다!
+dialog_exchangeQuantity_title,몇 개를 교환하시겠습니까?
+dialog_exchangeConfirm_title,교환 개수를 확인해주세요
+dialog_exchange_periodOver,교환 기간이 종료되었습니다.
+dialog_event_close,이벤트가 종료되었습니다.
+dialog_eventResultBadUserAlert_title,주의
+dialog_eventResultBadUserAlert_message,고객님께서는 라이브에서\n일정 이상의 기준에 도달하지 못하여\n이벤트P 등을 획득할 수 없습니다.\n양해 부탁 드립니다.
+dialog_eventReward_title,보상 획득
+dialog_eventReward_description,누계 {0}P 달성 보상을 획득했습니다!
+dialog_eventRewardBoxGacha_deadlineDateFormat,MM/dd　HH:mm까지
+dialog_eventRewardBoxGacha_currentSet_title,{0}차 상자
+dialog_eventRewardBoxGacha_lastSet_title,{0}차 상자 이후
+dialog_eventRewardBoxGacha_attentionReward_title,주요 선물
+dialog_eventRewardBoxGacha_changeBox,다음 선물 상자로
+dialog_eventRewardBoxGacha_rewardList_title,선물 상자 내용물
+dialog_eventRewardBoxGacha_special,스페셜
+dialog_eventRewardBoxGacha_possession,소지 
+dialog_eventRewardBoxGacha_medalCount,장
+dialog_eventRewardBoxGacha_resetFinish_title,초기화 완료
+dialog_eventRewardBoxGacha_confirm,확인
+dialog_eventRewardBoxGacha_medalUnit,장
+dialog_eventRewardBoxGacha_rewardUnit,개
+dialog_eventRewardBoxGacha_resetFinish_message,다음 선물 상자로 이동했습니다.
+dialog_eventRewardBoxGacha_resetFinish_allReceivedMessage,선물 상자 내용물을 전부 수령하여\n다음 선물 상자로 이동했습니다.
+dialog_eventRewardBoxGacha_startContinueConfirm_message,{0} {1}장를 주고\n선물을 {2}개 받습니다.\n계속하시겠습니까?
+dialog_eventRewardBoxGacha_resetConfirm_message,선물 상자의 내용물을 초기화하고\n다음 선물 상자로 이동합니다.\n진행하시겠습니까?
+dialog_eventRewardBoxGacha_resetConfirm_warning,※ 선물 상자를 초기화하면\n이전 선물 상자로 되돌아갈 수 없습니다.
+dialog_eventRewardBoxGacha_rewardList_warning,스페셜 선물을 획득하면 모든 선물을\n획득하지 않아도 다음 선물 상자로 이동할 수 있습니다.
+dialog_eventRewardBoxGacha_rewardList_emptyBoxInfo,선물 상자 내용물을\n모두 획득하였습니다.\n다음 선물 상자로 이동합니다.
+dialog_eventRewardBoxGacha_shortageMedal,{0}이 부족합니다.
+dialog_eventRewardBoxGacha_remainFormat,{0}/{1}
+dialog_eventRewardBoxGacha_notEnoughEventBoxGachaItem,{0}가 부족합니다.
+dialog_eventRewardBoxGacha_eventBoxGachaInvalidTerm,종료되었습니다.
+dialog_eventRewardBoxGacha_helpViewTitle,마리나 씨의 선물 상자란?
+dialog_confirmFriendApplicationCancel_message,친구 신청을 취소합니다.\n진행하시겠습니까?
+dialog_confirmFriendApplicationCancel_title,확인
+dialog_confirmFriendRelease_message,친구를 취소합니다.\n진행하시겠습니까?
+dialog_confirmFriendRelease_title,확인
+dialog_friendApplicationCancel_message,친구 신청을 취소하였습니다.
+dialog_friendApplicationCancel_title,친구 신청 취소 완료
+dialog_friendInvite_inviteButton,초대
+dialog_friendInvite_message,친구를 초대합니다. 진행하시겠습니까?
+dialog_friendInvite_title,확인
+dialog_friendRelease_message,친구를 해제하였습니다.
+dialog_friendRelease_title,친구 해제 완료
+dialog_friendRequestSent_title,친구 신청 완료
+dialog_friendRecommend_messageCommon,\n\n다른 플레이어에게 친구 신청 후\n신청이 승인되면 친구가 됩니다.
+dialog_friendRecommend_messageOnCreateRoom,초대할 수 있는 친구가 없습니다.\n친구를 초대하기 위해서는\n다른 플레이어와 친구가 될 필요가 있습니다.
+dialog_friendRecommend_messageOnSearchRoom,친구와 초대 룸에서 라이브를 즐기기 위해서는\n다른 플레이어와 친구가 될 필요가 있습니다.
+dialog_friendRequestSent_message,친구 신청을 보냈습니다.
+dialog_friendRequestError_messageAlreadyApplied,이미 신청을 중입니다.
+dialog_friendRequestError_messageAlreadyMadeFriend,이미 친구입니다.
+dialog_friendRequestError_messageMyFriendsNumOrApplicationNumIsFull,친구 수 또는\n신청 승인 대기 목록이 가득 찼습니다.
+dialog_friendRequestError_messageOpponentFriendsNumOrApprovalPendingNumIsFull,상대의 친구 또는\n신청 승인 대기 목록이 가득 찼습니다.
+dialog_friendRoomSelect_comment,룸 이름
+dialog_friendRoomSelect_description,친구로부터 라이브 초대가 있습니다. 입장하고 싶은 룸을 선택해주세요.
+dialog_friendRoomSelect_enteringRoom,입장
+dialog_friendRoomSelect_roomCountLimit,※오래된 순부터 최대 30건이 표시됩니다.
+dialog_friendRoomSelect_roomCreator,룸 작성자
+dialog_friendRoomSelect_title,친구 초대 룸 선택
+dialog_friendRoomSelect_notInvite,현재 친구에게 초대받은 라이브가 없습니다.\n\n「프라이빗」에서 룸을 생성하여\n친구를 라이브에 초대할 수 있습니다.
+dialog_gachaConfirm_title,확인
+dialog_gachaConfirm_body,{0}을(를) 소비하여\n{1}을(를) 뽑습니다.\n진행하시겠습니까?
+dialog_gachaShortage_title,{0} 부족
+dialog_gachaShortageTicket_body,{0}이 부족합니다.
+dialog_gachaShortageStar_body,{0}가 부족합니다.\n스타 상점으로 이동하시겠습니까?
+dialog_gachaDetail_tabFrameOfGacha,출현 확률
+dialog_gachaDetail_tabFrameOfCommitment,확정 출현 확률
+dialog_gachaDetail_title,뽑기 상세
+dialog_gachaDetailInformation_tabTitle,뽑기 설명
+dialog_gachaDetailInformation_titleDescription,뽑기 개요
+dialog_gachaDetailInformation_titleTerm,진행 기간
+dialog_gachaDetailInformation_titleNewMemberInfo,신 멤버 소개
+dialog_gachaDetailInformation_titleStepInfo,STEP 내용
+dialog_gachaDetailInformation_titleSetInfo,세트 내용
+dialog_gachaDetailInformation_titleWarning,주의 사항
+dialog_gachaDetailMember_title,출현 멤버 목록
+dialog_gachaDetailRarity_title,레어도별 출현확률
+dialog_gachaDetail_member,{0} 멤버
+dialog_gachaPickup_title,멤버 상세
+dialog_gachaNotEnoughStarError_message,스타가 부족합니다.
+dialog_gachaNotEnoughTicketError_message,티켓이 부족합니다.
+dialog_gachaNotEnoughItemError_message,필요 아이템이 부족합니다.
+dialog_gachaNotFoundError_message,종료되었습니다.
+dialog_garupaCupSecondQualificationMusic_description1,걸파컵 회장 본예선 라이브가 시작됩니다.\n1차 예선 통과자가 도쿄 빅 사이트 회장의 본예선에서 플레이하여\n상위 랭크에 진입하신 분께서만 준결승에 진출하게 됩니다.\n※회장 본예선에서의 플레이 결과 이외에는 준결승 진출 대상에 포함되지 않습니다.
+dialog_garupaCupSecondQualificationMusic_description2,1차 예선을 통과하지 못하신 분이라도 회장의 본예선을 체험하실 수 있습니다.\n많은 플레이 부탁드립니다.
+dialog_garupaCupSecondQualificationMusic_title,걸파컵 회장 본예선 라이브
+dialog_garupaCupSecondQualificationResultLiveFinish_title,회장 본예선 라이브 종료
+dialog_garupaCupSecondQualificationResultLiveFinish_message,{0} 회장 본예선 TOP으로 돌아갑니다.\n계속하시겠습니까?[-]\n\n{1}※도쿄 빅 사이트에서 회장 본예선 라이브에\n참가하신 1차 예선 진출자분께서는\n스태프의 집계가 끝날 때까지\n결과화면에서 기다려 주시기 바랍니다.[-]
+dialog_garupaCupEntry_title,걸파컵 참가 신청
+dialog_garupaCupEntry_descriptionTop,[505050]1차 예선 라이브는 참가 신청을 하지 않아도 플레이하실 수 있습니다.\n걸파컵 참가를 희망하신다면[-][FE2349]1차 예선 라이브를 1회 이상 플레이하신 후\n참가 신청을 [-][505050]해주시길 바랍니다.\n1차 예선 종료 후 합계 예선 하이 스코어를 토대로\n걸파컵 회장 본예선 출전자를 선발합니다.[-]
+dialog_garupaCupEntry_descriptionResult,[505050]1차 예선 라이브는 참가 신청을 하지 않아도 플레이하실 수 있습니다.\n걸파컵 참가를 희망하신다면 참가 신청을 해주시길 바랍니다.\n1차 예선 종료 후 합계 예선 하이 스코어를 토대로\n걸파컵 회장 본예선 출전자를 선발합니다.[-]
+dialog_garupaCupEntry_entryAt,참가 신청 기간：{0}까지
+dialog_garupaCupEntry_confirm,걸파컵에 참가 신청하시겠습니까?
+dialog_highScoreRating_noDataMessage,음악의 플레이 데이터가 존재하지 않습니다.\n선택한 밴드의 음악을 플레이하자!
+dialog_hiSpeedSetting_checkMessage,속도 확인
+dialog_hiSpeedSetting_neverDisplayMessage1,다시 표시하지 않음
+dialog_hiSpeedSetting_neverDisplayMessage2,(옵션의 라이브 설정에서 변경할 수 있습니다.)
+dialog_hiSpeedSetting_title,라이브 설정
+dialog_hiSpeedSetting_subTitle,리듬 아이콘 속도
+dialog_itemDetail_title,아이템 상세
+dialog_inputError_characterEmpty,1자 이상 입력해주세요.
+dialog_inputError_characterLength,{0}자 이내로 입력해주세요.
+dialog_inputError_characterType,사용할 수 없는 글자가 포함되어 있습니다.
+dialog_inputError_ngWord,적절하지 않은 단어가 포함되어 있습니다.\n다시 입력해주세요.
+dialog_inputError_title,입력 오류
+dialog_liveBoostEmpty_title,확인
+dialog_liveBoostEmpty_description,라이브 부스트가 없습니다.\n라이브를 클리어해도 이벤트P를\n획득할 수 없지만 진행하시겠습니까?
+dialog_liveBoostEmpty_starShopButton,스타 상점
+dialog_liveBoostEmpty_liveButton,라이브
+dialog_liveBoostExpend_title,라이브 부스트 소비 설정
+dialog_liveBoostExpend_caption1,이벤트P
+dialog_liveBoostExpend_caption2,보상・EXP
+dialog_liveBoostExpend_rate,{0}배
+dialog_liveBoostExpend_settingButtonOn,설정 중
+dialog_liveBoostExpend_settingButtonOff,설정
+dialog_liveBoostExpend_description1,※소지한 수가 설정 소비 수 보다 부족한 경우 소지한 것을\n   모두 소비합니다.
+dialog_liveBoostLack_title,라이브 부스트 확인
+dialog_liveBoostLack_caption1,설정 소비 수
+dialog_liveBoostLack_message1,부스트 드링크 및 스타를 소비하여\n라이브 부스트를 회복할 수 있습니다.
+dialog_liveBoostLack_emptyLiveBoostDrink,소지하고 있지 않습니다.
+dialog_liveBoostLack_settingButton,소비 설정
+dialog_liveBoostLack_goButton,{0}개로 라이브
+dialog_liveBoostLack_healLBDrinkButton,소지 아이템
+dialog_liveBoostLack_healLBStarButton,스타
+dialog_liveBoostLackStar_message,스타가 부족합니다.\n스타 상점으로 이동하시겠습니까?
+dialog_liveBoostRecover_overLimitErrorMessageBefore,라이브 부스트의 소지 상한을 초과하였습니다.\n더 이상 구매할 수 없습니다.
+dialog_liveBoostRecover_overLimitErrorMessageAfter,라이브 부스트의 소지 상한을 초과하였습니다. 더 이상 회복할 수 없습니다.
+dialog_liveBoostRecoverLimit_title,라이브 부스트 MAX
+dialog_liveBoostRecoverLimit_message,라이브 부스트가 이미  MAX 상태입니다. 더 이상 회복할 수 없습니다.
+dialog_liveBoostRecoverNotEnoughStar_title,스타 부족
+dialog_liveBoostRecoverNotEnoughStar_message,소지한 스타가 부족합니다.
+dialog_liveBoostRecoverConfirm_title,확인
+dialog_liveBoostRecoverConfirm_message,스타를 {0}개 소비하여\n라이브 부스트를 {1}회복합니다.\n진행하시겠습니까?
+dialog_liveBoostRecoverConfirm_possessionStarCaption,소지 스타
+dialog_liveBoostRecoverConfirm_recoverButton,회복
+dialog_liveBoostRecoverItem_title,회복량 선택
+dialog_liveBoostRecoverItem_message1,※라이브 부스트는 최대 {0}까지 회복할 수 있습니다.
+dialog_liveBoostRecoverItem_healButton,회복
+dialog_liveBoostRecoverItemCell_itemNum,x{0}
+dialog_liveBoostRecoverItemConfirm_title,라이브 부스트 회복
+dialog_liveBoostRecoverItemConfirm_message,선택한 부스트 드링크를 소비하여\n라이브 부스트를 회복합니다. 진행하시겠습니까?
+dialog_liveBoostRecoverItemFinish_message,라이브 부스트를 {0}회복했습니다!
+dialog_liveSettings_mirror,반전
+dialog_liveSettings_coreLightMode,저스펙 모드
+dialog_liveSettings_coreAdjustJudgement,판정 조절
+dialog_liveSettings_standardRhythmIconSpeed,리듬 아이콘 속도
+dialog_liveSettings_standardRhythmIconSize,리듬 아이콘 크기
+dialog_liveSettings_standardSkin,스킨
+dialog_liveSettings_standardRhythmIconColored,리듬 색각 서포트 
+dialog_liveSettings_standardJudgementSound,판정 사운드
+dialog_liveSettings_standardSimultaneousLine,동시 입력 라인
+dialog_liveSettings_standardSkillWindow,스킬 윈도우
+dialog_liveSettings_standardTapAdjustTimingButton,탭으로 조정
+dialog_liveSettings_standardDisplaySkillEffect,스킬 효과 표시
+dialog_liveSettings_liveBGM,음악
+dialog_liveSettings_liveSE,라이브 SE
+dialog_liveSettings_liveVoice,라이브 보이스
+dialog_liveSettings_systemBGM,BGM
+dialog_liveSettings_systemSE,SE
+dialog_liveSettings_systemVoice,보이스
+dialog_liveSettings_systemScreenOrientation,화면 고정
+dialog_liveSettings_systemLiveBoostShortageConfirm,부족 확인
+dialog_liveSettings_tabStandardSetting,라이브 설정
+dialog_liveSettings_tabLiveVolumeSetting,라이브 연출・음량 설정
+dialog_liveSettings_title,옵션
+dialog_loadMapError_body,로딩에 실패했습니다. 타이틀로 이동합니다.
+dialog_loadMapError_title,오류
+dialog_matching_description,룸을 찾고 있습니다.
+dialog_matching_title,매칭 중
+dialog_matching_warning,※혼잡 시 매칭 시간이 오래 걸릴 수 있습니다.\n\n※이동 시에는 안정적인 플레이를 위하여\nLTE나 3G망을 이용해주세요.
+dialog_memberDecideConfirm_existNotArraivalMember,※입장 대기 중인 멤버가 있습니다.
+dialog_memberDecideConfirm_message,※{0} 명으로 라이브를 시작합니다. 진행하시겠습니까?
+dialog_menuList_title,메뉴
+dialog_memorialStoryMember_title,메인 멤버
+dialog_memorialStoryReleaseCondition_title,오픈 조건
+dialog_memorialStoryReleaseCondition_conditionUserRank,플레이어 랭크가 {0}일 때\n오픈
+dialog_memorialStoryReleaseCondition_conditionBandRank,{0}의 밴드 랭크가 {1}일 때\n오픈
+dialog_memorialStoryReleaseCondition_conditionAllBandRank,모든 밴드의\n밴드 랭크가 {0}이상일 때 오픈
+dialog_multiEntranceWebviewTitle,룸 타입
+dialog_musicDetail_title,음악 상세
+dialog_musicDetail_bandNameCaption,연주 밴드：
+dialog_musicDetail_composerCaption,작곡 : 
+dialog_musicDetail_lyricistCaption,작사 : 
+dialog_musicDetail_musicDetailCaption,상세 정보
+dialog_missionDetail_detail,상세
+dialog_missionDetail_progress,달성도
+dialog_missionDetail_timeLeft,남은 기간
+dialog_missionDetail_reward,보상
+dialog_missionDetail_indefinitePeriod,기간 없음
+dialog_news_title,공지사항
+dialog_nickNameChange_message,플레이어 이름은 10자 내로 입력해주세요.
+dialog_nickNameChange_title,오류
+dialog_nickNameChanged_message,플레이어 이름을 변경했습니다!
+dialog_nickNameChanged_title,변경 완료
+dialog_opponentRequestApprove_message,친구 신청을 승인했습니다.
+dialog_opponentRequestApprove_title,친구 신청 승인 완료
+dialog_opponentRequestReject_message,친구 신청을 거절했습니다.
+dialog_opponentRequestReject_title,친구 신청 거절 완료.
+dialog_pendingBillingExist_title,중단하고 있는 구매 재개
+dialog_pendingBillingExist_message,이전의 구매 처리가 정상적으로 종료되지 않았습니다.\n잠시만 기다려 주세요.
+dialog_pendingBillingFinish_title,구매 처리 종료
+dialog_pendingBillingFinish_message,중단되었던 처리가 종료되었습니다.
+dialog_possessionStar_labelFree,무료
+dialog_possessionStar_labelPaid,유료
+dialog_possessionStar_labelTotal,합계 스타
+dialog_possessionStar_message,[FE2349]무료 스타가 먼저 소비됩니다.[-]
+dialog_possessionStar_title,소지 스타 확인
+dialog_premiumPassDetail_buyableConditions,・「프리미엄 해피 BOX」는 30일이 지나면 다시 구매하실 수 있습니다.
+dialog_premiumPassDetail_receiveCount,・1일 1회 선물은 최대 25회까지 받으실 수 있습니다.
+dialog_premiumPassDetail_receiveTiming,・1일 1회 선물(무료 스타)은 게임에 로그인하실 경우\n획득할 수 있습니다.
+dialog_premiumPassDetail_reset,・1일 1회 선물은 매일 4시에 초기화됩니다.
+dialog_premiumPassDetail_revocation,・「프리미엄 해피 BOX」는 구매 후 30일이 지나면 1일 1회 선물을\n전부 받지 않은 상태라도 혜택이 종료되오니 주의 바랍니다.
+dialog_premiumPassDetail_title,프리미엄 해피 BOX에 대해서
+dialog_presentReceiveBulk_title,일괄 수령 완료
+dialog_presentReceiveBulk_description,이하의 보상을 획득했습니다.
+dialog_presentReceiveSingle_title,수령 완료
+dialog_presentReceiveSingle_description,이하의 보상을 획득했습니다.
+dialog_presentReceiveSituationAlreadyHave,이미 획득했기 때문에 대기실로 보냈습니다.
+dialog_presentReceiveSituationAlreadyHaveSingular,이미 획득한 멤버이기 때문에 대기실로 보냈습니다.
+dialog_privateRoomNotFoundError_message,선택하신 룸을 찾지 못했습니다.
+dialog_privateRoomVersionError_message,게임의 버전이 일치하지 않는 룸입니다.
+dialog_privateRoomOverError_message,선택하신 룸은 더 이상 입장할 수 없습니다.
+dialog_privateRoomPlayingError_message,선택하신 룸은 라이브 중입니다.
+dialog_privateRoom_copyRoomNumber,번호 복사
+dialog_privateRoom_createRoom,룸 작성
+dialog_privateRoom_typeCaption,룸 타입
+dialog_privateRoom_nameCaption,룸 이름
+dialog_privateRoom_nameLimit,최대 10자까지 입력
+dialog_privateRoom_numberCaption,룸 번호
+dialog_privateRoom_roomSelect,룸 제한
+dialog_privateRoom_title,프라이빗 룸 작성
+dialog_privateRoomDenied_description,메인 밴드의 종합력이 부족하여\n지정된 룸에 입장할 수 없습니다.
+dialog_privateRoomDenied_needPower,필요 종합력
+dialog_privateRoomDenied_room,룸
+dialog_privateRoomDenied_title,종합력 부족
+dialog_privateRoomEntrance_createButton,작성
+dialog_privateRoomEntrance_createDescription,룸 새로 만들기
+dialog_privateRoomEntrance_joinDescription,친구 룸에 들어가기
+dialog_privateRoomJoin_description,5자리의 룸 번호를 설정하여 친구들과 협력 라이브!
+dialog_privateRoomJoin_descriptionVersus,5자리의 룸 번호를 설정하여 친구들과 합동 라이브!
+dialog_privateRoomJoin_joinButton,입장
+dialog_privateRoomJoin_title,프라이빗 룸 참가
+dialog_privateRoomLeave_title,프라이빗 룸 퇴장
+dialog_privateRoomLeave_confirm,프라이빗 룸에서 퇴장합니다.\n진행하시겠습니까?
+dialog_publishConfig_title,프로필 정보 설정
+dialog_publishConfig_publish,공개 중
+dialog_publishConfig_closed,비공개
+dialog_purchaseCancel_title,취소
+dialog_purchaseCancel_message,구매를 취소 했습니다.
+dialog_purchaseComplete_billingAmountNotice,\n[FF0000]이달의 총과금 액이 {0}엔이 되었습니다.[-]
+dialog_purchaseComplete_message,[505050]「{0}」을(를) 구매했습니다.[-]
+dialog_purchaseComplete_title,구매 완료
+dialog_purchaseFailed_message,구매에 실패했습니다.
+dialog_purchaseFailed_messageOutOfTerm,기간이 만료되어 구매할 수 없는 아이템이거나\n구매 제한에 도달하여 구매할 수 없습니다.
+dialog_rankReward_itemDescription,{0} x{1}
+dialog_rankUp_liveBoostLimitCaution,※라이브 부스트는 최대 {0}까지만 회복할 수 있습니다.
+dialog_rankUp_recoveryLiveBoost,라이브 부스트가 {0}회복되었습니다!
+dialog_rankUp_recoveryLiveBoostChange,[4C4C4C]랭크 {0}이(가) 되었습니다.\n랭크 업 시\n라이브 부스트의 회복량이[-][FF3B72]{1}[-][4C4C4C]이(가) 되었습니다![-]
+dialog_rankUp_recoveryLiveBoostFriendLimitChange,친구 목록 최대치가 {0} 증가했습니다.
+dialog_rankUp_bandStoryOpenBandName,{0}의 밴드 스토리
+dialog_rankUp_bandStoryOpenChapter,「{0}」이(가) 오픈되었습니다.
+dialog_rankUp_mainStoryOpenChapter,시즌 {0} 메인 스토리 「{1}」이(가) 오픈되었습니다.
+dialog_rankUp_title,랭크 업!
+dialog_rankUp_getReward_title,보상 획득
+dialog_rankUp_getReward_message,이하의 보상을 수령하였습니다!
+dialog_rankUp_levelUpperLimitOpen_title,최대 레벨 증가
+dialog_rankUp_levelUpperLimitOpen_message,최대 레벨이 증가되었습니다!
+dialog_rankUp_levelUpperLimitOpen_areaItem_message,「{0}」의 최대 레벨이 증가되었습니다!
+dialog_rankUp_levelUpperLimitOpen_levelMax,최대 레벨
+dialog_recoverLiveBoost_title,라이브 부스트 회복
+dialog_recoverLiveBoost_message,라이브 부스트를 {0}회복했습니다!
+dialog_reviewRequest_message,뱅드림! 걸즈 밴드 파티를 이용해주셔서 감사합니다.\n\n신입 스태프 여러분들의 소중한 의견을 기다립니다.\n마켓 리뷰 부탁드려요~
+dialog_reviewRequest_rejectionButton,취소
+dialog_reviewRequest_reviewButton,리뷰
+dialog_reviewRequest_title,리뷰
+dialog_rewardAreaItem_message,창고로 보냈습니다.
+dialog_rewardAreaItem_talk,발생 대화
+dialog_rewardAreaItem_areaItemEffect,에어리어 아이템 효과
+dialog_rewardItem_message,보상을 획득했습니다!
+dialog_rewardMusic_message,「{0}」\n새로운 음악이 공개되었습니다!
+dialog_rhythmAdjust_title,판정 조절
+dialog_rhythmAdjust_resultEnd,END
+dialog_rhythmAdjust_resultStart,START
+dialog_rhythmAdjust_message,소리에 맞춰 마크를 탭하세요.
+dialog_rhythmAdjustReady_adjustButton,조절하기
+dialog_rhythmAdjustReady_message,리듬 아이콘의 판정 타이밍을 조절합니다.\n소리에 맞춰 마크를 탭하세요.
+dialog_rhythmAdjustReady_title,판정 조절
+dialog_rhythmAdjustDone_title,조절 완료
+dialog_rhythmAdjustDone_retakeButton,다시 조절하기
+dialog_rhythmAdjustDone_decideButton,설정 적용
+dialog_rhythmgameGameOverContinue_title,컨티뉴
+dialog_rhythmgameGameOverContinue_message,스타를 {0}개 소비하여\n라이프를 모두 회복하고 컨티뉴하시겠습니까?
+dialog_rhythmgameGameOverGarupaCup_message,라이프가 모두 소비되었습니다.\n걸파컵에선 컨티뉴를 할 수 없습니다.\n걸파컵 TOP 페이지로 돌아갑니다.
+dialog_rhythmgameGameOver_title,라이브 실패
+dialog_rhythmgameGameOver_message,라이프가 모두 소비되었습니다.\n스타를 {0}개 소비하여\n라이프를 모두 회복하고 컨티뉴를 할 수 있습니다.
+dialog_rhythmgameGameOver_continueButton,컨티뉴
+dialog_rhythmgameGameOver_retireButton,포기
+dialog_rhythmgameGameOverLackOfStar_message,스타가 부족합니다.\n컨티뉴할 수 없습니다.
+dialog_rhythmgameGameOverLackOfStar_title,스타 부족
+dialog_rhythmgameGameOverRetire_message,라이브를 포기하면 보상을 획득할 수 없습니다.\n소비한 라이브 부스트도 반환되지 않습니다.\n포기하시겠습니까?
+dialog_rhythmgameGameOverRetire_challengeLiveMessage,라이브를 포기하면 보상을 획득할 수 없습니다.\n소비한 챌린지P도 반환되지 않습니다.\n포기하시겠습니까?
+dialog_rhythmgameGameOverRetire_title,포기
+dialog_rhythmgamePause_body,라이브를 중단하고 홈으로 돌아가시겠습니까?\n※소비한 라이브 부스트는 반환되지 않습니다.※
+dialog_rhythmgamePause_challengeLiveBody,라이브를 중단하고 홈으로 돌아가시겠습니까?\n※소비한 챌린지P는 반환되지 않습니다.※
+dialog_rhythmgamePause_resume,계속
+dialog_rhythmgamePause_retire,중단
+dialog_rhythmgamePause_title,일시정지
+dialog_rhythmgamePause_garupaCupBody,{0}라이브를 중단하고\n걸파컵 TOP 페이지로 돌아가시겠습니까?[-]\n{1}※도전 가능 횟수는 반환되지 않습니다.[-]
+dialog_scenario_skip,이 스토리를 스킵하시겠습니까?
+dialog_scenario_skipTitle,스킵
+dialog_skillPracticePrePractice_message1,선택한 대기실 멤버는 사라집니다.\n스킬 연습을 진행하시겠습니까?
+dialog_skillPracticePrePractice_message2,★3 이상의 멤버가 선택되었습니다.
+dialog_situationTrainingPreTraining_message,선택한 티켓을 소비하여 연습합니다.\n진행하시겠습니까?
+dialog_situationTrainingPreTraining_message2,※이 캐릭터와 해당 캐릭터용 스킬 연습티켓은\n캐릭터 조건이 일치하지 않습니다.
+dialog_situationTrainingPreTraining_title,확인
+dialog_storyConfirm_message,보이스 데이터를 다운로드하여\n스토리를 보시겠습니까?
+dialog_storyConfirm_title,스토리 재생
+dialog_storyReward_title,스토리 달성 보너스
+dialog_soloLiveLackOfMember_message,라이브를 시작하려면 멤버 5명이 필요합니다.\n멤버를 편성해주세요.
+dialog_soloLiveLackOfMember_title,멤버 부족
+dialog_sort_captionAttribute,타입으로 정렬
+dialog_sort_captionBand,밴드로 정렬
+dialog_sort_sortingOrder,정렬순
+dialog_specialTraining_title,확인
+dialog_specialTrainingParamUp_title,특훈 결과
+dialog_specialTraining_message,아이템을 소비하고\n{0} {1} 의 특훈을 합니다.\n진행하시겠습니까?
+dialog_starShop_actOnSettlement,자금 결제법에\n근거한 표기
+dialog_starShop_notPermitPurchase,구매할 수 없습니다. 디바이스의 설정을 확인해주세요.
+dialog_starShop_buyableCount,앞으로 {0}회
+dialog_starShop_buyableCountOneTime,1회 한정
+dialog_starShop_buyablePeriod,{0}까지
+dialog_starShop_buyPremiumPass,구매합니다.
+dialog_starShop_buyStarFormat,￦{0}
+dialog_starShop_currencyGuidelines,게임 내 통화\n가이드 라인
+dialog_starShop_detailButton,상세
+dialog_starShop_salesPeriod,판매 기간
+dialog_starShop_limitedButton,한정
+dialog_starShop_liveBoost,라이브\n부스트
+dialog_starShop_liveBoostDescription3,라이브 부스트 3회복
+dialog_starShop_liveBoostDescription10,라이브 부스트 10회복
+dialog_starShop_premiumPassButton,프리미엄\n해피 BOX
+dialog_starShop_premiumPassGiveTiming,1일 1회 선물
+dialog_starShop_premiumPassPeriod,프리미엄 해피 BOX의 유효기간은 {0}일입니다.
+dialog_starShop_premiumPassRestCount,[FF395A]앞으로 {0}회[-]
+dialog_starShop_purchased,[FF395A]구매 후[-]\n[606060]유효기간　{0}까지[-]
+dialog_starShop_purchasedLabel,구매완료
+dialog_starShop_recoverLiveBoost,회복
+dialog_starShop_specifiedCommercialTransactionsLaw,특정상거래법에\n근거하여 표기
+dialog_starShop_starCampaignBalloon,캠페인 중!
+dialog_starShop_title,스타 상점
+dialog_takeOver_clipboard,연동 ID\n{0}\n패스워드\n{1}
+dialog_takeOver_descriptionReset,이미 연동 설정이 완료되어 있습니다.\n재설정 시 이전 연동 설정은 무시됩니다.\n진행하시겠습니까?
+dialog_takeOver_descriptionSettingFinish,[FE2349]연동ID・패스워드는 보안을 위해\n이 화면을 닫으면 다시 표시되지 않습니다.[-]\n[505050FF]반드시 스크린샷등으로 보존해주시기 바랍니다.[-]
+dialog_takeOver_descriptionSetting,「데이터 연동」에는 연동 ID・패스워드가 모두 필요합니다.\n패스워드를 설정해주세요.
+dialog_takeOver_descriptionTakeoverId,(패스워드 설정 후 자동으로 발급됩니다.)
+dialog_takeOver_descriptionSettingWarning,[505050FF]※입력한 패스워드는 한 번만 사용할 수 있습니다.\n[FE2349]※다른 OS에서 연동한 경우\n소지하고 있던 유료 스타는 소멸되므로 주의 바랍니다.[-]
+dialog_takeOver_descriptionSettingCopy,ID・패스워드를 복사
+dialog_takeOver_errorInvalidPassword,사용할 수 없는 글자가 포함되어 있습니다.\n패스워드는 영문과 숫자를 입력해주세요.
+dialog_takeOver_errorPasswordLimit,패스워드는 영문과 숫자로 8자~16자를\n입력해주세요.
+dialog_takeOver_passwordLimit,※영문과 숫자 8~16자
+dialog_takeOver_reset,재설정
+dialog_takeOver_titleSetting,연동 설정
+dialog_takeOver_titleSettingFinish,연동 설정 완료
+dialog_totalParam_title,종합력 상세
+dialog_totalParam_bandParameter,밴드 파라미터
+dialog_totalParam_bonusAreaItem,에어리어 아이템 보너스
+dialog_trainingError_message,연습을 실패했습니다.
+dialog_unlockArea_contentsText,「{0}」이(가) 맵에서 오픈되었습니다!
+dialog_unlockArea_title,에어리어 오픈
+dialog_unlockAreaItem_contentsText,「{0}」의 {1}에\n「{2}」이(가) 입고되었습니다!
+dialog_unlockAreaItem_title,에어리어 아이템 오픈
+dialog_unlockBandStory_contentsText,{0}의 밴드 스토리\n「{1}」이(가) 오픈되었습니다!
+dialog_unlockBandStory_title,밴드 스토리 오픈
+dialog_unlockEventStory_contentsText,이벤트 스토리\n「{0}」이(가) 오픈되었습니다!
+dialog_unlockEventStory_title,이벤트 스토리 오픈
+dialog_unlockMainStory_contentsText,시즌 {0} 메인 스토리\n「{1}」이(가) 오픈되었습니다!
+dialog_unlockMainStory_title,메인 스토리 공개
+dialog_unlockPrivateRoom_title,프라이빗 룸 오픈
+dialog_unlockPrivateRoom_description,[505050]룸을 오픈하여 멤버를 모집 합니다.\n진행하시겠습니까?[-]
+dialog_unlockPrivateRoom_descriptionWarning,[505050]룸을 오픈하여 멤버를 모집 합니다.\n진행하시겠습니까?[-]\n\n[FE2349]※입장 대기 중인 멤버가 있습니다.[-]
+dialog_unlockPrivateRoom_cantUse,룸 오픈 기능은 멤버가 2명 이상일 때부터\n사용할 수 있습니다.
+dialog_userRankReward_title,랭크 상세
+dialog_userRankReward_descriptionTitle,랭크 보상 목록
+dialog_userRankReward_friendLimitDescription,친구 수 최대치 {0} → {1}
+dialog_userRankReward_mainStoryDescription,시즌 {0} 메인 스토리{1}
+dialog_waitingRoomExchangeConfirm_body,대기실 멤버 {0}명과\n미셸 스티커 {1}장을 교환합니다.\n진행하시겠습니까?
+dialog_waitingRoomExchangeDone_title,교환 완료
+dialog_waitingRoomExchangeDone_body,멤버를\n미셸 스티커로 교환하였습니다.
+dialog_webViewPickUpMember_title,픽업 멤버
+dialog_weekdayRoomInvalidError_message,날짜가 변경되었습니다.\n라이브 선택으로 이동합니다.
+dialog_versusLBWarning_title,라이브 부스트 소비 확인
+dialog_versusLBWarning_description,[505050]합동 라이브에선[-] [FE2B4B]매칭이 완료된 시점부터\n라이브 부스트가 소비[-][505050]됩니다.\n진행하시겠습니까?[-]
+dialog_versusLBWarning_addDescription,[505050]\n\n※종합력이 비슷한 플레이어와 우선적으로\n매칭됩니다.[-]
+dialog_versusLBWarning_notDisplay,더 이상 표시하지 않기(당 이벤트 한정)
+dialog_versusPrivateRoom_eventRoom,이벤트 음악 룸
+dialog_versusPrivateRoom_selectRoom,모두 함께 선곡 룸
+dialog_whatIsHighScoreRating_title,하이 스코어 레이팅이란?
+dialog_whatIsHighScoreRating_content1,하이 스코어 레이팅은 프리 라이브에서 플레이한\n음악에서 달성한 하이 스코어로 산출되는 수치입니다.
+dialog_whatIsHighScoreRating_content3,하이 스코어를 높이려면 멤버의 종합력이나\n에어리어 아이템의 효과 등이 중요합니다.\n높은 하이 스코어 레이팅을 노려보세요.
+event_menu_auto,오토
+event_menu_log,로그
+event_menu_menu,메뉴
+event_menu_skip,2배속
+event_menu_skipAll,스킵
+exchangeList_description_body,교환소를 선택해주세요.
+exchangeList_cell_expire,[505050]교환기한[-]  [FF3B71]{0}[-] [505050]까지[-]
+friendList_cell_approvalButtonLabel,승인
+friendList_cell_lastLoginAtLessOneHour,1시간 미만
+friendList_cell_lastLoginAtLessSixHour,6시간 미만
+friendList_cell_lastLoginAtLessThreeHour,3시간 미만
+friendList_cell_lastLoginAtLessTwelveHour,12시간 미만
+friendList_cell_lastLoginAtLessTwentyFourHour,24시간 미만
+friendList_cell_lastLoginAtMoreThanOneMonthAgo,1개월 이상
+friendList_cell_lastLoginAtOneDayOrMoreSuffix,{0}일전
+friendList_cell_rejectionButtonLabel,거절
+friendList_contents_emptyMessageApplication,신청 중인 플레이어가 없습니다.
+friendList_contents_emptyMessageApproval,승인 대기 플레이어가 없습니다.
+friendList_contents_emptyMessageFriend,친구가 없습니다.
+friendList_contents_numberOfPeopleSeparator,/
+friendList_sortingType_rank,랭크
+friendList_sortingOrder_asc,오름순
+friendList_sortingOrder_desc,내림순
+friendList_tab_friendList,친구 목록
+friendList_tab_applyList,신청 중인 목록
+friendList_tab_approvalList,승인 대기 목록
+gacha_result_spinButton,한 번 더 뽑기
+gacha_result_omakeTitle,세트 아이템 입수
+gacha_result_omakeContent,세트 아이템을 선물함으로 보냈습니다.
+gacha_top_step,STEP\n{0}/{1}!
+gacha_top_timesOnly,{0}회 한정
+gacha_top_omakeSet,세트로 받을 수 있어요!
+gacha_top_oneTimeOnlyDaily,1일 1회\n한정!
+gacha_top_restCount,앞으로\n{0}회
+gacha_top_spinExecuted,뽑기가 종료되었습니다.
+gacha_top_spinPaid,유료 스타로!
+gacha_top_spinButton,{0}회 뽑기
+gacha_top_spinButtonPaid,{0}회 뽑기\n(유료 스타)
+gacha_top_spinButtonLock_once_a_day,오늘은 뽑기를\n할 수 없습니다.\n4시에 초기화\n됩니다.
+gacha_unexpectedError_message,예상치 못한 오류가 발생했습니다.\n타이틀로 이동합니다.
+garupaCup_deckSelect_areaItemBonusCaution,※에어리어 아이템 보너스 무효
+garupaCup_deckSelect_bandDescription,지정된 밴드로만 플레이 한정
+garupaCup_deckSelect_caution,각 멤버의 파라미터는 걸파컵 전용입니다.\n걸파컵 라이브에선 스킬이 발동되지 않습니다.\n또한 라이브 클리어 시 경험치 및 보상을 받을 수 없습니다.
+garupaCup_result_secondQualificationDescription,도쿄 빅 사이트에서 회장 본예선 라이브에\n참가하신 1차 예선 진출자분께서는\n스태프의 집계가 끝날 때까지\n 이화면에서 기다려 주시기 바랍니다.
+garupaCup_situationDetail_description,이 멤버의 파라미터는 걸파컵 전용입니다.\n걸파컵 라이브에선 스킬이 발동되지 않습니다.
+garupaCup_secondQualification_openDate,회장 본예선 개최 기간
+garupaCup_tutorialSlide_title,걸파컵 1차 예선에 참가하자!
+header_mainTitle_band,밴드
+header_mainTitle_bandStory,밴드 스토리
+header_mainTitle_challengeLive,챌린지 라이브
+header_mainTitle_event,이벤트
+header_mainTitle_exchange,교환소
+header_mainTitle_freeLive,프리 라이브
+header_mainTitle_friendList,친구
+header_mainTitle_gacha,뽑기
+header_mainTitle_garupaCup,걸파컵
+header_mainTitle_live,라이브
+header_mainTitle_mainStory,메인 스토리
+header_mainTitle_multiLive,협력 라이브
+header_mainTitle_notice,공지사항
+header_mainTitle_other,그 외
+header_mainTitle_present,선물
+header_mainTitle_shop,상점
+header_mainTitle_story,스토리
+header_mainTitle_versusLive,합동 라이브
+header_mainTitle_warehouse,에어리어 아이템
+header_mainTitle_mission,미션
+header_mainTitle_eventRewardBoxGacha,마리나 씨의 선물 상자
+header_starShopBalloon_beginnerCampaign,초보자 한정 캠페인 중♪
+header_starShopBalloon_premiumHappyBox,프리미엄 해피 BOX♪
+header_starShopBalloon_starIncrease,특가 캠페인 진행 중♪
+header_subTitle_areaShop,상점
+header_subTitle_areaWarehouse,창고
+header_subTitle_bandMenu,TOP
+header_subTitle_bandSelect,밴드 스토리 선택
+header_subTitle_bandStorySelect,밴드 스토리 선택
+header_subTitle_challengeEventDeckSelect,최종 확인
+header_subTitle_costumeSelect,코스튬 선택
+header_subTitle_deckEdit,밴드 편성
+header_subTitle_degreeSelect,칭호 선택
+header_subTitle_eventBadgeExchange,뱃지 교환소
+header_subTitle_exchangeList,교환소 선택
+header_subTitle_freeLiveDeckSelect,밴드 확인
+header_subTitle_freeLiveMusicSelect,음악 선택
+header_subTitle_friendList,목록
+header_subTitle_gachaResult,뽑기 결과
+header_subTitle_gachaTop,TOP
+header_subTitle_inventory,소지 아이템
+header_subTitle_liveCostume,라이브 의상
+header_subTitle_liveSelect,라이브 선택
+header_subTitle_mainStorySelect,메인 스토리 선택
+header_subTitle_memberList,멤버 목록
+header_subTitle_multiLiveDeckSelect,최종 확인
+header_subTitle_multiLiveLevelSelect,룸 선택
+header_subTitle_multiLiveMusicSelect,음악 리퀘스트
+header_subTitle_multiLiveMutching,매칭
+header_subTitle_multiLiveShuffle,음악 셔플
+header_subTitle_musicShop,음악 상점
+header_subTitle_noticeDetail,공지사항 내용
+header_subTitle_noticeList,공지사항 목록
+header_subTitle_presentList,목록
+header_subTitle_profile,프로필
+header_subTitle_profile_others,프로필
+header_subTitle_ranking,누계 이벤트P 랭킹
+header_subTitle_reward,누계 이벤트P 보상
+header_subTitle_scoreRanking,스코어 랭킹
+header_subTitle_scoreRankingReward,스코어 랭킹 보상
+header_subTitle_situationDetail,멤버 상세
+header_subTitle_skillPractice,스킬 연습
+header_subTitle_skillPracticeList,스킬 연습 멤버 선택
+header_subTitle_specialTraining,특훈
+header_subTitle_storySelect,스토리 선택
+header_subTitle_training,연습
+header_subTitle_waitingRoom,대기실
+header_subTitle_mission,미션 목록
+label_nickName_placeholder,닉네임(10자 이내)
+live_musicSelect_achievementButton,달성 보상
+live_musicSelect_lockMusic,이 음악은 잠겨 있습니다.
+live_musicSelect_selectDifficulty,난이도 선택
+live_musicSelect_musicHighScoreRating,음악 하이 스코어 레이팅
+live_soloLiveLoading_dataDownLoading,로딩 중…
+live_reward_liveBoost,모든 EXP
+live_reward_liveBoostEffectText,보상・EXP
+liveTop_buttonName_eventTop,이벤트 TOP
+loginBonus_message_costumeNameFormat,의상 「{0}」
+loginBonus_message_getItem,{0}을(를) 획득했습니다!
+loginBonus_period_dateFormat,진행기간  MM/dd  HH:mm까지
+map_presentList_deliveryDate,획득 날짜
+map_presentList_expiredAt,수령 기한
+map_presentList_receivedDate,수령 일시
+map_presentList_giveButton,수령
+map_presentList_bulkReceiptButton,일괄 수령
+map_presentList_tabNotReceived,미수령
+map_presentList_tabReceived,수령함
+menuList_notice_button,공지사항
+menuList_home_button,홈
+menuList_myProfile_button,프로필
+menuList_album_button,앨범
+menuList_friendList_button,친구
+menuList_exchange_button,교환소
+menuList_inventory_button,소지 아이템
+menuList_option_button,옵션
+menuList_achievement_button,업적
+menuList_starShop_button,스타 상점
+menuList_playerStar_button,소지 스타\n확인
+menuList_takeOverData_button,데이터\n연동
+menuList_help_button,FAQ
+menuList_support_button,서포트
+menuList_termsOfService_button,이용약관
+menuList_title_button,타이틀로\n이동
+memorialStory_storyCell_eventPublishAt,{0}년 {1}월 {2}일 ~
+memorialStory_storySelect_message,밴드 스토리를 보면 더 많은 이벤트 스토리를 즐길 수 있습니다.
+mission_complete_notice,미션 성공!
+mission_tab_normal,일반
+mission_tab_event,기간 한정
+mission_bulk_receive,일괄 수령
+mission_detail_button,상세
+mission_receive_button,수령
+mission_noMissionNormal_message,현재 도전하실 수 있는 일반 미션이 없습니다.
+mission_noMissionEvent_message,현재 도전하실 수 있는 기간 한정 미션이 없습니다.
+mission_transitionButton_live,라이브
+mission_transitionButton_practice,연습
+mission_transitionButton_story,스토리
+mission_transitionButton_training,특훈
+mission_transitionButton_member,멤버
+mission_transitionButton_skillPractive,스킬 훈련
+mission_transitionButton_map,맵
+mission_transitionButton_costume,의상
+mission_transitionButton_profile,프로필
+mission_transitionButton_friend,친구
+multiPlay_abDownloadRetryableError_message,통신 오류가 발생했습니다.\n다시 한번 통신합니다.
+multiPlay_deckSelect_message,난이도를 선택한 후 「준비완료!」를 눌러줘!
+multiPlay_entrance_lockRoomMessage,메인 멤버의\n종합력을 올려보자!
+multiPlay_entrance_outOfTerm,요일 룸은 현재 진행되고 있지 않습니다.\n자세한 내용은 공지사항을 확인해주세요.
+multiPlay_ingameError_message,통신이 끊어졌습니다.\n홈으로 이동합니다.
+multiPlay_limitedTimeOverDialog_title,제한시간 초과
+multiPlay_limitedTimeOverDialog_contents,룸을 해산합니다.
+multiPlay_liveReward_waitingMessage,다른 멤버를 기다리고 있습니다...
+multiPlay_matching_decideButton,이 멤버로 시작
+multiPlay_matching_liveDifficultyCaption,룸
+multiPlay_matching_memberDecision,멤버가 정해졌어! 음악을 리퀘스트하자!
+multiPlay_matching_nextDifficulty,멤버가 정해졌어! 난이도를 선택하자!
+multiPlay_matching_rewardTypeCaption,룸 타입
+multiPlay_matching_waitingMessage,매칭 중...... 멤버가 모일 때까지 기다리자!
+multiPlay_messageSelectDifficulty_label,난이도를 선택한 후 「준비완료!」를 눌러줘!
+multiPlay_messageWaitingMember_label,다른 멤버가 난이도를 선택 중이야! 조금만 기다려줘!
+multiPlay_musicSelect_randomSelect,노래 선택은 맡길게!
+multiPlay_musicShuffle_musicDecision,노래가 정해졌어! 난이도를 선택하자!
+multiPlay_musicShuffle_waitingForMember,다른 멤버가 노래를 정할 때까지 기다려줘!
+multiPlay_result_canNotApplyButtonLabel,신청 불가
+multiPlay_result_membersScore,멤버의 스코어
+multiPlay_result_membersScore2lines,멤버의\n스코어
+multiPlay_result_waitingMember,연주 중인 멤버를 기다리고 있습니다.....
+multiPlay_roomDisconnected_message,연결이 끊어졌습니다.\n룸 선택으로 이동합니다.
+multiPlay_roomEntryFailed_message,네트워크에 연결할 수 없습니다.\n통신이 원활한 장소에서 다시 시도해주세요.
+multiPlay_roomEntryPhotonError_message,통신 에러가 발생했습니다.\n통신 원활한 장소에서 다시 시도해주세요.
+multiPlay_roomNetworkError_message,통신 에러가 발생했습니다.\n룸 선택으로 이동합니다.\n통신 원활한 장소에서 다시 시도해주세요.
+multiPlay_roomNetworkError_messageToHome,통신이 끊어졌습니다.\n홈으로 이동합니다.
+multiPlay_userCell_notSelectState,선택 중...
+multiPlay_userCell_selectedState,준비완료!
+multiPlay_userCell_selectingMusic,선곡 중...
+multiPlay_userCell_selectedMusic,OK!
+multiPlay_userCell_waitingEmptyState,모집 중...
+multiPlay_userCell_waitingState,대기 중...
+multiPlay_userDownloadProgress_done,준비완료♪
+multiPlay_userDisconnected_message, 님의 연결이 끊어졌습니다.\n룸 선택으로 이동합니다.
+multiPlay_userDisconnected_messageWithName,{0} 님의 연결이 끊어졌습니다.\n룸 선택으로 이동합니다.
+multiPlay_versusMatchingType_event,이벤트 음악
+multiPlay_versusMatchingType_select,모두 함께 선곡
+multiPlay_waitingUser_message,다른 멤버가 준비하고 있습니다......
+musicSelect_musicInfoTabCaption_difficulty,난이도 선택
+musicSelect_musicInfoTabCaption_howToGet,오픈 조건
+myProfile_contentCaption_clearMusicNum,클리어한 음악 수
+myProfile_contentCaption_fullComboMusicNum,풀 콤보한 음악 수
+myProfile_contentCaption_comment,코멘트 한마디
+myProfile_contentCaption_playerName,플레이어 이름
+myProfile_contentCaption_rank,랭크
+myProfile_closedCaption_message,비공개 정보입니다.
+myProfile_closedCaption_word,비공개
+myProfile_buttonCaption_changeDegree,칭호 변경
+notice_insideGame_title,게임 공지사항
+notice_outsideGame_title,뱅드림! 공지사항
+notice_maintenance_title,점검 정보
+presentList_logEmpty_message,지난 1주간 받은 선물이 없습니다.
+presentList_noData_message,받을 선물이 없습니다.
+rhythmgame_skillTelop_playEncoreSkill,스킬 앙코르!
+rhythmgame_skillTelop_playMultiSkill,[FDE333]{0}[-]의\n스킬 발동!
+rhythmgame_skillTelop_playMultiEncoreSkill,[FDE333]{0}[-]의\n스킬 앙코르!
+rhythmgame_skillTelop_playSkill,스킬 발동!
+rhythmgame_titleBoard_arranger,편곡 : 
+rhythmgame_titleBoard_lyricist,작사 : 
+rhythmgame_titleBoard_composer,작곡 : 
+stamp_rareStamp_notHaveStamp,소지한 레어 스탬프가 없습니다.
+stamp_rareStamp_obtainingRoute,레어 스탬프는 이벤트 등을 통해 획득할 수 있습니다.
+stamp_tabName_history,히스토리
+stamp_tabName_rare,레어 스탬프
+stamp_tabName_standard,기본 스탬프
+story_select_captionSynopsis,줄거리
+story_select_howToGet,오픈 조건
+story_select_lock,이 스토리는 잠겨 있습니다.
+story_select_noStory,볼 수 있는 스토리가 없습니다.
+story_select_readButton,보기
+story_select_releaseConditionBand,・{0}\n밴드 랭크 {0}일 때 오픈
+story_select_releaseConditionAllBand,・모든 밴드의\n밴드 랭크가 {0}이상일 때 오픈
+story_select_transitionMemorialStoryMessage,멤버들의 활약은\n추억의 스토리에서 볼 수 있습니다
+story_select_transitionMemorialStory,추억의 스토리로
+story_select_lockMessageLater,・일정 기간 후 오픈
+story_select_lockMessageAllBandRank,・모든 밴드 랭크 {0}이상
+story_select_lockMessageBandRank,・{0}의 밴드 랭크 {1}이상
+story_select_lockMessageUserRank,・플레이어 랭크 {0} 이상
+story_top_mainStoryCaption,다 함께 라이브로 같이 달려요!
+story_top_bandStoryCaption,밴드 별 오리지널 스토리!
+story_top_memorialStoryCaption,이벤트 스토리를 다시 한번 보자!
+storyEvent_complete_story,모든 스토리가 오픈되었습니다.
+storyEvent_ranking_description,이벤트P가 같은 경우에는 선착순으로 순위가 적용됩니다.
+storyEvent_ranking_tabMyRank,내 순위
+storyEvent_ranking_tabTopXXX,TOP10
+storyEvent_ranking_noDataWithMyRank,참여하지 않은 이벤트입니다. 
+storyEvent_ranking_noDataWithTopXXX,현재 랭킹을 집계 중입니다.
+storyEvent_requireNextStory,다음 스토리까지
+storyEvent_result_baseEventPoint,기본 이벤트P
+storyEvent_result_gotEventPoint,획득 이벤트P
+storyEvent_result_gotEventBadges,획득 뱃지
+storyEvent_result_gotEventMedals,획득 메달
+storyEvent_result_memberBonus,멤버 보너스
+storyEvent_result_nextEventPoints,다음 이벤트P 보상
+storyEvent_result_requireNextEventFormat,「{0}」
+storyEvent_result_scoreBonus,스코어 보너스
+storyEvent_result_usedLiveBoost,소비 라이브 부스트
+storyEvent_reward_pickUpMemberButton,픽업 멤버
+storyEvent_reward_rankingRewardDescription,랭킹 보상은 이벤트 종료 후 2주 이내에 로그인하시면 획득할 수 있습니다.
+storyEvent_reward_tabRankingReward,랭킹 보상
+storyEvent_reward_tabTotalEventPointReward,누계 이벤트P 보상
+storyEvent_reward_totalEventP,누계 이벤트P
+storyEvent_eventLoginReward_dialogPopup,이벤트 로그인 보너스
+storyEvent_eventLoginReward_received,선물을 받았습니다.\n다음 로그인 보너스 선물은 다음 날 오전 4시 이후에 받을 수 있습니다.
+storyEvent_story_description,한정 스토리를 보자!
+storyEvent_exchange_description,아이템을 교환하자!
+storyEvent_exchange_limitBalloon,까지 교환 가능
+bandstory_rewardList,밴드 랭크 보상 일람
+tutorial_slideTitle_a,그럼 시작하자!
+tutorial_slideTitle_b,라이브의 조작법을 배워보자!
+tutorial_slideTitle_c,라이브 종료! 참 잘했어♪
+tutorial_slideTitle_d,에어리어에서 일상 대화를 보자!
+tutorial_slideTitle_e,튜토리얼 클리어!
+tutorial_slideTitle_areaItemEnter,에어리어 아이템을 사자!
+tutorial_slideTitle_areaItemPurchase,에어리어 아이템 설치 완료!
+tutorial_slideTitle_Costume,캐릭터의 의상을 변경해보자!
+tutorial_slideTitle_Exchange,교환소에서 귀중품을 획득해보자!
+tutorial_slideTitle_friend,친구를 만들자!
+tutorial_slideTitle_multiPlay,협력 라이브를 해보자!
+tutorial_slideTitle_musicShop,음악을 교환해보자!
+tutorial_slideTitle_training,멤버를 특훈시켜 보자!
+tutorial_slideTitle_bandStory,밴드 스토리를 보자!
+tutorial_slideTitle_practice,멤버를 연습시켜 보자!
+tutorial_slideTitle_situationDetail,에피소드를 보자!
+tutorial_slideTitle_skillPractice,스킬 연습을 해보자!
+tutorial_slideWindow_liveButton,새로운 음악이 늘어났어!\n라이브에서 연주해보자♪
+tutorial_slideWindow_storyButton,이어지는 메인 스토리는!\n스토리에서 볼 수 있어♪
+versusEvent_result_noBonusMember_Description,합동 라이브에서는\n라이브에 공헌한 순위에 따라 계산되는 공헌P와\n개인 스코어에 따라 계산되는 스코어 보너스의 합이\n획득 이벤트P가 됩니다.
+versusEvent_top_attention,합동 라이브 이외에는 이벤트P를 획득할 수 없습니다.
+warehouse_checkEffect,효과 확인
+warehouse_checkEffectTitle,설치 에어리어 아이템 효과 목록
+warehouse_checkEffectTitleAfter,에어리어 아이템 일괄 변경 완료
+warehouse_notHave,이 장소에 설치할 수 있는\n에어리어 아이템을 가지고 있지 않습니다.
+warehouse_recommend,자동 일괄 변경
+word_achievementFee,달성 보상
+word_actOnSettlement,자금 결제법에 근거한 표기
+word_areaItemBonus,에어리어 아이템 보너스
+word_attribute_cool,쿨
+word_attribute_happy,해피
+word_attribute_powerful,파워풀
+word_attribute_pure,퓨어
+word_all,전부
+word_band,밴드
+word_bandEdit,밴드 편성
+word_bandParameter,밴드 파라미터
+word_bandrank,밴드 랭크
+word_bandrankEXP,밴드 랭크EXP
+word_betweenFrom,~
+word_birthDay,생일
+word_buy,구매
+word_canNotApplyFriendRequest,신청 불가
+word_change,변경
+word_challengeOK,도전 가능
+word_challengeNG,도전 종료
+word_challengeLive,챌린지 라이브
+word_challengeLiveBonus,챌린지 라이브 보너스
+word_coin,코인
+word_coinCount,코인 x {0}
+word_confirm,확인
+word_countNum,x {0}
+word_countUnit,회
+word_constellation,별자리
+word_contribution_points,공헌P
+word_copy,복사
+word_copyId,ID복사
+word_costume,의상
+word_currencyGuidelines,게임 내 통화 가이드 라인
+word_cv,CV
+word_day,일
+word_dayNumber,{0}일차
+word_dateFormat_MMDDHHmm,MM/dd HH:mm
+word_dateFormat_MD,M월 d일
+word_dateFormat_yyyyMMDD,yyyy/MM/dd
+word_dateFormat_yyyyMMDDHHmm,yyyy/MM/dd HH:mm
+word_default,디폴트
+word_defaultButton,디폴트로\n되돌리기
+word_degree,칭호
+word_detail,상세
+word_downloadingData,NOW LOADING
+word_encoreButtonLabel,다시 한번 라이브
+word_entry,참가 신청
+word_entryUserId,참가 신청용 플레이어ID
+word_equip_costume,의상 설정 중
+word_expire,{0} 까지
+word_exOk,OK!
+word_exp,EXP
+word_eventHighScore,이벤트 하이 스코어
+word_eventScore,이벤트 스코어
+word_event_item_badge_count,개
+word_favoriteFood,좋아하는 음식
+word_free,무료
+word_friend,친구
+word_alreadyInviteFriend,초대 중
+word_friendInvitation,친구 초대
+word_friendInvitationRoom,친구\n초대 룸
+word_friendRelease,친구 해제
+word_friendRequest,친구 신청
+word_fullVoice,풀 보이스
+word_getCP,획득 챌린지P
+word_getExp,획득 EXP
+word_hatefulFood,싫어하는 음식
+word_have,소지
+word_haveCP,소지 챌린지P
+word_haveStar,소지 스타
+word_highScore,하이 스코어
+word_highScoreRating,하이 스코어 레이팅
+word_hour,시간
+word_hobby,취미
+word_howToGet,오픈 조건
+word_idSearch,ID검색
+word_item,아이템
+word_itemCount,{0} x {1}
+word_lastLoginAt,최종 로그인
+word_lastLoginAtTime,최종 로그인 시간
+word_leader,리더
+word_level,레벨
+word_levelAndNum,레벨 {0}
+word_levelUp,레벨 업
+word_life,라이프
+word_liveBoost,라이브 부스트
+word_liveBoost_limitFormat,/{0}
+word_liveBoost_recoveryTimeNone,-- : --
+word_liveReward,라이브 보상
+word_liveSetting,라이브 설정
+word_liveStart,라이브 스타트!
+word_lv,Lv.
+word_mainBandTotalParam,메인 밴드 종합력
+word_max,MAX
+word_medalUnit,장
+word_memberExp,멤버 EXP
+word_memberUnit,{0}명
+word_michelleSeal,미셸 스티커
+word_michelleUnit,{0}장
+word_minute,분
+word_modeNormal,일반
+word_modeEvent,이벤트
+word_modeSpecial,특별
+word_moreThan,이상
+word_music,음악
+word_musicTag_cover,커버
+word_musicTag_original,오리지널
+word_musicLevel,음악 레벨
+word_nothing,없음
+word_notPublish,비공개
+word_off,OFF
+word_on,ON
+word_open,오픈
+word_other,그 외
+word_p,P
+word_paid,유료
+word_paidstar,유료 스타
+word_part,파트
+word_percentage,%
+word_place,공연장
+word_playDate,플레이 일시
+word_player,플레이어
+word_playerId,플레이어ID
+word_possessionChallengeP,소지 챌린지P
+word_possessionMedalFormat,소지 {0}
+word_private,프라이빗
+word_privateUnlockFinish,룸 오픈 완료
+word_putItem,설치
+word_qualificationtTotalHighScore,합계 예선 하이 스코어
+word_qualificationtHighScore,예선 하이 스코어
+word_qualificationtSecondScore,본예선 스코어
+word_randomSelect,선곡 위임
+word_rankExp,랭크 EXP
+word_rankGrade,위
+word_rankGradeFromAtoB,{0}~{1}위
+word_ranking,랭킹
+word_readyOk,준비완료!
+word_recommend,추천
+word_recommendDeck,추천 편성
+word_remain,남음
+word_require,필요
+word_requireItem,필요 아이템
+word_requestCancel,신청 취소
+word_reset,초기화
+word_rest,앞으로
+word_reward,보상
+word_rewardList,보상 목록
+word_rewardItemName,획득 아이템 이름
+word_rule,룰
+word_unlock_room,룸 오픈
+word_unlock_room_finish,룸 오픈 완료
+word_school,학교
+word_school_middle,중학교 
+word_school_high,고등학교 
+word_schoolYear,학년
+word_schoolYearSuffix, 학년
+word_secret,???
+word_selfIntroduction,자기소개
+word_score,스코어
+word_scoreRank,스코어 랭크
+word_second,초
+word_select,선택
+word_selected,선택 중
+word_skill,스킬
+word_setting,설정
+word_shop,상점
+word_skillLevel,스킬 Lv.
+word_sort_createdAt,입수순
+word_sort_level,레벨
+word_sort_paramSumDetail,종합력 상세
+word_sort_paramSum,종합력
+word_sort_paramPerformance,퍼포먼스
+word_sort_paramTechnique,테크닉
+word_sort_paramVisual,비주얼
+word_sort_rarity,레어도
+word_sort_skillLevel,스킬 Lv.
+word_specifiedCommercialTransactionLaw,특정상거래법에 근거한 표기
+word_spend,소비
+word_spendNo,소비 없음
+word_star,스타
+word_starCount,스타 x {0}
+word_starShop,스타 상점
+word_start,시작
+word_stamp,스탬프
+word_stampRare,레어 스탬프
+word_targetMusic,대상 음악
+word_targetScore,목표 스코어
+word_times,배!
+word_times_simple,배
+word_toNext,다음
+word_top,TOP
+word_total,합계
+word_totalScore,토털 스코어
+word_training,특훈
+word_until,까지
+word_untilExchange,까지 교환 가능
+word_updateHighscore,하이 스코어 갱신!
+word_usedCard,설정 중
+word_waitEnterRoom,입장 대기
+dialog_gameCenterAuthError_title,인증 오류
+dialog_gameCenterAuthError_message,GameCenter에 로그인하시기 바랍니다.
+storyEvent_result_nothing,없음
+dialog_liveBoostLack_healLBButton,회복
+dialog_liveSettings_coreCharacterCutIn,컷 인
+dialog_liveSettings_standardLightFever,FEVER 연출 저스펙 모드
+dialog_liveSettings_tabSystemSetting,시스템 설정
+gacha_top_oneTimeOnly,1일 1회\n한정!
+multiPlay_abDownloadNotRetryableError_message,통신 오류가 발생했습니다.\n홈으로 이동합니다.
+dialog_account_account_switch,계정 전환
+dialog_account_google_login,구글플레이 로그인
+dialog_account_google_logout,구글플레이 로그아웃
+dialog_account_logout,로그아웃
+dialog_account_ungregister,게임탈퇴
+dialog_error_kakao_guest,게스트 계정으로는 공식 카페를 이용할 수 없습니다.
+dialog_kakao_notify,카카오 알림
+dialog_night_push_notify,야간 푸시 알림
+dialog_push_notify,푸시 알림
+dialog_starShop_allReceived,모든 선물을\n수령하였습니다.
+dialog_starShop_buyStarFormatUSD,${0}
+dialog_starShop_cannotBuyPass,구매 후 30일이 지나면\n다시 구매하실 수 있습니다.
+dialog_starShop_withdrawMessage,사용하지 않은 보상은 구매일로부터 7일 이내 청약 철회가 가능하며 법적 대리인 미동의 결제는 취소 가능합니다.
+kakao_invite_msg_exceed_daily_usage,하루에 보낼 수 있는 초대 메시지 개수를 초과하였습니다.
+kakao_invite_msg_exceed_monthly_usage,한달에 보낼 수 있는 초대 메시지 개수를 초과하였습니다.
+kakao_invite_msg_failure,초대 메시지를 전송하는 도중에 오류가 발생하였습니다.
+kakao_invite_msg_not_allowed,초대 메시지가 수신 거부 설정되어 있습니다.
+kakao_invite_msg_success,초대 메시지를 성공적으로 전송하였습니다.
+kakao_message_template_id,6063
+menuList_account,계정
+menuList_account_switch,계정 전환
+menuList_cafetalk_button,공식 카페
+menuList_coupon_register,쿠폰 등록
+menuList_customer_center,고객센터
+menuList_kakao_friend,카카오 친구
+menuList_noti_config,알림 설정
+menuList_userid,게임 회원 번호
+multiPlay_nolife,라이프 없음!\n획득 스코어 DOWN
+msg_account_google_login_failure,로그인하는 데 실패하였습니다.
+msg_account_google_login_success,성공적으로 로그인 하였습니다.
+msg_account_google_logout,로그아웃 되었습니다.
+msg_copy_to_clipboard,클립보드로 복사하였습니다.
+msg_coupon_register_failure,쿠폰을 등록하는 데 오류가 발생하였습니다.
+msg_coupon_register_success,성공적으로 쿠폰을 등록하였습니다.
+msg_show_allow_message_failure,카카오톡 게임 메시시 수신 여부 설정을 실패하였습니다.
+msg_show_allow_message_not_kakaotalk_user,로그인 한 유저가 「카카오톡」 유저가 아닙니다.
+msg_starshop_guest_cannot_buy,현재 계정연동이 되어 있지 않습니다.\n다른 기기에서도 해당 서비스를 동일하게 이용하려면 계정연동을 해야합니다.
+msg_switch_account_failure,계정 전환 중에 오류가 발생하였습니다.
+msg_switch_account_invalid_state,게스트 로그인 상태가 아닙니다.
+msg_switch_account_not_authorized,카카오 계정이 인증되지 않았습니다.
+msg_switch_account_success,성공적으로 카카오 계정으로 전환되었습니다.
+msg_switch_account_used_account,이미 사용 중인 카카오 계정입니다.
+url_setting_dialog_help,http://cs.kakao.com/helps?articleId=1073190365&category=354&device=1076&locale=ko&service=4
+url_star_shop_help,https://cs.kakao.com/helps?category=354&device=1077&locale=ko&service=4&articleId=1073190458&page=1
+word_badge,뱃지
+word_do_invite,초대하기
+word_gachaByStar,스타로 뽑기
+word_gachaByTicket,티켓으로 뽑기
+word_haveCount,소지 수
+word_soldout,구매했습니다.
+word_stock,재고
+word_toPrev,이전
+word_remain_marina,남음
+gacha_result_detailButton,뽑기\n상세
+area_shop_title,판매 목록
+dialog_liveSetting_specialSkin,-
+dialog_support_message_4,(답장은 개별적으로 전달되지 않습니다.)
+dialog_systemSettings_captionNotification,푸시 알림
+dialog_systemSettings_captionSystem,시스템
+dialog_systemSettings_captionSystemVolume,시스템 볼륨
+dialog_systemSettings_lateNightNotification,야간 푸시 알림
+dialog_systemSettings_lbFullRecovered,전체 회복
+dialog_systyemSettings_notificationDescription,※디바이스 설정에서 알림을 OFF로 설정하신 경우 앱에서 알림 푸시를 받지 않습니다.\n주의 바랍니다.\n(야간 푸시의 기준 시간은 00:00 ~ 5:59까지 입니다.)
+musicSelect_musicSortFilter_missCount,MISS 개수
+musicSelect_musicSortFilter_playCount,플레이 회수
+dialog_liveSettings_fieldSkin,레인・판정 라인
+memorialStory_transition_bandCell,밴드 스토리로 이동
+comicTop_button_zoom,확대
+comicTop_button_read,보기
+musicSelect_existMV,MV 있음
+exchange_emptyDescription,해당 조건을 만족하는 내용이 없습니다.
+dialog_liveSetting_specialSkinBalloon,기간 한정 스킨 있음
