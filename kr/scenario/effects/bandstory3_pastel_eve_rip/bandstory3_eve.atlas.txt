@@ -1,0 +1,314 @@
+
+bandstory3_eve.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Hyoujo
+  rotate: false
+  xy: 671, 1140
+  size: 158, 109
+  orig: 158, 109
+  offset: 0, 0
+  index: -1
+accessory
+  rotate: true
+  xy: 596, 771
+  size: 158, 107
+  orig: 158, 107
+  offset: 0, 0
+  index: -1
+arm_L
+  rotate: true
+  xy: 292, 109
+  size: 238, 179
+  orig: 238, 179
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: false
+  xy: 1503, 1840
+  size: 227, 206
+  orig: 227, 206
+  offset: 0, 0
+  index: -1
+belt_L
+  rotate: true
+  xy: 596, 494
+  size: 134, 119
+  orig: 134, 119
+  offset: 0, 0
+  index: -1
+belt_R
+  rotate: true
+  xy: 1503, 1708
+  size: 131, 184
+  orig: 131, 184
+  offset: 0, 0
+  index: -1
+belt_R_2
+  rotate: true
+  xy: 908, 1263
+  size: 78, 180
+  orig: 78, 180
+  offset: 0, 0
+  index: -1
+breast
+  rotate: false
+  xy: 1228, 1707
+  size: 274, 339
+  orig: 274, 339
+  offset: 0, 0
+  index: -1
+breastFar
+  rotate: false
+  xy: 1202, 1297
+  size: 22, 44
+  orig: 22, 44
+  offset: 0, 0
+  index: -1
+breastRibbom_01
+  rotate: false
+  xy: 2018, 1821
+  size: 29, 82
+  orig: 29, 82
+  offset: 0, 0
+  index: -1
+breastRibbom_02
+  rotate: true
+  xy: 369, 63
+  size: 45, 80
+  orig: 45, 80
+  offset: 0, 0
+  index: -1
+brow
+  rotate: true
+  xy: 2018, 1904
+  size: 142, 29
+  orig: 142, 29
+  offset: 0, 0
+  index: -1
+earringChain_L
+  rotate: false
+  xy: 1472, 1394
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+earringChain_R
+  rotate: true
+  xy: 1731, 1840
+  size: 15, 22
+  orig: 15, 22
+  offset: 0, 0
+  index: -1
+earring_L
+  rotate: false
+  xy: 560, 296
+  size: 43, 44
+  orig: 43, 44
+  offset: 0, 0
+  index: -1
+earring_R
+  rotate: false
+  xy: 1688, 1722
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+eye_bright
+  rotate: false
+  xy: 1, 2
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+finger_L
+  rotate: true
+  xy: 1089, 1251
+  size: 90, 112
+  orig: 90, 112
+  offset: 0, 0
+  index: -1
+forearm_L
+  rotate: false
+  xy: 1731, 1856
+  size: 146, 190
+  orig: 146, 190
+  offset: 0, 0
+  index: -1
+forearm_R
+  rotate: false
+  xy: 671, 1250
+  size: 236, 91
+  orig: 236, 91
+  offset: 0, 0
+  index: -1
+fronthair_01
+  rotate: false
+  xy: 830, 1188
+  size: 74, 61
+  orig: 74, 61
+  offset: 0, 0
+  index: -1
+fronthair_02
+  rotate: false
+  xy: 1397, 1342
+  size: 74, 71
+  orig: 74, 71
+  offset: 0, 0
+  index: -1
+fronthair_03
+  rotate: true
+  xy: 671, 1108
+  size: 31, 90
+  orig: 31, 90
+  offset: 0, 0
+  index: -1
+fronthair_04
+  rotate: true
+  xy: 615, 355
+  size: 30, 79
+  orig: 30, 79
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 596, 629
+  size: 114, 141
+  orig: 114, 141
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1228, 1414
+  size: 292, 267
+  orig: 292, 267
+  offset: 0, 0
+  index: -1
+headRibbon
+  rotate: true
+  xy: 615, 386
+  size: 107, 100
+  orig: 107, 100
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 1, 482
+  size: 594, 769
+  orig: 594, 769
+  offset: 0, 0
+  index: -1
+hipCloth
+  rotate: false
+  xy: 671, 1342
+  size: 556, 704
+  orig: 556, 704
+  offset: 0, 0
+  index: -1
+hipRibbon
+  rotate: false
+  xy: 1878, 1862
+  size: 139, 184
+  orig: 139, 184
+  offset: 0, 0
+  index: -1
+keyboard
+  rotate: false
+  xy: 1, 1252
+  size: 669, 794
+  orig: 669, 794
+  offset: 0, 0
+  index: -1
+leg_L
+  rotate: false
+  xy: 1, 52
+  size: 290, 295
+  orig: 290, 295
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: true
+  xy: 1, 348
+  size: 133, 515
+  orig: 133, 515
+  offset: 0, 0
+  index: -1
+mouse
+  rotate: true
+  xy: 472, 229
+  size: 56, 37
+  orig: 56, 37
+  offset: 0, 0
+  index: -1
+osageTips_L
+  rotate: true
+  xy: 830, 1145
+  size: 42, 54
+  orig: 42, 54
+  offset: 0, 0
+  index: -1
+osageTips_R
+  rotate: false
+  xy: 517, 292
+  size: 42, 48
+  orig: 42, 48
+  offset: 0, 0
+  index: -1
+osage_L
+  rotate: true
+  xy: 596, 1096
+  size: 155, 74
+  orig: 155, 74
+  offset: 0, 0
+  index: -1
+osage_R
+  rotate: true
+  xy: 517, 341
+  size: 140, 97
+  orig: 140, 97
+  offset: 0, 0
+  index: -1
+shoulder_L
+  rotate: false
+  xy: 292, 54
+  size: 76, 54
+  orig: 76, 54
+  offset: 0, 0
+  index: -1
+shoulder_L_chain
+  rotate: true
+  xy: 472, 286
+  size: 61, 44
+  orig: 61, 44
+  offset: 0, 0
+  index: -1
+shoulder_R
+  rotate: true
+  xy: 1688, 1771
+  size: 68, 36
+  orig: 68, 36
+  offset: 0, 0
+  index: -1
+sidehair_L_01
+  rotate: false
+  xy: 596, 930
+  size: 81, 165
+  orig: 81, 165
+  offset: 0, 0
+  index: -1
+sidehair_R_01
+  rotate: true
+  xy: 1228, 1335
+  size: 78, 168
+  orig: 78, 168
+  offset: 0, 0
+  index: -1
+sidehair_R_02
+  rotate: true
+  xy: 1, 29
+  size: 22, 123
+  orig: 22, 123
+  offset: 0, 0
+  index: -1

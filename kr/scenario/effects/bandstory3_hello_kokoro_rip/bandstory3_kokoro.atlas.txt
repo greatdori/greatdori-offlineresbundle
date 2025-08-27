@@ -1,0 +1,391 @@
+
+bandstory3_kokoro.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_L
+  rotate: false
+  xy: 1774, 1920
+  size: 268, 124
+  orig: 268, 124
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: false
+  xy: 1380, 1580
+  size: 368, 135
+  orig: 368, 135
+  offset: 0, 0
+  index: -1
+backHair_L_01
+  rotate: false
+  xy: 315, 486
+  size: 389, 106
+  orig: 389, 106
+  offset: 0, 0
+  index: -1
+backHair_L_02
+  rotate: false
+  xy: 1380, 1395
+  size: 201, 89
+  orig: 201, 89
+  offset: 0, 0
+  index: -1
+backHair_L_03
+  rotate: false
+  xy: 315, 381
+  size: 215, 103
+  orig: 215, 103
+  offset: 0, 0
+  index: -1
+backHair_L_04
+  rotate: false
+  xy: 991, 1043
+  size: 353, 120
+  orig: 353, 120
+  offset: 0, 0
+  index: -1
+backHair_L_05
+  rotate: false
+  xy: 1128, 926
+  size: 161, 115
+  orig: 161, 115
+  offset: 0, 0
+  index: -1
+backHair_L_06
+  rotate: false
+  xy: 315, 261
+  size: 161, 118
+  orig: 161, 118
+  offset: 0, 0
+  index: -1
+backHair_L_07
+  rotate: false
+  xy: 1380, 1486
+  size: 243, 92
+  orig: 243, 92
+  offset: 0, 0
+  index: -1
+backHair_L_08
+  rotate: false
+  xy: 1774, 1697
+  size: 144, 80
+  orig: 144, 80
+  offset: 0, 0
+  index: -1
+backHair_L_09
+  rotate: true
+  xy: 925, 688
+  size: 157, 66
+  orig: 157, 66
+  offset: 0, 0
+  index: -1
+backHair_L_10
+  rotate: true
+  xy: 1920, 1704
+  size: 71, 82
+  orig: 71, 82
+  offset: 0, 0
+  index: -1
+backHair_L_11
+  rotate: false
+  xy: 315, 224
+  size: 164, 35
+  orig: 164, 35
+  offset: 0, 0
+  index: -1
+backHair_R_01
+  rotate: false
+  xy: 1380, 1161
+  size: 144, 107
+  orig: 144, 107
+  offset: 0, 0
+  index: -1
+breast
+  rotate: false
+  xy: 2, 200
+  size: 311, 392
+  orig: 311, 392
+  offset: 0, 0
+  index: -1
+cloak_01
+  rotate: false
+  xy: 2, 113
+  size: 298, 85
+  orig: 298, 85
+  offset: 0, 0
+  index: -1
+cloak_02
+  rotate: false
+  xy: 2, 594
+  size: 763, 569
+  orig: 763, 569
+  offset: 0, 0
+  index: -1
+eye_bright
+  rotate: false
+  xy: 594, 270
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+frontHair_01
+  rotate: true
+  xy: 925, 627
+  size: 59, 66
+  orig: 59, 66
+  offset: 0, 0
+  index: -1
+frontHair_02
+  rotate: false
+  xy: 523, 304
+  size: 72, 59
+  orig: 72, 59
+  offset: 0, 0
+  index: -1
+frontHair_03
+  rotate: false
+  xy: 1527, 1302
+  size: 69, 91
+  orig: 69, 91
+  offset: 0, 0
+  index: -1
+frontHair_04
+  rotate: true
+  xy: 597, 304
+  size: 59, 66
+  orig: 59, 66
+  offset: 0, 0
+  index: -1
+frontHair_05
+  rotate: false
+  xy: 478, 304
+  size: 43, 75
+  orig: 43, 75
+  offset: 0, 0
+  index: -1
+frontHair_06
+  rotate: true
+  xy: 1177, 820
+  size: 37, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+frontHair_07
+  rotate: false
+  xy: 1750, 1581
+  size: 79, 114
+  orig: 79, 114
+  offset: 0, 0
+  index: -1
+frontHair_08
+  rotate: false
+  xy: 1262, 879
+  size: 27, 45
+  orig: 27, 45
+  offset: 0, 0
+  index: -1
+frontHair_09
+  rotate: true
+  xy: 1346, 1087
+  size: 76, 26
+  orig: 76, 26
+  offset: 0, 0
+  index: -1
+frontHair_10
+  rotate: true
+  xy: 706, 487
+  size: 105, 63
+  orig: 105, 63
+  offset: 0, 0
+  index: -1
+frontHair_11
+  rotate: true
+  xy: 1943, 1777
+  size: 141, 92
+  orig: 141, 92
+  offset: 0, 0
+  index: -1
+frontHair_12
+  rotate: true
+  xy: 682, 415
+  size: 69, 19
+  orig: 69, 19
+  offset: 0, 0
+  index: -1
+frontHair_13
+  rotate: true
+  xy: 1291, 935
+  size: 106, 33
+  orig: 106, 33
+  offset: 0, 0
+  index: -1
+frontHair_14
+  rotate: false
+  xy: 1127, 823
+  size: 48, 34
+  orig: 48, 34
+  offset: 0, 0
+  index: -1
+hairAccesoryBelt_01
+  rotate: true
+  xy: 478, 267
+  size: 35, 60
+  orig: 35, 60
+  offset: 0, 0
+  index: -1
+hairAccesoryBelt_02
+  rotate: true
+  xy: 1583, 1411
+  size: 73, 35
+  orig: 73, 35
+  offset: 0, 0
+  index: -1
+hairAccesoryBelt_03
+  rotate: false
+  xy: 1081, 725
+  size: 43, 66
+  orig: 43, 66
+  offset: 0, 0
+  index: -1
+hairAccesoryBelt_04
+  rotate: true
+  xy: 1128, 859
+  size: 65, 132
+  orig: 65, 132
+  offset: 0, 0
+  index: -1
+hairAccesoryBelt_05
+  rotate: false
+  xy: 1081, 793
+  size: 44, 71
+  orig: 44, 71
+  offset: 0, 0
+  index: -1
+hairAccesory_01
+  rotate: true
+  xy: 532, 365
+  size: 119, 148
+  orig: 119, 148
+  offset: 0, 0
+  index: -1
+hand_L
+  rotate: false
+  xy: 2, 6
+  size: 195, 105
+  orig: 195, 105
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 1380, 1270
+  size: 145, 123
+  orig: 145, 123
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1380, 1717
+  size: 392, 327
+  orig: 392, 327
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 2, 1165
+  size: 1376, 879
+  orig: 1376, 879
+  offset: 0, 0
+  index: -1
+hipRibbon
+  rotate: true
+  xy: 199, 2
+  size: 109, 82
+  orig: 109, 82
+  offset: 0, 0
+  index: -1
+shoulderFurBase
+  rotate: true
+  xy: 767, 602
+  size: 21, 43
+  orig: 21, 43
+  offset: 0, 0
+  index: -1
+shoulderFur_L_01
+  rotate: true
+  xy: 540, 269
+  size: 33, 52
+  orig: 33, 52
+  offset: 0, 0
+  index: -1
+shoulderFur_L_02
+  rotate: false
+  xy: 1291, 895
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+shoulder_L
+  rotate: false
+  xy: 767, 847
+  size: 222, 316
+  orig: 222, 316
+  offset: 0, 0
+  index: -1
+sideHair_L_01
+  rotate: false
+  xy: 993, 638
+  size: 57, 81
+  orig: 57, 81
+  offset: 0, 0
+  index: -1
+sideHair_L_02
+  rotate: true
+  xy: 993, 721
+  size: 143, 86
+  orig: 143, 86
+  offset: 0, 0
+  index: -1
+sideHair_L_03
+  rotate: true
+  xy: 315, 204
+  size: 18, 62
+  orig: 18, 62
+  offset: 0, 0
+  index: -1
+sideHair_R_01
+  rotate: false
+  xy: 1774, 1779
+  size: 167, 139
+  orig: 167, 139
+  offset: 0, 0
+  index: -1
+sideHair_R_02
+  rotate: true
+  xy: 1831, 1590
+  size: 105, 77
+  orig: 105, 77
+  offset: 0, 0
+  index: -1
+sideHair_R_03
+  rotate: true
+  xy: 1625, 1477
+  size: 101, 114
+  orig: 101, 114
+  offset: 0, 0
+  index: -1
+sideHair_R_04
+  rotate: false
+  xy: 767, 625
+  size: 156, 220
+  orig: 156, 220
+  offset: 0, 0
+  index: -1
+sideHair_R_05
+  rotate: false
+  xy: 991, 866
+  size: 135, 175
+  orig: 135, 175
+  offset: 0, 0
+  index: -1

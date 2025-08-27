@@ -1,0 +1,440 @@
+
+s200_shishimai.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hagumi_F_body
+  rotate: false
+  xy: 2, 54
+  size: 193, 200
+  orig: 193, 200
+  offset: 0, 0
+  index: -1
+hagumi_F_body_re
+  rotate: false
+  xy: 197, 27
+  size: 193, 200
+  orig: 193, 200
+  offset: 0, 0
+  index: -1
+hagumi_F_footL
+  rotate: true
+  xy: 932, 752
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+hagumi_F_footR
+  rotate: false
+  xy: 793, 275
+  size: 43, 72
+  orig: 43, 72
+  offset: 0, 0
+  index: -1
+kaoru_F_body
+  rotate: false
+  xy: 409, 487
+  size: 193, 200
+  orig: 193, 200
+  offset: 0, 0
+  index: -1
+kaoru_F_body_re
+  rotate: false
+  xy: 402, 280
+  size: 193, 200
+  orig: 193, 200
+  offset: 0, 0
+  index: -1
+kaoru_F_footL
+  rotate: false
+  xy: 747, 275
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+kaoru_F_footR
+  rotate: false
+  xy: 825, 418
+  size: 43, 72
+  orig: 43, 72
+  offset: 0, 0
+  index: -1
+kokoro_F_body
+  rotate: false
+  xy: 737, 812
+  size: 193, 200
+  orig: 193, 200
+  offset: 0, 0
+  index: -1
+kokoro_F_body_re
+  rotate: false
+  xy: 604, 487
+  size: 193, 200
+  orig: 193, 200
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeL01_normal
+  rotate: true
+  xy: 874, 748
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeL02_smile
+  rotate: false
+  xy: 738, 690
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeL03_surprise
+  rotate: false
+  xy: 867, 626
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeL04_sad
+  rotate: false
+  xy: 867, 568
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeL05_angry
+  rotate: false
+  xy: 867, 510
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeL06_close
+  rotate: false
+  xy: 938, 694
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeL07_half
+  rotate: true
+  xy: 780, 349
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeL08_dogleg
+  rotate: true
+  xy: 870, 446
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeR01_normal
+  rotate: true
+  xy: 443, 62
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeR02_smile
+  rotate: false
+  xy: 738, 748
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeR03_surprise
+  rotate: false
+  xy: 806, 748
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeR04_sad
+  rotate: false
+  xy: 802, 684
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeR05_angry
+  rotate: false
+  xy: 799, 620
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeR06_close
+  rotate: false
+  xy: 799, 556
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeR07_half
+  rotate: false
+  xy: 799, 492
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+kokoro_F_eyeR08_dogleg
+  rotate: false
+  xy: 870, 684
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+kokoro_F_eyebrow01_normal
+  rotate: false
+  xy: 2, 4
+  size: 102, 48
+  orig: 102, 48
+  offset: 0, 0
+  index: -1
+kokoro_F_eyebrow02_smile
+  rotate: true
+  xy: 688, 690
+  size: 102, 48
+  orig: 102, 48
+  offset: 0, 0
+  index: -1
+kokoro_F_eyebrow03_surprise
+  rotate: false
+  xy: 402, 230
+  size: 102, 48
+  orig: 102, 48
+  offset: 0, 0
+  index: -1
+kokoro_F_eyebrow04_sad
+  rotate: false
+  xy: 392, 180
+  size: 102, 48
+  orig: 102, 48
+  offset: 0, 0
+  index: -1
+kokoro_F_eyebrow05_angry
+  rotate: false
+  xy: 392, 130
+  size: 102, 48
+  orig: 102, 48
+  offset: 0, 0
+  index: -1
+kokoro_F_footL
+  rotate: true
+  xy: 506, 234
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+kokoro_F_footR
+  rotate: false
+  xy: 780, 413
+  size: 43, 72
+  orig: 43, 72
+  offset: 0, 0
+  index: -1
+kokoro_F_hairFC
+  rotate: false
+  xy: 597, 349
+  size: 181, 136
+  orig: 181, 136
+  offset: 0, 0
+  index: -1
+kokoro_F_hairL_B
+  rotate: false
+  xy: 207, 229
+  size: 110, 235
+  orig: 110, 235
+  offset: 0, 0
+  index: -1
+kokoro_F_hairR
+  rotate: true
+  xy: 425, 689
+  size: 103, 261
+  orig: 103, 261
+  offset: 0, 0
+  index: -1
+kokoro_F_head
+  rotate: false
+  xy: 2, 256
+  size: 203, 208
+  orig: 203, 208
+  offset: 0, 0
+  index: -1
+kokoro_F_legL
+  rotate: false
+  xy: 392, 44
+  size: 49, 84
+  orig: 49, 84
+  offset: 0, 0
+  index: -1
+hagumi_F_legL
+  rotate: false
+  xy: 392, 44
+  size: 49, 84
+  orig: 49, 84
+  offset: 0, 0
+  index: -1
+kaoru_F_legL
+  rotate: false
+  xy: 392, 44
+  size: 49, 84
+  orig: 49, 84
+  offset: 0, 0
+  index: -1
+kokoro_F_legR
+  rotate: true
+  xy: 106, 5
+  size: 47, 83
+  orig: 47, 83
+  offset: 0, 0
+  index: -1
+hagumi_F_legR
+  rotate: true
+  xy: 106, 5
+  size: 47, 83
+  orig: 47, 83
+  offset: 0, 0
+  index: -1
+kaoru_F_legR
+  rotate: true
+  xy: 106, 5
+  size: 47, 83
+  orig: 47, 83
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth01_normal
+  rotate: true
+  xy: 870, 404
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth02_smile
+  rotate: true
+  xy: 443, 20
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth03_surprise
+  rotate: true
+  xy: 392, 2
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth04_sad
+  rotate: true
+  xy: 747, 233
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth05_angry
+  rotate: true
+  xy: 794, 233
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth06_talk01
+  rotate: false
+  xy: 490, 15
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth07_talk02
+  rotate: false
+  xy: 496, 183
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth08_nom
+  rotate: false
+  xy: 496, 136
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth08_talk03
+  rotate: false
+  xy: 538, 187
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth09_talk04
+  rotate: false
+  xy: 538, 140
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_mouth09_talk05
+  rotate: false
+  xy: 580, 214
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+kokoro_F_ponytail
+  rotate: false
+  xy: 280, 482
+  size: 127, 240
+  orig: 127, 240
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 597, 261
+  size: 148, 86
+  orig: 148, 86
+  offset: 0, 0
+  index: -1
+shishimai_body
+  rotate: false
+  xy: 2, 724
+  size: 421, 288
+  orig: 421, 288
+  offset: 0, 0
+  index: -1
+shishimai_hair
+  rotate: false
+  xy: 2, 466
+  size: 276, 256
+  orig: 276, 256
+  offset: 0, 0
+  index: -1
+shishimai_head
+  rotate: false
+  xy: 425, 794
+  size: 310, 218
+  orig: 310, 218
+  offset: 0, 0
+  index: -1
+shishimai_joe
+  rotate: true
+  xy: 319, 241
+  size: 239, 81
+  orig: 239, 81
+  offset: 0, 0
+  index: -1
+shishimai_joeBack
+  rotate: true
+  xy: 932, 798
+  size: 214, 83
+  orig: 214, 83
+  offset: 0, 0
+  index: -1
+skeletonsizeimage
+  rotate: false
+  xy: 1017, 1002
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1

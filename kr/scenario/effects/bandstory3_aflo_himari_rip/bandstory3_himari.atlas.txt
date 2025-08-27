@@ -1,0 +1,271 @@
+
+bandstory3_himari.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: true
+  xy: 554, 27
+  size: 223, 121
+  orig: 223, 121
+  offset: 0, 0
+  index: -1
+armR
+  rotate: true
+  xy: 796, 557
+  size: 132, 214
+  orig: 132, 214
+  offset: 0, 0
+  index: -1
+ase_1
+  rotate: true
+  xy: 303, 1
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+ase_2
+  rotate: false
+  xy: 114, 2
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+ase_3
+  rotate: true
+  xy: 121, 3
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+backhairR
+  rotate: true
+  xy: 751, 9
+  size: 146, 132
+  orig: 146, 132
+  offset: 0, 0
+  index: -1
+backhairfrontbrunchL
+  rotate: false
+  xy: 796, 262
+  size: 153, 98
+  orig: 153, 98
+  offset: 0, 0
+  index: -1
+baldhair
+  rotate: false
+  xy: 884, 183
+  size: 64, 78
+  orig: 64, 78
+  offset: 0, 0
+  index: -1
+bassstring
+  rotate: false
+  xy: 584, 609
+  size: 81, 321
+  orig: 81, 321
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 1, 251
+  size: 582, 772
+  orig: 582, 772
+  offset: 0, 0
+  index: -1
+eye_bright
+  rotate: false
+  xy: 630, 331
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+eyebrow
+  rotate: true
+  xy: 584, 358
+  size: 149, 78
+  orig: 149, 78
+  offset: 0, 0
+  index: -1
+fronthairR
+  rotate: false
+  xy: 1, 4
+  size: 112, 246
+  orig: 112, 246
+  offset: 0, 0
+  index: -1
+fronthairRbrunch
+  rotate: false
+  xy: 676, 8
+  size: 74, 147
+  orig: 74, 147
+  offset: 0, 0
+  index: -1
+fronthaircenter1
+  rotate: false
+  xy: 789, 160
+  size: 76, 101
+  orig: 76, 101
+  offset: 0, 0
+  index: -1
+fronthaircenter2
+  rotate: false
+  xy: 584, 508
+  size: 81, 100
+  orig: 81, 100
+  offset: 0, 0
+  index: -1
+fronthaircenter4
+  rotate: false
+  xy: 584, 251
+  size: 45, 106
+  orig: 45, 106
+  offset: 0, 0
+  index: -1
+fronthaircenterbrunch
+  rotate: false
+  xy: 950, 294
+  size: 73, 66
+  orig: 73, 66
+  offset: 0, 0
+  index: -1
+handL
+  rotate: false
+  xy: 114, 12
+  size: 188, 238
+  orig: 188, 238
+  offset: 0, 0
+  index: -1
+handR
+  rotate: false
+  xy: 796, 361
+  size: 208, 195
+  orig: 208, 195
+  offset: 0, 0
+  index: -1
+hipclothL
+  rotate: true
+  xy: 303, 14
+  size: 236, 250
+  orig: 236, 250
+  offset: 0, 0
+  index: -1
+hipclothR
+  rotate: true
+  xy: 676, 690
+  size: 333, 343
+  orig: 333, 343
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: true
+  xy: 666, 277
+  size: 412, 129
+  orig: 412, 129
+  offset: 0, 0
+  index: -1
+osageL
+  rotate: false
+  xy: 676, 156
+  size: 112, 120
+  orig: 112, 120
+  offset: 0, 0
+  index: -1
+osageR
+  rotate: false
+  xy: 884, 58
+  size: 128, 124
+  orig: 128, 124
+  offset: 0, 0
+  index: -1
+shoulderLcover
+  rotate: true
+  xy: 884, 6
+  size: 51, 120
+  orig: 51, 120
+  offset: 0, 0
+  index: -1
+shoulderR
+  rotate: false
+  xy: 584, 931
+  size: 91, 92
+  orig: 91, 92
+  offset: 0, 0
+  index: -1
+stringL
+  rotate: true
+  xy: 554, 2
+  size: 24, 87
+  orig: 24, 87
+  offset: 0, 0
+  index: -1
+stringR
+  rotate: true
+  xy: 950, 239
+  size: 54, 70
+  orig: 54, 70
+  offset: 0, 0
+  index: -1
+
+bandstory3_himari2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backhairL
+  rotate: false
+  xy: 768, 906
+  size: 93, 109
+  orig: 93, 109
+  offset: 0, 0
+  index: -1
+backhairfrontL
+  rotate: false
+  xy: 1, 1
+  size: 106, 120
+  orig: 106, 120
+  offset: 0, 0
+  index: -1
+bass
+  rotate: false
+  xy: 1, 273
+  size: 663, 742
+  orig: 663, 742
+  offset: 0, 0
+  index: -1
+cord
+  rotate: false
+  xy: 665, 525
+  size: 102, 490
+  orig: 102, 490
+  offset: 0, 0
+  index: -1
+fronthaircenter3
+  rotate: false
+  xy: 108, 28
+  size: 108, 93
+  orig: 108, 93
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 665, 247
+  size: 281, 277
+  orig: 281, 277
+  offset: 0, 0
+  index: -1
+leg_L
+  rotate: false
+  xy: 1, 122
+  size: 592, 150
+  orig: 592, 150
+  offset: 0, 0
+  index: -1
+shoulderL
+  rotate: false
+  xy: 862, 913
+  size: 98, 102
+  orig: 98, 102
+  offset: 0, 0
+  index: -1

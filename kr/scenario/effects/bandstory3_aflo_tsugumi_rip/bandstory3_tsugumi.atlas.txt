@@ -1,0 +1,291 @@
+
+bandstory3_tsugumi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backhairR1
+  rotate: true
+  xy: 863, 29
+  size: 81, 160
+  orig: 81, 160
+  offset: 0, 0
+  index: -1
+eye_bright
+  rotate: false
+  xy: 665, 327
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hipDivide
+  rotate: false
+  xy: 1, 29
+  size: 663, 499
+  orig: 663, 499
+  offset: 0, 0
+  index: -1
+keyboardPoll02
+  rotate: true
+  xy: 702, 111
+  size: 911, 296
+  orig: 911, 296
+  offset: 0, 0
+  index: -1
+keyboardPoll04
+  rotate: true
+  xy: 999, 610
+  size: 412, 18
+  orig: 412, 18
+  offset: 0, 0
+  index: -1
+keyboardR
+  rotate: false
+  xy: 1, 529
+  size: 700, 493
+  orig: 700, 493
+  offset: 0, 0
+  index: -1
+sidehairR1
+  rotate: true
+  xy: 665, 42
+  size: 68, 197
+  orig: 68, 197
+  offset: 0, 0
+  index: -1
+sidehairR2
+  rotate: false
+  xy: 665, 433
+  size: 28, 95
+  orig: 28, 95
+  offset: 0, 0
+  index: -1
+stringL
+  rotate: false
+  xy: 665, 360
+  size: 34, 72
+  orig: 34, 72
+  offset: 0, 0
+  index: -1
+
+bandstory3_tsugumi2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backhairL5
+  rotate: true
+  xy: 149, 607
+  size: 77, 97
+  orig: 77, 97
+  offset: 0, 0
+  index: -1
+backhairR3
+  rotate: true
+  xy: 149, 535
+  size: 71, 96
+  orig: 71, 96
+  offset: 0, 0
+  index: -1
+breast
+  rotate: false
+  xy: 650, 233
+  size: 362, 446
+  orig: 362, 446
+  offset: 0, 0
+  index: -1
+fronthair1
+  rotate: false
+  xy: 945, 113
+  size: 75, 119
+  orig: 75, 119
+  offset: 0, 0
+  index: -1
+fronthair2
+  rotate: false
+  xy: 149, 337
+  size: 86, 143
+  orig: 86, 143
+  offset: 0, 0
+  index: -1
+fronthair5
+  rotate: true
+  xy: 149, 214
+  size: 122, 79
+  orig: 122, 79
+  offset: 0, 0
+  index: -1
+handR
+  rotate: false
+  xy: 699, 3
+  size: 245, 229
+  orig: 245, 229
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 692, 680
+  size: 319, 341
+  orig: 319, 341
+  offset: 0, 0
+  index: -1
+hipClothL
+  rotate: true
+  xy: 1, 685
+  size: 297, 254
+  orig: 297, 254
+  offset: 0, 0
+  index: -1
+keyboardL
+  rotate: true
+  xy: 256, 191
+  size: 622, 393
+  orig: 622, 393
+  offset: 0, 0
+  index: -1
+keyboardPoll01
+  rotate: false
+  xy: 1, 983
+  size: 690, 38
+  orig: 690, 38
+  offset: 0, 0
+  index: -1
+keyboardPoll03
+  rotate: false
+  xy: 256, 814
+  size: 420, 168
+  orig: 420, 168
+  offset: 0, 0
+  index: -1
+leg_L
+  rotate: true
+  xy: 1, 11
+  size: 668, 147
+  orig: 668, 147
+  offset: 0, 0
+  index: -1
+overclothLback
+  rotate: true
+  xy: 945, 42
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+overclothR
+  rotate: true
+  xy: 149, 1
+  size: 189, 289
+  orig: 189, 289
+  offset: 0, 0
+  index: -1
+shoulderL
+  rotate: true
+  xy: 439, 3
+  size: 187, 259
+  orig: 187, 259
+  offset: 0, 0
+  index: -1
+stringR
+  rotate: true
+  xy: 149, 481
+  size: 53, 90
+  orig: 53, 90
+  offset: 0, 0
+  index: -1
+
+bandstory3_tsugumi3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: true
+  xy: 122, 113
+  size: 177, 140
+  orig: 177, 140
+  offset: 0, 0
+  index: -1
+armR
+  rotate: false
+  xy: 1, 291
+  size: 200, 211
+  orig: 200, 211
+  offset: 0, 0
+  index: -1
+backhairL1
+  rotate: false
+  xy: 497, 691
+  size: 143, 146
+  orig: 143, 146
+  offset: 0, 0
+  index: -1
+backhairL3
+  rotate: true
+  xy: 849, 871
+  size: 149, 172
+  orig: 149, 172
+  offset: 0, 0
+  index: -1
+backhairL6
+  rotate: true
+  xy: 122, 55
+  size: 57, 67
+  orig: 57, 67
+  offset: 0, 0
+  index: -1
+backharL2
+  rotate: true
+  xy: 290, 679
+  size: 158, 206
+  orig: 158, 206
+  offset: 0, 0
+  index: -1
+fronthair4
+  rotate: true
+  xy: 1, 17
+  size: 44, 81
+  orig: 44, 81
+  offset: 0, 0
+  index: -1
+handL
+  rotate: false
+  xy: 202, 347
+  size: 143, 155
+  orig: 143, 155
+  offset: 0, 0
+  index: -1
+hipClothR
+  rotate: false
+  xy: 1, 660
+  size: 288, 177
+  orig: 288, 177
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: false
+  xy: 1, 838
+  size: 557, 182
+  orig: 557, 182
+  offset: 0, 0
+  index: -1
+overclothL
+  rotate: false
+  xy: 1, 62
+  size: 120, 228
+  orig: 120, 228
+  offset: 0, 0
+  index: -1
+thighL
+  rotate: false
+  xy: 559, 872
+  size: 289, 148
+  orig: 289, 148
+  offset: 0, 0
+  index: -1
+thighR
+  rotate: false
+  xy: 1, 503
+  size: 264, 156
+  orig: 264, 156
+  offset: 0, 0
+  index: -1

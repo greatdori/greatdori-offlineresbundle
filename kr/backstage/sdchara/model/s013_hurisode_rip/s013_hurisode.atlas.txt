@@ -1,0 +1,13 @@
+
+s013_hurisode.png
+size: 16,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skeletonsizeimage
+  rotate: false
+  xy: 2, 2
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1

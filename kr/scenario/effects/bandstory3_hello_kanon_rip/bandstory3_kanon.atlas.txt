@@ -1,0 +1,398 @@
+
+bandstory3_kanon.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_L
+  rotate: true
+  xy: 1913, 1811
+  size: 232, 126
+  orig: 232, 126
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: false
+  xy: 361, 521
+  size: 387, 196
+  orig: 387, 196
+  offset: 0, 0
+  index: -1
+backHair_L_01
+  rotate: true
+  xy: 1018, 947
+  size: 310, 134
+  orig: 310, 134
+  offset: 0, 0
+  index: -1
+backHair_L_02
+  rotate: false
+  xy: 1702, 1651
+  size: 127, 44
+  orig: 127, 44
+  offset: 0, 0
+  index: -1
+backHair_L_03
+  rotate: true
+  xy: 263, 8
+  size: 93, 114
+  orig: 93, 114
+  offset: 0, 0
+  index: -1
+backHair_L_04
+  rotate: false
+  xy: 383, 86
+  size: 230, 89
+  orig: 230, 89
+  offset: 0, 0
+  index: -1
+backHair_L_05
+  rotate: false
+  xy: 383, 177
+  size: 312, 168
+  orig: 312, 168
+  offset: 0, 0
+  index: -1
+backHair_L_06
+  rotate: true
+  xy: 1635, 1152
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+backHair_L_07
+  rotate: true
+  xy: 1114, 760
+  size: 79, 45
+  orig: 79, 45
+  offset: 0, 0
+  index: -1
+backHair_L_08
+  rotate: true
+  xy: 1018, 841
+  size: 104, 134
+  orig: 104, 134
+  offset: 0, 0
+  index: -1
+backHair_L_09
+  rotate: true
+  xy: 1422, 927
+  size: 162, 96
+  orig: 162, 96
+  offset: 0, 0
+  index: -1
+backHair_L_10
+  rotate: true
+  xy: 1513, 1421
+  size: 230, 164
+  orig: 230, 164
+  offset: 0, 0
+  index: -1
+backHair_L_11
+  rotate: false
+  xy: 2, 7
+  size: 259, 94
+  orig: 259, 94
+  offset: 0, 0
+  index: -1
+backHair_R_01
+  rotate: false
+  xy: 1423, 859
+  size: 68, 66
+  orig: 68, 66
+  offset: 0, 0
+  index: -1
+backHair_R_02
+  rotate: false
+  xy: 1161, 761
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+breast
+  rotate: false
+  xy: 2, 276
+  size: 357, 441
+  orig: 357, 441
+  offset: 0, 0
+  index: -1
+breastRibbon
+  rotate: false
+  xy: 1530, 1151
+  size: 103, 151
+  orig: 103, 151
+  offset: 0, 0
+  index: -1
+breastRibbonBelt_01
+  rotate: false
+  xy: 1161, 817
+  size: 74, 36
+  orig: 74, 36
+  offset: 0, 0
+  index: -1
+breastRibbonBelt_02
+  rotate: true
+  xy: 1831, 1654
+  size: 41, 76
+  orig: 41, 76
+  offset: 0, 0
+  index: -1
+brunchHair_01
+  rotate: true
+  xy: 1530, 1077
+  size: 72, 117
+  orig: 72, 117
+  offset: 0, 0
+  index: -1
+brunchHair_02
+  rotate: true
+  xy: 615, 92
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+cloak
+  rotate: false
+  xy: 2, 719
+  size: 968, 538
+  orig: 968, 538
+  offset: 0, 0
+  index: -1
+drum
+  rotate: false
+  xy: 1109, 1289
+  size: 402, 362
+  orig: 402, 362
+  offset: 0, 0
+  index: -1
+drumBelt_L
+  rotate: false
+  xy: 972, 829
+  size: 44, 428
+  orig: 44, 428
+  offset: 0, 0
+  index: -1
+drumBelt_R
+  rotate: true
+  xy: 361, 347
+  size: 172, 378
+  orig: 172, 378
+  offset: 0, 0
+  index: -1
+eye_bright
+  rotate: false
+  xy: 2014, 1666
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+frontHair_01
+  rotate: true
+  xy: 1324, 838
+  size: 73, 97
+  orig: 73, 97
+  offset: 0, 0
+  index: -1
+frontHair_02
+  rotate: false
+  xy: 1064, 735
+  size: 48, 104
+  orig: 48, 104
+  offset: 0, 0
+  index: -1
+fur_01
+  rotate: true
+  xy: 1832, 1537
+  size: 37, 52
+  orig: 37, 52
+  offset: 0, 0
+  index: -1
+fur_02
+  rotate: false
+  xy: 1237, 802
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+hand_L
+  rotate: true
+  xy: 2, 103
+  size: 171, 379
+  orig: 171, 379
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 1109, 1653
+  size: 474, 390
+  orig: 474, 390
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1585, 1697
+  size: 326, 346
+  orig: 326, 346
+  offset: 0, 0
+  index: -1
+headRibbon
+  rotate: false
+  xy: 1679, 1555
+  size: 93, 94
+  orig: 93, 94
+  offset: 0, 0
+  index: -1
+headRibbonBelt
+  rotate: true
+  xy: 1679, 1442
+  size: 111, 73
+  orig: 111, 73
+  offset: 0, 0
+  index: -1
+hip
+  rotate: false
+  xy: 2, 1259
+  size: 1105, 784
+  orig: 1105, 784
+  offset: 0, 0
+  index: -1
+mouse
+  rotate: true
+  xy: 633, 10
+  size: 80, 64
+  orig: 80, 64
+  offset: 0, 0
+  index: -1
+ponytail_01
+  rotate: false
+  xy: 1154, 1095
+  size: 271, 192
+  orig: 271, 192
+  offset: 0, 0
+  index: -1
+ponytail_02
+  rotate: false
+  xy: 1832, 1576
+  size: 53, 76
+  orig: 53, 76
+  offset: 0, 0
+  index: -1
+ponytail_03
+  rotate: true
+  xy: 1154, 855
+  size: 56, 168
+  orig: 56, 168
+  offset: 0, 0
+  index: -1
+ponytail_04
+  rotate: false
+  xy: 379, 2
+  size: 134, 82
+  orig: 134, 82
+  offset: 0, 0
+  index: -1
+ponytail_05
+  rotate: false
+  xy: 1913, 1674
+  size: 99, 135
+  orig: 99, 135
+  offset: 0, 0
+  index: -1
+shoulderString_01
+  rotate: false
+  xy: 1774, 1538
+  size: 56, 111
+  orig: 56, 111
+  offset: 0, 0
+  index: -1
+shoulderString_02
+  rotate: true
+  xy: 1585, 1656
+  size: 39, 115
+  orig: 39, 115
+  offset: 0, 0
+  index: -1
+shoulder_L
+  rotate: true
+  xy: 1154, 913
+  size: 180, 266
+  orig: 180, 266
+  offset: 0, 0
+  index: -1
+shoulder_R
+  rotate: false
+  xy: 750, 524
+  size: 285, 193
+  orig: 285, 193
+  offset: 0, 0
+  index: -1
+sideHair_L_01
+  rotate: true
+  xy: 1513, 1304
+  size: 115, 186
+  orig: 115, 186
+  offset: 0, 0
+  index: -1
+sideHair_L_02
+  rotate: false
+  xy: 1649, 1072
+  size: 66, 78
+  orig: 66, 78
+  offset: 0, 0
+  index: -1
+sideHair_L_03
+  rotate: true
+  xy: 515, 6
+  size: 78, 116
+  orig: 78, 116
+  offset: 0, 0
+  index: -1
+sideHair_L_04
+  rotate: false
+  xy: 697, 195
+  size: 45, 150
+  orig: 45, 150
+  offset: 0, 0
+  index: -1
+sideHair_L_05
+  rotate: false
+  xy: 1520, 978
+  size: 93, 97
+  orig: 93, 97
+  offset: 0, 0
+  index: -1
+sideHair_R_01
+  rotate: false
+  xy: 1427, 1091
+  size: 101, 196
+  orig: 101, 196
+  offset: 0, 0
+  index: -1
+sideHair_R_02
+  rotate: false
+  xy: 1018, 725
+  size: 44, 114
+  orig: 44, 114
+  offset: 0, 0
+  index: -1
+sideHair_R_03
+  rotate: false
+  xy: 972, 722
+  size: 44, 105
+  orig: 44, 105
+  offset: 0, 0
+  index: -1
+sideHair_R_05
+  rotate: true
+  xy: 1520, 929
+  size: 47, 90
+  orig: 47, 90
+  offset: 0, 0
+  index: -1
+sideHair_R_06
+  rotate: false
+  xy: 2014, 1700
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
