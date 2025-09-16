@@ -53,7 +53,114 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
           git checkout main
           git pull --rebase
-          "${{ steps.orbg.outputs.path }}" --api -o /Users/himmel/gd-offline-res --max-connection-count 50
+          "${{ steps.orbg.outputs.path }}" --api -o /Users/himmel/gd-offline-res --max-connection-count 100
           git add .
           git commit -m "Auto update api ($(date +"%Y-%m-%d"))" || true
           git push
+      - name: Prepare temporary directory
+        run: mkdir /Users/himmel/gd-offline-res-tmp
+      - name: Copy jp/basic
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout jp/basic
+          git pull --rebase
+          cp -Rf ./jp/ /Users/himmel/gd-offline-res-tmp/jp
+      - name: Copy jp/movie
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout jp/movie
+          git pull --rebase
+          cp -Rf ./jp/ /Users/himmel/gd-offline-res-tmp/jp
+      - name: Copy jp/sound
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout jp/sound
+          git pull --rebase
+          cp -Rf ./jp/ /Users/himmel/gd-offline-res-tmp/jp
+      - name: Copy jp/unsupported
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout jp/unsupported
+          git pull --rebase
+          cp -Rf ./jp/ /Users/himmel/gd-offline-res-tmp/jp
+      - name: Update jp/*
+        run: |
+          cd /Users/himmel/gd-offline-res-tmp
+          "${{ steps.orbg.outputs.path }}" --jp -o /Users/himmel/gd-offline-res-tmp --max-connection-count 100
+      - name: Apply jp/unsupported
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@togawa.group"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          # No need to checkout, we've already in `unsupported` in previous steps
+          cp -Rf /Users/himmel/gd-offline-res-tmp/jp/characters/ingameresourceset/ /Users/himmel/gd-offline-res/jp/characters/ingameresourceset
+          rm -rf /Users/himmel/gd-offline-res-tmp/jp/characters/ingameresourceset
+          cp -Rf /Users/himmel/gd-offline-res-tmp/jp/live2d/ /Users/himmel/gd-offline-res/jp/live2d
+          rm -rf /Users/himmel/gd-offline-res-tmp/jp/live2d
+          cp -Rf /Users/himmel/gd-offline-res-tmp/jp/musicscore/ /Users/himmel/gd-offline-res/jp/musicscore
+          rm -rf /Users/himmel/gd-offline-res-tmp/jp/musicscore
+          cp -Rf /Users/himmel/gd-offline-res-tmp/jp/pickupsituation/ /Users/himmel/gd-offline-res/jp/pickupsituation
+          rm -rf /Users/himmel/gd-offline-res-tmp/jp/pickupsituation
+          cp -Rf /Users/himmel/gd-offline-res-tmp/jp/star3d/ /Users/himmel/gd-offline-res/jp/star3d
+          rm -rf /Users/himmel/gd-offline-res-tmp/jp/star3d
+          git add .
+          git commit -m "Auto update jp/unsupported ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply jp/sound
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@togawa.group"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout jp/sound
+          cp -Rf /Users/himmel/gd-offline-res-tmp/jp/sound/ /Users/himmel/gd-offline-res/jp/sound
+          rm -rf /Users/himmel/gd-offline-res-tmp/jp/sound
+          git add .
+          git commit -m "Auto update jp/sound ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply jp/movie
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@togawa.group"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout jp/movie
+          cp -Rf /Users/himmel/gd-offline-res-tmp/jp/movie/ /Users/himmel/gd-offline-res/jp/movie
+          rm -rf /Users/himmel/gd-offline-res-tmp/jp/movie
+          git add .
+          git commit -m "Auto update jp/movie ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply jp/basic
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@togawa.group"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout jp/basic
+          cp -Rf /Users/himmel/gd-offline-res-tmp/jp/ /Users/himmel/gd-offline-res/jp/
+          rm -rf /Users/himmel/gd-offline-res-tmp/jp
+          git add .
+          git commit -m "Auto update jp/basic ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Reset temporary directory
+        run: |
+          for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
+          mkdir /Users/himmel/gd-offline-res-tmp
+      # WIP... Let's test jp first then we can kopipe
