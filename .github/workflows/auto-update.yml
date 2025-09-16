@@ -52,11 +52,11 @@ jobs:
           git config user.email "sakiko@darock.top"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
           git checkout main
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           "${{ steps.orbg.outputs.path }}" --api -o /Users/himmel/gd-offline-res --max-connection-count 100
           git add .
           git commit -m "Auto update api ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Prepare temporary directory
         run: |
           for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
@@ -68,7 +68,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout jp/basic
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./jp/ /Users/himmel/gd-offline-res-tmp/jp
       - name: Copy jp/movie
         env:
@@ -77,7 +77,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout jp/movie
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./jp/ /Users/himmel/gd-offline-res-tmp/jp
       - name: Copy jp/sound
         env:
@@ -86,7 +86,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout jp/sound
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./jp/ /Users/himmel/gd-offline-res-tmp/jp
       - name: Copy jp/unsupported
         env:
@@ -95,7 +95,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout jp/unsupported
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./jp/ /Users/himmel/gd-offline-res-tmp/jp
       - name: Update jp/*
         run: |
@@ -123,7 +123,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/jp/star3d
           git add .
           git commit -m "Auto update jp/unsupported ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply jp/sound
         env:
           HOME: /Users/himmel
@@ -138,7 +138,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/jp/sound
           git add .
           git commit -m "Auto update jp/sound ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply jp/movie
         env:
           HOME: /Users/himmel
@@ -153,7 +153,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/jp/movie
           git add .
           git commit -m "Auto update jp/movie ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply jp/basic
         env:
           HOME: /Users/himmel
@@ -168,7 +168,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/jp
           git add .
           git commit -m "Auto update jp/basic ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Reset temporary directory
         run: |
           for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
@@ -180,7 +180,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout en/basic
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./en/ /Users/himmel/gd-offline-res-tmp/en
       - name: Copy en/movie
         env:
@@ -189,7 +189,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout en/movie
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./en/ /Users/himmel/gd-offline-res-tmp/en
       - name: Copy en/sound
         env:
@@ -198,7 +198,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout en/sound
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./en/ /Users/himmel/gd-offline-res-tmp/en
       - name: Copy en/unsupported
         env:
@@ -207,7 +207,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout en/unsupported
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./en/ /Users/himmel/gd-offline-res-tmp/en
       - name: Update en/*
         run: |
@@ -235,7 +235,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/en/star3d
           git add .
           git commit -m "Auto update en/unsupported ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply en/sound
         env:
           HOME: /Users/himmel
@@ -250,7 +250,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/en/sound
           git add .
           git commit -m "Auto update en/sound ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply en/movie
         env:
           HOME: /Users/himmel
@@ -265,7 +265,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/en/movie
           git add .
           git commit -m "Auto update en/movie ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply en/basic
         env:
           HOME: /Users/himmel
@@ -280,7 +280,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/en
           git add .
           git commit -m "Auto update en/basic ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Reset temporary directory
         run: |
           for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
@@ -292,7 +292,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout tw/basic
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./tw/ /Users/himmel/gd-offline-res-tmp/tw
       - name: Copy tw/movie
         env:
@@ -301,7 +301,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout tw/movie
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./tw/ /Users/himmel/gd-offline-res-tmp/tw
       - name: Copy tw/sound
         env:
@@ -310,7 +310,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout tw/sound
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./tw/ /Users/himmel/gd-offline-res-tmp/tw
       - name: Copy tw/unsupported
         env:
@@ -319,7 +319,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout tw/unsupported
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./tw/ /Users/himmel/gd-offline-res-tmp/tw
       - name: Update tw/*
         run: |
@@ -347,7 +347,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/tw/star3d
           git add .
           git commit -m "Auto update tw/unsupported ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply tw/sound
         env:
           HOME: /Users/himmel
@@ -362,7 +362,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/tw/sound
           git add .
           git commit -m "Auto update tw/sound ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply tw/movie
         env:
           HOME: /Users/himmel
@@ -377,7 +377,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/tw/movie
           git add .
           git commit -m "Auto update tw/movie ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply tw/basic
         env:
           HOME: /Users/himmel
@@ -392,7 +392,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/tw
           git add .
           git commit -m "Auto update tw/basic ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Reset temporary directory
         run: |
           for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
@@ -404,7 +404,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout cn/basic
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./cn/ /Users/himmel/gd-offline-res-tmp/cn
       - name: Copy cn/movie
         env:
@@ -413,7 +413,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout cn/movie
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./cn/ /Users/himmel/gd-offline-res-tmp/cn
       - name: Copy cn/sound
         env:
@@ -422,7 +422,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout cn/sound
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./cn/ /Users/himmel/gd-offline-res-tmp/cn
       - name: Copy cn/unsupported
         env:
@@ -431,7 +431,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git checkout cn/unsupported
-          git pull --rebase
+          for i in {1..10}; do git pull --rebase && break; done
           cp -Rf ./cn/ /Users/himmel/gd-offline-res-tmp/cn
       - name: Update cn/*
         run: |
@@ -459,7 +459,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/cn/star3d
           git add .
           git commit -m "Auto update cn/unsupported ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply cn/sound
         env:
           HOME: /Users/himmel
@@ -474,7 +474,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/cn/sound
           git add .
           git commit -m "Auto update cn/sound ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply cn/movie
         env:
           HOME: /Users/himmel
@@ -489,7 +489,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/cn/movie
           git add .
           git commit -m "Auto update cn/movie ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       - name: Apply cn/basic
         env:
           HOME: /Users/himmel
@@ -504,7 +504,7 @@ jobs:
           rm -rf /Users/himmel/gd-offline-res-tmp/cn
           git add .
           git commit -m "Auto update cn/basic ($(date +"%Y-%m-%d"))" || true
-          git push
+          for i in {1..10}; do git push && break; done
       # Since kr server was closed, we don't update for it
       - name: Clean up temporary directory
         run: for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
