@@ -55,5 +55,5 @@ jobs:
           git pull --rebase
           "${{ steps.orbg.outputs.path }}" --api -o /Users/himmel/gd-offline-res --max-connection-count 50
           git add .
-          git commit -m "Auto update api ($(date +"%Y-%m-%d"))"
+          git commit -m "Auto update api ($(date +"%Y-%m-%d"))" || true
           git push
