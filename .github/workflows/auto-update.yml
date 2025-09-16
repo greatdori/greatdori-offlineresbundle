@@ -31,6 +31,8 @@ jobs:
     name: Update Resources
     runs-on: "785"
     needs: build
+    permissions:
+      contents: write
     steps:
       - name: Download OfflineResBundleGen build
         uses: actions/download-artifact@v5.0.0
@@ -46,6 +48,9 @@ jobs:
         run: |
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@togawa.group"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
           git checkout main
           git pull --rebase
           "${{ steps.orbg.outputs.path }}" --api -o /Users/himmel/gd-offline-res --max-connection-count 50
