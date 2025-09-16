@@ -100,6 +100,8 @@ jobs:
           cd /Users/himmel/gd-offline-res-tmp
           "${{ steps.orbg.outputs.path }}" --jp -o /Users/himmel/gd-offline-res-tmp --max-connection-count 100
       - name: Apply jp/unsupported
+        env:
+          HOME: /Users/himmel
         run: |
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
@@ -121,6 +123,8 @@ jobs:
           git commit -m "Auto update jp/unsupported ($(date +"%Y-%m-%d"))" || true
           git push
       - name: Apply jp/sound
+        env:
+          HOME: /Users/himmel
         run: |
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
@@ -134,6 +138,8 @@ jobs:
           git commit -m "Auto update jp/sound ($(date +"%Y-%m-%d"))" || true
           git push
       - name: Apply jp/movie
+        env:
+          HOME: /Users/himmel
         run: |
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
@@ -147,6 +153,8 @@ jobs:
           git commit -m "Auto update jp/movie ($(date +"%Y-%m-%d"))" || true
           git push
       - name: Apply jp/basic
+        env:
+          HOME: /Users/himmel
         run: |
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
