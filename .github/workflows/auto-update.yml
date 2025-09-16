@@ -49,7 +49,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git config user.name "Togawa Sakiko"
-          git config user.email "sakiko@togawa.group"
+          git config user.email "sakiko@darock.top"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
           git checkout main
           git pull --rebase
@@ -58,7 +58,9 @@ jobs:
           git commit -m "Auto update api ($(date +"%Y-%m-%d"))" || true
           git push
       - name: Prepare temporary directory
-        run: mkdir /Users/himmel/gd-offline-res-tmp
+        run: |
+          for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
+          mkdir /Users/himmel/gd-offline-res-tmp
       - name: Copy jp/basic
         env:
           HOME: /Users/himmel
@@ -106,7 +108,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git config user.name "Togawa Sakiko"
-          git config user.email "sakiko@togawa.group"
+          git config user.email "sakiko@darock.top"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
           # No need to checkout, we've already in `unsupported` in previous steps
           cp -Rf /Users/himmel/gd-offline-res-tmp/jp/characters/ingameresourceset/ /Users/himmel/gd-offline-res/jp/characters/ingameresourceset
@@ -129,7 +131,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git config user.name "Togawa Sakiko"
-          git config user.email "sakiko@togawa.group"
+          git config user.email "sakiko@darock.top"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
           git checkout jp/sound
           cp -Rf /Users/himmel/gd-offline-res-tmp/jp/sound/ /Users/himmel/gd-offline-res/jp/sound
@@ -144,7 +146,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git config user.name "Togawa Sakiko"
-          git config user.email "sakiko@togawa.group"
+          git config user.email "sakiko@darock.top"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
           git checkout jp/movie
           cp -Rf /Users/himmel/gd-offline-res-tmp/jp/movie/ /Users/himmel/gd-offline-res/jp/movie
@@ -159,7 +161,7 @@ jobs:
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
           git config user.name "Togawa Sakiko"
-          git config user.email "sakiko@togawa.group"
+          git config user.email "sakiko@darock.top"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
           git checkout jp/basic
           cp -Rf /Users/himmel/gd-offline-res-tmp/jp/ /Users/himmel/gd-offline-res/jp/
@@ -171,4 +173,338 @@ jobs:
         run: |
           for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
           mkdir /Users/himmel/gd-offline-res-tmp
-      # WIP... Let's test jp first then we can kopipe
+      - name: Copy en/basic
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout en/basic
+          git pull --rebase
+          cp -Rf ./en/ /Users/himmel/gd-offline-res-tmp/en
+      - name: Copy en/movie
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout en/movie
+          git pull --rebase
+          cp -Rf ./en/ /Users/himmel/gd-offline-res-tmp/en
+      - name: Copy en/sound
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout en/sound
+          git pull --rebase
+          cp -Rf ./en/ /Users/himmel/gd-offline-res-tmp/en
+      - name: Copy en/unsupported
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout en/unsupported
+          git pull --rebase
+          cp -Rf ./en/ /Users/himmel/gd-offline-res-tmp/en
+      - name: Update en/*
+        run: |
+          cd /Users/himmel/gd-offline-res-tmp
+          "${{ steps.orbg.outputs.path }}" --en -o /Users/himmel/gd-offline-res-tmp --max-connection-count 100
+      - name: Apply en/unsupported
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          # No need to checkout, we've already in `unsupported` in previous steps
+          cp -Rf /Users/himmel/gd-offline-res-tmp/en/characters/ingameresourceset/ /Users/himmel/gd-offline-res/en/characters/ingameresourceset
+          rm -rf /Users/himmel/gd-offline-res-tmp/en/characters/ingameresourceset
+          cp -Rf /Users/himmel/gd-offline-res-tmp/en/live2d/ /Users/himmel/gd-offline-res/en/live2d
+          rm -rf /Users/himmel/gd-offline-res-tmp/en/live2d
+          cp -Rf /Users/himmel/gd-offline-res-tmp/en/musicscore/ /Users/himmel/gd-offline-res/en/musicscore
+          rm -rf /Users/himmel/gd-offline-res-tmp/en/musicscore
+          cp -Rf /Users/himmel/gd-offline-res-tmp/en/pickupsituation/ /Users/himmel/gd-offline-res/en/pickupsituation
+          rm -rf /Users/himmel/gd-offline-res-tmp/en/pickupsituation
+          cp -Rf /Users/himmel/gd-offline-res-tmp/en/star3d/ /Users/himmel/gd-offline-res/en/star3d
+          rm -rf /Users/himmel/gd-offline-res-tmp/en/star3d
+          git add .
+          git commit -m "Auto update en/unsupported ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply en/sound
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout en/sound
+          cp -Rf /Users/himmel/gd-offline-res-tmp/en/sound/ /Users/himmel/gd-offline-res/en/sound
+          rm -rf /Users/himmel/gd-offline-res-tmp/en/sound
+          git add .
+          git commit -m "Auto update en/sound ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply en/movie
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout en/movie
+          cp -Rf /Users/himmel/gd-offline-res-tmp/en/movie/ /Users/himmel/gd-offline-res/en/movie
+          rm -rf /Users/himmel/gd-offline-res-tmp/en/movie
+          git add .
+          git commit -m "Auto update en/movie ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply en/basic
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout en/basic
+          cp -Rf /Users/himmel/gd-offline-res-tmp/en/ /Users/himmel/gd-offline-res/en/
+          rm -rf /Users/himmel/gd-offline-res-tmp/en
+          git add .
+          git commit -m "Auto update en/basic ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Reset temporary directory
+        run: |
+          for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
+          mkdir /Users/himmel/gd-offline-res-tmp
+      - name: Copy tw/basic
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout tw/basic
+          git pull --rebase
+          cp -Rf ./tw/ /Users/himmel/gd-offline-res-tmp/tw
+      - name: Copy tw/movie
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout tw/movie
+          git pull --rebase
+          cp -Rf ./tw/ /Users/himmel/gd-offline-res-tmp/tw
+      - name: Copy tw/sound
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout tw/sound
+          git pull --rebase
+          cp -Rf ./tw/ /Users/himmel/gd-offline-res-tmp/tw
+      - name: Copy tw/unsupported
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout tw/unsupported
+          git pull --rebase
+          cp -Rf ./tw/ /Users/himmel/gd-offline-res-tmp/tw
+      - name: Update tw/*
+        run: |
+          cd /Users/himmel/gd-offline-res-tmp
+          "${{ steps.orbg.outputs.path }}" --tw -o /Users/himmel/gd-offline-res-tmp --max-connection-count 100
+      - name: Apply tw/unsupported
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          # No need to checkout, we've already in `unsupported` in previous steps
+          cp -Rf /Users/himmel/gd-offline-res-tmp/tw/characters/ingameresourceset/ /Users/himmel/gd-offline-res/tw/characters/ingameresourceset
+          rm -rf /Users/himmel/gd-offline-res-tmp/tw/characters/ingameresourceset
+          cp -Rf /Users/himmel/gd-offline-res-tmp/tw/live2d/ /Users/himmel/gd-offline-res/tw/live2d
+          rm -rf /Users/himmel/gd-offline-res-tmp/tw/live2d
+          cp -Rf /Users/himmel/gd-offline-res-tmp/tw/musicscore/ /Users/himmel/gd-offline-res/tw/musicscore
+          rm -rf /Users/himmel/gd-offline-res-tmp/tw/musicscore
+          cp -Rf /Users/himmel/gd-offline-res-tmp/tw/pickupsituation/ /Users/himmel/gd-offline-res/tw/pickupsituation
+          rm -rf /Users/himmel/gd-offline-res-tmp/tw/pickupsituation
+          cp -Rf /Users/himmel/gd-offline-res-tmp/tw/star3d/ /Users/himmel/gd-offline-res/tw/star3d
+          rm -rf /Users/himmel/gd-offline-res-tmp/tw/star3d
+          git add .
+          git commit -m "Auto update tw/unsupported ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply tw/sound
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout tw/sound
+          cp -Rf /Users/himmel/gd-offline-res-tmp/tw/sound/ /Users/himmel/gd-offline-res/tw/sound
+          rm -rf /Users/himmel/gd-offline-res-tmp/tw/sound
+          git add .
+          git commit -m "Auto update tw/sound ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply tw/movie
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout tw/movie
+          cp -Rf /Users/himmel/gd-offline-res-tmp/tw/movie/ /Users/himmel/gd-offline-res/tw/movie
+          rm -rf /Users/himmel/gd-offline-res-tmp/tw/movie
+          git add .
+          git commit -m "Auto update tw/movie ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply tw/basic
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout tw/basic
+          cp -Rf /Users/himmel/gd-offline-res-tmp/tw/ /Users/himmel/gd-offline-res/tw/
+          rm -rf /Users/himmel/gd-offline-res-tmp/tw
+          git add .
+          git commit -m "Auto update tw/basic ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Reset temporary directory
+        run: |
+          for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
+          mkdir /Users/himmel/gd-offline-res-tmp
+      - name: Copy cn/basic
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout cn/basic
+          git pull --rebase
+          cp -Rf ./cn/ /Users/himmel/gd-offline-res-tmp/cn
+      - name: Copy cn/movie
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout cn/movie
+          git pull --rebase
+          cp -Rf ./cn/ /Users/himmel/gd-offline-res-tmp/cn
+      - name: Copy cn/sound
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout cn/sound
+          git pull --rebase
+          cp -Rf ./cn/ /Users/himmel/gd-offline-res-tmp/cn
+      - name: Copy cn/unsupported
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git checkout cn/unsupported
+          git pull --rebase
+          cp -Rf ./cn/ /Users/himmel/gd-offline-res-tmp/cn
+      - name: Update cn/*
+        run: |
+          cd /Users/himmel/gd-offline-res-tmp
+          "${{ steps.orbg.outputs.path }}" --cn -o /Users/himmel/gd-offline-res-tmp --max-connection-count 100
+      - name: Apply cn/unsupported
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          # No need to checkout, we've already in `unsupported` in previous steps
+          cp -Rf /Users/himmel/gd-offline-res-tmp/cn/characters/ingameresourceset/ /Users/himmel/gd-offline-res/cn/characters/ingameresourceset
+          rm -rf /Users/himmel/gd-offline-res-tmp/cn/characters/ingameresourceset
+          cp -Rf /Users/himmel/gd-offline-res-tmp/cn/live2d/ /Users/himmel/gd-offline-res/cn/live2d
+          rm -rf /Users/himmel/gd-offline-res-tmp/cn/live2d
+          cp -Rf /Users/himmel/gd-offline-res-tmp/cn/musicscore/ /Users/himmel/gd-offline-res/cn/musicscore
+          rm -rf /Users/himmel/gd-offline-res-tmp/cn/musicscore
+          cp -Rf /Users/himmel/gd-offline-res-tmp/cn/pickupsituation/ /Users/himmel/gd-offline-res/cn/pickupsituation
+          rm -rf /Users/himmel/gd-offline-res-tmp/cn/pickupsituation
+          cp -Rf /Users/himmel/gd-offline-res-tmp/cn/star3d/ /Users/himmel/gd-offline-res/cn/star3d
+          rm -rf /Users/himmel/gd-offline-res-tmp/cn/star3d
+          git add .
+          git commit -m "Auto update cn/unsupported ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply cn/sound
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout cn/sound
+          cp -Rf /Users/himmel/gd-offline-res-tmp/cn/sound/ /Users/himmel/gd-offline-res/cn/sound
+          rm -rf /Users/himmel/gd-offline-res-tmp/cn/sound
+          git add .
+          git commit -m "Auto update cn/sound ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply cn/movie
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout cn/movie
+          cp -Rf /Users/himmel/gd-offline-res-tmp/cn/movie/ /Users/himmel/gd-offline-res/cn/movie
+          rm -rf /Users/himmel/gd-offline-res-tmp/cn/movie
+          git add .
+          git commit -m "Auto update cn/movie ($(date +"%Y-%m-%d"))" || true
+          git push
+      - name: Apply cn/basic
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout cn/basic
+          cp -Rf /Users/himmel/gd-offline-res-tmp/cn/ /Users/himmel/gd-offline-res/cn/
+          rm -rf /Users/himmel/gd-offline-res-tmp/cn
+          git add .
+          git commit -m "Auto update cn/basic ($(date +"%Y-%m-%d"))" || true
+          git push
+      # Since kr server was closed, we don't update for it
+      - name: Clean up temporary directory
+        run: for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
