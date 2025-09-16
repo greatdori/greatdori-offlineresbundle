@@ -41,6 +41,8 @@ jobs:
         id: orbg
         run: echo "path=$(pwd -P)/build/Build/Products/Release/OfflineResBundleGen" >> "$GITHUB_OUTPUT"
       - name: Update main (API)
+        env:
+          HOME: /Users/himmel
         run: |
           git config --global --add safe.directory /Users/himmel/gd-offline-res
           cd /Users/himmel/gd-offline-res
