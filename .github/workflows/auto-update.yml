@@ -1,0 +1,48 @@
+name: Auto Update Offline Resources
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build OfflineResBundleGen
+    runs-on: "785"
+    steps:
+      - name: Checkout Greatdori!
+        uses: actions/checkout@v5
+        with:
+          repository: "WindowsMEMZ/Greatdori"
+          ref: main
+      - name: Prepare build directory
+        run: mkdir build
+      - name: Build OfflineResBundleGen
+        run: xcodebuild -project ./Greatdori.xcodeproj -scheme OfflineResBundleGen -configuration Release -derivedDataPath ./build build
+      - name: Upload build result
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: OfflineResBundleGen.build
+          path: ./build
+          if-no-files-found: error
+  update:
+    name: Update Resources
+    runs-on: "785"
+    needs: build
+    steps:
+      - name: Download OfflineResBundleGen build
+        uses: actions/download-artifact@v5.0.0
+        with:
+          name: OfflineResBundleGen.build
+          path: ./build
+      - name: Set OfflineResBundleGen path
+        id: orbg
+        run: echo "path=$(pwd -P)/build/Build/Products/Release/OfflineResBundleGen" >> "$GITHUB_OUTPUT"
+      - name: Update main (API)
+        run: |
+          cd /Users/himmel/gd-offline-res
+          git checkout main
+          "${{ steps.orbg.outputs.path }}" --api -o /Users/himmel/gd-offline-res --max-connection-count 50
+          git add .
+          git commit -m "Auto update api ($(date +"%Y-%m-%d"))"
+          git push
