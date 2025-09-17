@@ -2,7 +2,7 @@ name: Auto Update Offline Resources
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 16 * * *" # 01:00 +0900
   workflow_dispatch:
 
 jobs:
