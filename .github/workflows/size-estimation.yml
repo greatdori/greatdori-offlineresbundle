@@ -11,6 +11,7 @@ jobs:
         run: |
           branches=(main jp/basic jp/movie jp/sound jp/unsupported)
           cd /Users/himmel/gd-offline-res || exit 1
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
 
           git status
           git branch
