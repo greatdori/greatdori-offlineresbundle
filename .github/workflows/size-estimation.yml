@@ -8,6 +8,8 @@ jobs:
     runs-on: "himmel"
     steps:
       - name: Compare branch sizes
+        env:
+          HOME: /Users/himmel
         run: |
           branches=(main jp/basic jp/movie jp/sound jp/unsupported)
           cd /Users/himmel/gd-offline-res || exit 1
