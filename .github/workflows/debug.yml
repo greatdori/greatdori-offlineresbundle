@@ -48,5 +48,5 @@ jobs:
         env:
           HOME: /Users/himmel
         run: |
-          "${{ steps.orbg.outputs.path }}" --debug -o /Users/himmel/gd-offline-res-tmp -t ${{ secrets.GITHUB_TOKEN }}
+          "${{ steps.orbg.outputs.path }}" --debug -o /Users/himmel/gd-offline-res-tmp -t ${{ secrets.GITHUB_TOKEN }} --o 8532
           
