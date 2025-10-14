@@ -1,0 +1,27 @@
+name: Branch Size Estimation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  calc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: false
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Compare branch sizes
+        run: |
+          branches=(main jp/basic jp/movie jp/sound jp/unsupported)
+          for branch in "${branches[@]}"; do
+            echo "Calculating size for $branch..."
+            size=$(git rev-list "$branch" | \
+                   git cat-file --batch-check='%(objecttype) %(objectsize)' | \
+                   awk '$1=="blob"{sum+=$2}END{printf "%.2f MB", sum/1024/1024}')
+            echo "$branch: $size"
+          done
