@@ -1,8 +1,8 @@
 name: ORAU - Strand
 
 on:
-#  schedule:
-#    - cron: "0 16 * * *" # 01:00 +0900
+  schedule:
+  - cron: "0 16 * * *" # 01:00 +0900
   workflow_dispatch:
 
 jobs:
