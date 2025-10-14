@@ -1,14 +1,12 @@
-name: Auto Update Offline Resources
+name: ORAU - Brook
 
 on:
-  schedule:
-    - cron: "0 16 * * *" # 01:00 +0900
   workflow_dispatch:
 
 jobs:
   build:
     name: Build OfflineResBundleGen
-    runs-on: "785"
+    runs-on: macos-26
     steps:
       - name: Checkout Greatdori!
         uses: actions/checkout@v5
@@ -29,7 +27,7 @@ jobs:
           if-no-files-found: error
   update:
     name: Update Resources
-    runs-on: "785"
+    runs-on: "himmel"
     needs: build
     permissions:
       contents: write

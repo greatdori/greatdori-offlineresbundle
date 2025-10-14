@@ -1,0 +1,52 @@
+name: Debug
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build OfflineResBundleGen
+    runs-on: macos-26
+    steps:
+      - name: Checkout Greatdori!
+        uses: actions/checkout@v5
+        with:
+          repository: "WindowsMEMZ/Greatdori"
+          ref: main
+      - name: Update submodules
+        run: git submodule update --init --recursive
+      - name: Prepare build directory
+        run: mkdir build
+      - name: Build OfflineResBundleGen
+        run: xcodebuild -project ./Greatdori.xcodeproj -scheme OfflineResBundleGen -configuration Release -derivedDataPath ./build build
+      - name: Upload build result
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: OfflineResBundleGen.build
+          path: ./build
+          if-no-files-found: error
+  update:
+    name: Run Debug Program
+    runs-on: "himmel"
+    needs: build
+    permissions:
+      contents: write
+    steps:
+      - name: Download OfflineResBundleGen build
+        uses: actions/download-artifact@v5.0.0
+        with:
+          name: OfflineResBundleGen.build
+          path: ./build
+      - name: Set OfflineResBundleGen path
+        id: orbg
+        run: echo "path=$(pwd -P)/build/Build/Products/Release/OfflineResBundleGen" >> "$GITHUB_OUTPUT"
+      - name: Prepare temporary directory
+        run: |
+          for i in {1..10}; do rm -rf /Users/himmel/gd-offline-res-tmp && break; done
+          mkdir /Users/himmel/gd-offline-res-tmp
+      - name: Run Debug
+        env:
+          HOME: /Users/himmel
+        run: |
+          "${{ steps.orbg.outputs.path }}" --debug -o /Users/himmel/gd-offline-res-tmp -t ${{ secrets.GITHUB_TOKEN }}
+          

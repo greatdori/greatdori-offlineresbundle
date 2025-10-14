@@ -1,0 +1,64 @@
+name: ORAU - Strand
+
+on:
+#  schedule:
+#    - cron: "0 16 * * *" # 01:00 +0900
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build OfflineResBundleGen
+    runs-on: macos-26
+    steps:
+      - name: Checkout Greatdori!
+        uses: actions/checkout@v5
+        with:
+          repository: "WindowsMEMZ/Greatdori"
+          ref: main
+      - name: Update submodules
+        run: git submodule update --init --recursive
+      - name: Prepare build directory
+        run: mkdir build
+      - name: Build OfflineResBundleGen
+        run: xcodebuild -project ./Greatdori.xcodeproj -scheme OfflineResBundleGen -configuration Release -derivedDataPath ./build build
+      - name: Upload build result
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: OfflineResBundleGen.build
+          path: ./build
+          if-no-files-found: error
+  update:
+    name: Update Resources
+    runs-on: "himmel"
+    needs: build
+    permissions:
+      contents: write
+    steps:
+      - name: Download OfflineResBundleGen build
+        uses: actions/download-artifact@v5.0.0
+        with:
+          name: OfflineResBundleGen.build
+          path: ./build
+      - name: Set OfflineResBundleGen path
+        id: orbg
+        run: echo "path=$(pwd -P)/build/Build/Products/Release/OfflineResBundleGen" >> "$GITHUB_OUTPUT"
+      - name: Update API
+        env:
+          HOME: /Users/himmel
+        run: |
+          git config --global --add safe.directory /Users/himmel/gd-offline-res
+          cd /Users/himmel/gd-offline-res
+          git config user.name "Togawa Sakiko"
+          git config user.email "sakiko@darock.top"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WindowsMEMZ/Greatdori-OfflineResBundle.git
+          git checkout main
+          for i in {1..10}; do git pull --rebase && break; done
+          "${{ steps.orbg.outputs.path }}" --api -o /Users/himmel/gd-offline-res --max-connection-count 100
+          git add .
+          git commit -m "Auto update api ($(date +"%Y-%m-%d"))" || true
+          for i in {1..10}; do git push && break; done
+      - name: Update assets
+        env:
+          HOME: /Users/himmel
+        run: |
+          "${{ steps.orbg.outputs.path }}" --strand-main -o /Users/himmel/gd-offline-res -t ${{ secrets.GITHUB_TOKEN }}
