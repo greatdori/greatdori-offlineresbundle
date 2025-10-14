@@ -6,7 +6,8 @@ on:
 jobs:
   build:
     name: Build OfflineResBundleGen
-    runs-on: macos-26
+    runs-on: "himmel"
+    if: false
     steps:
       - name: Checkout Greatdori!
         uses: actions/checkout@v5
@@ -31,6 +32,7 @@ jobs:
     needs: build
     permissions:
       contents: write
+    if: ${{ always() }}
     steps:
       - name: Download OfflineResBundleGen build
         uses: actions/download-artifact@v5.0.0
