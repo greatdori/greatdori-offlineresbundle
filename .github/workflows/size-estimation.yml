@@ -5,23 +5,26 @@ on:
 
 jobs:
   calc:
-    runs-on: ubuntu-latest
+    runs-on: "himmel"
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          fetch-tags: false
-
-      - name: Fetch all branches
-        run: git fetch --all
-
       - name: Compare branch sizes
         run: |
           branches=(main jp/basic jp/movie jp/sound jp/unsupported)
+          cd /Users/himmel/gd-offline-res || exit 1
+
           for branch in "${branches[@]}"; do
+            echo "Checking out $branch..."
+            git checkout "$branch" >/dev/null 2>&1 || {
+              echo "Failed to checkout $branch"
+              continue
+            }
+  
             echo "Calculating size for $branch..."
-            size=$(git rev-list "$branch" | \
+  
+            size=$(git rev-list --objects "$branch" | \
                    git cat-file --batch-check='%(objecttype) %(objectsize)' | \
                    awk '$1=="blob"{sum+=$2}END{printf "%.2f MB", sum/1024/1024}')
+  
             echo "$branch: $size"
           done
+
