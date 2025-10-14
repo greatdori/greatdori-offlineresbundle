@@ -11,14 +11,14 @@ jobs:
       - name: Checkout Greatdori!
         uses: actions/checkout@v5
         with:
-          repository: "WindowsMEMZ/Greatdori"
+          repository: "Greatdori/DoriKit"
           ref: main
       - name: Update submodules
         run: git submodule update --init --recursive
       - name: Prepare build directory
         run: mkdir build
       - name: Build OfflineResBundleGen
-        run: xcodebuild -project ./Greatdori.xcodeproj -scheme OfflineResBundleGen -configuration Release -derivedDataPath ./build build
+        run: xcodebuild -project ./DoriKit.xcodeproj -scheme OfflineResBundleGen -configuration Release -derivedDataPath ./build build
       - name: Upload build result
         uses: actions/upload-artifact@v4.6.2
         with:
