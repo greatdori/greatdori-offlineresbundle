@@ -23,8 +23,8 @@ jobs:
 
             echo "[%] Calculating Size for $branch"
 
-            total_kb=$(du -sk "$TARGET" | awk '{print $1}')
-            git_kb=$(du -sk "$TARGET/.git" 2>/dev/null | awk '{print $1}')
+            total_kb=$(du -sk "/Users/himmel/gd-offline-res" | awk '{print $1}')
+            git_kb=$(du -sk "/Users/himmel/gd-offline-res/.git" 2>/dev/null | awk '{print $1}')
             if [ -z "$git_kb" ]; then git_kb=0; fi
 
             diff_gb=$(echo "scale=2; ($total_kb - $git_kb)/1024/1024" | bc)
