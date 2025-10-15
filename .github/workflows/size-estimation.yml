@@ -12,15 +12,15 @@ jobs:
           HOME: /Users/himmel
         run: |
           for branch in "${branches[@]}"; do
-          echo "Checking out $branch..."
-          git checkout "refs/heads/$branch" >/dev/null 2>&1 || {
-            echo "Failed to checkout $branch"
-            continue
-          }
+            echo "Checking out $branch..."
+            git checkout "refs/heads/$branch" >/dev/null 2>&1 || {
+              echo "Failed to checkout $branch"
+              continue
+            }
 
-          echo "Calculating size for $branch..."
-          size=$(git rev-list "refs/heads/$branch" --objects | \
-          git cat-file --batch-check='%(objecttype) %(objectsize)' | \
-          awk '$1=="blob"{sum+=$2}END{printf "%.2f MB", sum/1024/1024}')
-          echo "$branch: $size"
+            echo "Calculating size for $branch..."
+            size=$(git rev-list "refs/heads/$branch" --objects | \
+            git cat-file --batch-check='%(objecttype) %(objectsize)' | \
+            awk '$1=="blob"{sum+=$2}END{printf "%.2f MB", sum/1024/1024}')
+            echo "$branch: $size"
           done
