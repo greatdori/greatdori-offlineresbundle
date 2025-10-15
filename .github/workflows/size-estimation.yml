@@ -23,11 +23,10 @@ jobs:
 
             echo "[%] Calculating Size for $branch"
 
-            total=$(du -sb "$TARGET" | awk '{print $1}')
-            gitdir=$(du -sb "$TARGET/.git" 2>/dev/null | awk '{print $1}')
-            if [ -z "$gitdir" ]; then gitdir=0; fi
+            total_kb=$(du -sk "$TARGET" | awk '{print $1}')
+            git_kb=$(du -sk "$TARGET/.git" 2>/dev/null | awk '{print $1}')
+            if [ -z "$git_kb" ]; then git_kb=0; fi
 
-            diff_bytes=$(( total - gitdir ))
-            diff_gb=$(echo "scale=2; $diff_bytes/1024/1024/1024" | bc)
+            diff_gb=$(echo "scale=2; ($total_kb - $git_kb)/1024/1024" | bc)
             echo "[%] $branch: ${diff_gb} GB"
           done
