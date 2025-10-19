@@ -1,0 +1,8 @@
+80_moviemagazine.png
+size:128,128
+filter:Linear,Linear
+scale:0.25
+F_itemL9
+bounds:2,19,116,104
+skeletonsizeimage
+bounds:120,118,3,5

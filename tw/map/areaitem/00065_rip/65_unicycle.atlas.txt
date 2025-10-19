@@ -1,0 +1,97 @@
+
+65_unicycle.png
+size: 341,74
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F_footL_aya
+  rotate: true
+  xy: 303, 50
+  size: 22, 36
+  orig: 22, 36
+  offset: 0, 0
+  index: -1
+F_footL_himari
+  rotate: true
+  xy: 303, 26
+  size: 22, 36
+  orig: 22, 36
+  offset: 0, 0
+  index: -1
+F_footL_kasumi
+  rotate: true
+  xy: 193, 5
+  size: 22, 36
+  orig: 22, 36
+  offset: 0, 0
+  index: -1
+F_footL_kokoro
+  rotate: true
+  xy: 231, 6
+  size: 22, 36
+  orig: 22, 36
+  offset: 0, 0
+  index: -1
+F_footL_lisa
+  rotate: true
+  xy: 269, 2
+  size: 22, 36
+  orig: 22, 36
+  offset: 0, 0
+  index: -1
+F_itemL11
+  rotate: true
+  xy: 2, 3
+  size: 69, 145
+  orig: 69, 145
+  offset: 0, 0
+  index: -1
+F_legL_aya
+  rotate: true
+  xy: 149, 3
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+F_legL_kasumi
+  rotate: true
+  xy: 149, 3
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+F_legL_himari
+  rotate: false
+  xy: 225, 30
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+F_legL_kokoro
+  rotate: false
+  xy: 251, 30
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+F_legL_lisa
+  rotate: false
+  xy: 277, 30
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 149, 29
+  size: 74, 43
+  orig: 74, 43
+  offset: 0, 0
+  index: -1
+skeletonsizeimage
+  rotate: false
+  xy: 307, 19
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
