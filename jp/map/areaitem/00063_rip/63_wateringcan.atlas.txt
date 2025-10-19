@@ -1,0 +1,20 @@
+
+63_wateringcan.png
+size: 118,58
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F_itemL7
+  rotate: false
+  xy: 2, 2
+  size: 109, 54
+  orig: 109, 54
+  offset: 0, 0
+  index: -1
+skeletonsizeimage
+  rotate: false
+  xy: 113, 51
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
