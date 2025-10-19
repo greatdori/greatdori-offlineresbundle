@@ -1,0 +1,61 @@
+
+RAS_newArrival_layer.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+RAS_FIX/RASPose_chu2
+  rotate: true
+  xy: 947, 342
+  size: 671, 1024
+  orig: 671, 1024
+  offset: 0, 0
+  index: -1
+RAS_FIX/RASPose_layer
+  rotate: false
+  xy: 1026, 1014
+  size: 757, 1023
+  orig: 757, 1023
+  offset: 0, 0
+  index: -1
+RAS_FIX/RASPose_masking
+  rotate: false
+  xy: 1, 1
+  size: 945, 1024
+  orig: 945, 1024
+  offset: 0, 0
+  index: -1
+RAS_FIX/RASPose_pareo
+  rotate: false
+  xy: 1, 1026
+  size: 1024, 1011
+  orig: 1024, 1011
+  offset: 0, 0
+  index: -1
+
+RAS_newArrival_layer2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+RAS_FIX/RASPose_keyboard
+  rotate: false
+  xy: 641, 1295
+  size: 800, 531
+  orig: 800, 531
+  offset: 0, 0
+  index: -1
+RAS_FIX/RASPose_lock
+  rotate: false
+  xy: 1, 802
+  size: 639, 1024
+  orig: 639, 1024
+  offset: 0, 0
+  index: -1
+RAS_FIX/RASPose_masking_dram
+  rotate: false
+  xy: 1, 1
+  size: 586, 800
+  orig: 586, 800
+  offset: 0, 0
+  index: -1
