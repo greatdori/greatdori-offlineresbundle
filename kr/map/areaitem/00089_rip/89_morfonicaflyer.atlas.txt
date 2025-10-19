@@ -1,0 +1,20 @@
+
+89_morfonicaflyer.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F_itemL
+  rotate: false
+  xy: 2, 63
+  size: 117, 63
+  orig: 117, 63
+  offset: 0, 0
+  index: -1
+skeletonsizeimage
+  rotate: true
+  xy: 121, 123
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
