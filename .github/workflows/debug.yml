@@ -38,4 +38,4 @@ jobs:
           git add .
           git commit -m "Config .gitignore"
           git pull
-          pit push origin kr/unsupported
+          pit push
