@@ -34,7 +34,7 @@ jobs:
         env:
           HOME: /Users/himmel
         run: |
-          cat /Users/himmel/Document/move.sh
+          cat /Users/himmel/Documents/move.sh
           cd /Users/himmel/gd-offline-res
           git add .
           git commit -m "Config .gitignore"
