@@ -35,7 +35,8 @@ jobs:
           HOME: /Users/himmel
         run: |
           cd /Users/himmel/gd-offline-res
-          git add .
-          git commit -m "Config .gitignore"
-          git pull
-          pit push
+          git checkout api
+         # git add .
+         # git commit -m "Config .gitignore"
+         # git pull
+         # pit push
