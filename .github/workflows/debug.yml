@@ -6,6 +6,7 @@ on:
 jobs:
   build:
     if: false
+    # Set `if` to false if you do not want to build a new ORBG.
     name: Build OfflineResBundleGen
     runs-on: "himmel"
     steps:
