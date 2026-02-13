@@ -35,8 +35,10 @@ jobs:
         env:
           HOME: /Users/himmel
         run: |
-          cd /Users/himmel/gd-offline-res
-          git checkout main
+          curl https://game.hullqin.cn 
+          # -o index.html 
+        # cd /Users/himmel/gd-offline-res
+         # git checkout main
          # git add .
          # git commit -m "Config .gitignore"
          # git pull
